@@ -1,0 +1,89 @@
+---
+layout: post
+author: Dan Murray
+title:  "Practice"
+date:   2018-05-04
+disqus_identifier: "8 http://ha3ks.tech/blog/?p=8"
+---
+It's been a while since I put up a new post so lets have a little look at an example of practicing what im preaching.
+
+Today I had to get a list of barcodes from a load of (like 97) .xml files (processed so renamed to .bak), each file could have between 1 and 90 different entries for barcode.
+<!--more-->
+
+While slowly copy pasting these one by one taking between 10 seconds or 10 minutes (as they arnt too easy to find). I thought to my self.
+
+“There has to be a faster way of doing this”
+
+And presto, an Idea popped into my head, I’ve been coding a little while now, cant I code something to do this crap for me.
+
+The answer is… Yes!
+
+Ok so my plan is to whip something together that can cycle through these files looking for specifically one line (multiple times), barcode. I dont have access to anything ‘fancy’ on my work machine but I do have Powershell, powershell has ISE so its very scriptable.
+
+Lets walk through this peice by peice.
+
+PS C:\Users\***>ise
+
+This will open up the ISE interface of PowerShell
+
+[![ISE]({{ site.contenturl }}ise.jpg)]({{ site.contenturl }}ise.jpg)
+
+Here there are 3 sections, top is Script Pane, Bottom is Command Pane and the Right is the Add-on/Tools Pane (more on this later #EDIT, I never used this).
+
+Now I’m using the ISE as that Script Pane lets me code and have it easier to read as well as editable on the fly for the many mistakes I will make.
+
+Now I have the files in a folder on my desktop so I need to now figure out how to select the thing I am looking for, a quick google and I find the command ‘Select-String’ will work so this is my initail code:
+
+select-string BARCODE C:\Users\***\Desktop\Folder\*.bak > C:\Users\***\Desktop\Results.txt
+
+Lets break this down, the Select-String searches for text and text patterns in input strings and files. You can use it like Grep in UNIX and Findstr in Windows. You can type Select-String or its alias, sls. I am looking for the word BARCODE in the directory ‘C:\Users\***\Desktop\Folder\*.bak’ and I am pushing that result out to ‘C:\Users\***\Desktop\Results.txt’.  (Ah Pipes in Linux)
+
+One line script and it poops out this following snip (I grabbed from in powershell the output .txt is the same):
+
+[![Output]({{ site.contenturl }}output.jpg)]({{ site.contenturl }}output.jpg)
+
+Ok this is progress, it is showing me the file it came from and the full output of lines with BARCODE ON them, I could call it a day here as I can just search with Ctrl+F for the barcode I want but I want to go a little further.
+
+I dont (immediately) need the file it came from so lets cut that part out, to do that though I had to do a little more Googling and a little more searching through StackOverflow and made this work for me:
+
+Select-String -Path C:\Users\***\Desktop\Folder\*.bak -Pattern “BARCODE” -Context 1,1 |
+ForEach-Object {
+$_.Line
+} | Out-File C:\Users\***\Desktop\Results.txt
+
+Ok so this is a little more fun, its looking for context around BARCODE only and pops each result on a new line, the output of which is:
+
+[![Snip]({{ site.contenturl }}snip2.jpg)]({{ site.contenturl }}snip2.jpg)
+
+Ok then now we’re talking, still ugly mind, but now I have just the details I am looking for.
+
+Lets go one step further, lets get just the barcodes, all 4,400+ of them (Copy pasting manually even at this point would have been hours as apposed to miutes of Google and Test)
+
+For that I had to fight with Powershell some more and ended up with this:
+
+$arr = @()
+$path = “C:\Users\***\Desktop\Folder\*.bak”
+$pattern = “(?<=.*<BARCODE>)\w+?(?=</BARCODE>.*)”
+
+Get-Content $path | Foreach {if ([Regex]::IsMatch($_, $pattern)) {
+$arr += [Regex]::Match($_, $pattern)
+}
+}
+$arr | Foreach {$_.Value} > “C:\Users\***\Desktop\Results.txt”
+
+Righty, so this ‘monster’ of a script is looking for the pattern between <BARCODE> and </BARCODE>, calling to regex and doing some other flimflammery that I cant even comprehend as Im tired but here we go the output of this is (from the text file):
+
+[![Results]({{ site.contenturl }}results.jpg)]({{ site.contenturl }}results.jpg)
+
+BOOM, nailed it.
+
+Proving that scripting rules the world and Im not even that familiar with Powershell so this is a god send.
+
+Takeaways from this lesson:
+
+If you think it can be scripted, DO THE WORK and it can be.
+Learning can be fun.
+Having to do work slowly is a great motivator for making scripts.
+Sleep is a good idea, as is food.
+If its not super critical (i.e one off), it can be quick and dirty.
+All in all this project took about 30 minutes to complete and thats with some googling and trying to download the files I needed (also trying grep for windows which flat out would not work).

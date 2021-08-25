@@ -1,0 +1,29 @@
+# Site settings
+title: Software Builder | Cybersecurity
+email: drjmdev@gmail.com
+description: > #
+url: "https://ha3ks.github.io/"
+twitter_username: ha3ks
+github_username:  ha3ks
+stackoverflow_link: users/4716541/dan
+
+permalink: /:categories/:year/:month/:day/:title/
+contenturl: "/blog/content/"
+markdown: kramdown
+kramdown:
+  input: GFM
+  parse_block_html: true
+  #parse_span_html: true
+excerpt_separator: <!--more-->
+
+disqus: ha3kstech
+
+google_analytics_ua: --
+
+#paginate: 5
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
