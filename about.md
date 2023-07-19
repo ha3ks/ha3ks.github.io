@@ -27,19 +27,19 @@ Presently I am studying for the RTO (Red Team Operator) certification from ZeroP
 
 <table>
   <tr>
-    <td> <img src="/img/blog/about/eJPT.png"  alt="eLearnSecurity Junior Penetration Tester" width = 200px></td>
+    <td> <img src="/img/blog/about/eJPT.png" alt="eLearnSecurity Junior Penetration Tester" width = 200px></img></td>
     
-    <td><img src="https://asgroupnet.com/wp-content/uploads/2019/10/sans-institute-logo.jpg" alt="SANS Workshop – NTLM Relaying 101: How Internal Pentesters Compromise Domains" width = 200px></td>
+    <td><img src="https://asgroupnet.com/wp-content/uploads/2019/10/sans-institute-logo.jpg" alt="SANS Workshop – NTLM Relaying 101: How Internal Pentesters Compromise Domains" width = 200px></img></td>
     
-    <td> <img src="https://asgroupnet.com/wp-content/uploads/2019/10/sans-institute-logo.jpg"  alt="SEC565: Red Team Operations - Pivoting Workshop" width = 200px></td>
+    <td> <img src="https://asgroupnet.com/wp-content/uploads/2019/10/sans-institute-logo.jpg" alt="SEC565: Red Team Operations - Pivoting Workshop" width = 200px></img></td>
     
-    <td> <img src="https://s3.us-east-1.amazonaws.com/accredible_temp_credential_images/15855545426339924205883753755902.jpg"  alt="ICSI : CNSS Certified Network Security Specialist" width = 200px></td>
+    <td> <img src="https://s3.us-east-1.amazonaws.com/accredible_temp_credential_images/15855545426339924205883753755902.jpg" alt="ICSI : CNSS Certified Network Security Specialist" width = 200px></img></td>
     
-    <td> <img src="https://www.autopsy.com/wp-content/uploads/2019/08/autopsy-logo.svg"  alt="Basis Technology Autopsy Digital Forensics" width = 200px></td>
+    <td> <img src="https://www.autopsy.com/wp-content/uploads/2019/08/autopsy-logo.svg" alt="Basis Technology Autopsy Digital Forensics" width = 200px></img></td>
     
-    <td> <img src="https://assets-global.website-files.com/63eef15e3ff8fd318e9a6888/6459f4a5613941f629069dc2_Logo-Full-White.svg"  alt="Cybrary Courses" width = 200px></td>
+    <td> <img src="https://assets-global.website-files.com/63eef15e3ff8fd318e9a6888/6459f4a5613941f629069dc2_Logo-Full-White.svg" alt="Cybrary Courses" width = 200px></img></td>
     
-    <td> <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg"  alt="Udemy Courses" width = 200px>
+    <td> <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" alt="Udemy Courses" width = 200px></img>
    </td>
    </tr> 
 </table>
