@@ -39,7 +39,7 @@ Presently I am studying for the RTO (Red Team Operator) certification from ZeroP
     
     <td> <img src="https://assets-global.website-files.com/63eef15e3ff8fd318e9a6888/6459f4a5613941f629069dc2_Logo-Full-White.svg" alt="Cybrary Courses" width = 200px></img></td>
     
-    <td> <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" alt="Udemy Courses" width = 200px></img>
+    <td> <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" width = 200px>Udemy Courses</img>
    </td>
    </tr> 
 </table>
