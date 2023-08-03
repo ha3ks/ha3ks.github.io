@@ -122,7 +122,7 @@ So what do we need to do in order to disprove the biggest tool in the box, I mea
 
 How can we 'influence' DNSVis to show us errors?
 
-Well our lord and savior [Gary Cox, CISSP](https://www.linkedin.com/in/gcox1/) pointed this out on one of my previous posts explaining why is happening:
+Well our lord and savior [Gary Cox, CISSP](https://www.linkedin.com/in/gcox1/) pointed this out on one of my previous posts explaining what is happening:
 
 > As I know you are all detail oriented folks here is the methodology… he tests a domain name that contains the text of whatever company he wants to call out, but without actually being a domain name that's related to the company in question. These are NXDOMAIN responses, and so in addition to showing no DNSSEC security (because it's Microsoft and they haven't secured outlook[.]com) it also contains a bunch of errors related to nonexistence. He then redacts everything except the company name and posts it as if it's relevant.
 
@@ -173,6 +173,8 @@ And his screenshot:
 Now lets run the address plus '.mail.protection.outlook.com', removing Andy's red mark:
 
 ![Dat timestamp though, almost like its an unique identifier for when that specific query was ran ...... 👀👀](\img\blog\technical_writing\schwab3.png)
+
+(Dat timestamp though, almost like its an unique identifier for when that specific query was ran ...... 👀👀)
 
 Hmmm.
 
