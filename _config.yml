@@ -32,7 +32,7 @@ external:                    # see http://fontawesome.com/icons
 #  - {title: Mail, icon: twitter, url: "mailto:niklasbuschmann@users.noreply.github.com"}
 #  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
 #  - {title: Subscribe, icon: rss, url: "/feed.xml"}
-disqus_username: ha3ksomniac
+# disqus_username: todo
 # google-analytics: todo
 
 comments:
