@@ -104,7 +104,7 @@ Now I need to expand a little here, I want to give a shoutout to [Eddie Kim](htt
 
 Long story short, this blog started me in the odds and sodds of coding I have done over the years (The Jarvis project was sick!) and because I follow him I saw his 'recent' video for 3 Software Cracks :
 
-[![Three Software Cracks (walkthrough)](https://i.ytimg.com/vi_webp/CrH_iVCnMCk/maxresdefault.webp)](https://www.youtube.com/watch?v=CrH_iVCnMCk "Three Software Cracks (walkthrough) Video")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CrH_iVCnMCk?si=RkOuTLiX6FWGfjH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 I've watched this through a few times to learn how things work and while I am not an expert after a little searching I have learned a few things like this:
 
