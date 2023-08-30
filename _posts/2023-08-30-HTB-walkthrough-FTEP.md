@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Reverse Engineering"
-subtitle: "~ a hobbits tale ~"
+title: "HTB Walkthrough - Find The Easy Pass"
+subtitle: "~ Reverse Engineering ~"
 date: 2023-08-30
 author: ha3ks
 category: CTF
-tags: blog ctf pentesting 
+tags: blog ctf pentesting re reversing strings walkthrough
 finished: true
 excerpt_separator: <!--more-->
 ---
