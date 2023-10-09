@@ -12,7 +12,7 @@ excerpt_separator: <!--more-->
 
 [![1](\img\blog\sliver_C2\1.png)](\img\blog\sliver_C2\1.png)
 
-Sliver (the C2). You have heard of it, you have seen it, hell you could even be an expert in it's use but if you are anything like me you have seen 'C2' and thought 'that would be cool' and then never got around to even trying it.
+Hey Friends, today we are taking a look at Sliver (the C2). You may have heard of it, you may have seen it, hell you could even be an expert in it's use but if you are anything like me you have seen 'C2' and thought 'that would be cool one day' and then never got around to even trying it.
 
 Well look no further, I am here to show you how easy it is to get running and get rolling, so let's get right into it!
 
