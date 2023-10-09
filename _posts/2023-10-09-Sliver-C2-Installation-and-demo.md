@@ -57,13 +57,13 @@ Now we can navigate into the sliver folder:
 cd sliver
 ```
 
-Next tesk is to run the installation for sliver, this is a handy oneliner shown on the README for sliver does the job for us:
+Next task is to run the installation for sliver, this is a handy oneliner shown on the README for sliver does the job for us:
 
 ```
 curl https://sliver.sh/install|sudo bash
 ```
 
-Finally you can run sliver by entering 'sliver' into the terminal (this works in any directory BTW, it's 'global' so you could open a terminal anywhere and type in 'sliver' and get going).
+Finally you can run sliver by entering 'sliver' into the terminal (this works in any directory BTW, it's a 'global' attribute so you could open a terminal anywhere on your machine and type in 'sliver' and get going).
 
 [![3](\img\blog\sliver_C2\3.png)](\img\blog\sliver_C2\3.png)
 
