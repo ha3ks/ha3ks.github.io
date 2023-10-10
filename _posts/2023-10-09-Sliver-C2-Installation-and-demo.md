@@ -47,7 +47,7 @@ This latest version (1.6.0 at time of writing) features:
 * TCP and named pipe pivots
 * Much more!
 
-Once downloaded an 'ls' comnand should show a 'sliver' folder now in our /opt folder.
+Once downloaded an 'ls' command should show a 'sliver' folder now in our /opt folder.
 
 [![2](\img\blog\sliver_C2\2.png)](\img\blog\sliver_C2\2.png)
 
@@ -57,7 +57,7 @@ Now we can navigate into the sliver folder:
 cd sliver
 ```
 
-Next task is to run the installation for sliver, this is a handy oneliner shown on the README for sliver does the job for us:
+Next task is to run the installation for sliver, the following is a handy oneliner shown on the README for sliver and does the job for us:
 
 ```
 curl https://sliver.sh/install|sudo bash
