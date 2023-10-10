@@ -140,13 +140,13 @@ generate --mtls <your ip> --arch <OS type> --save <output directory>
 
 [![4](\img\blog\sliver_C2\4.png)](\img\blog\sliver_C2\4.png)
 
-Once complete it will have created a payload in your desired location, as I can drag and drop I picked my desktop (above) though if you wanted to you could spin up a HTTP server on your attacker machine and navigate to the address on your victim and download it.
+Once complete it will have created a payload in your desired location. Since I can drag and drop I picked my desktop (above) though if you wanted to you could spin up a HTTP server on your attacker machine and navigate to the address on your victim and download it:
 
 [![5](\img\blog\sliver_C2\5.png)](\img\blog\sliver_C2\5.png)
 
 Neat!
 
-Also it's worth noting that the implant that has been generated is hefty... 
+Also it's worth noting that the implant that has been generated is a bit hefty... 
 
 [![6](\img\blog\sliver_C2\6.png)](\img\blog\sliver_C2\6.png)
 
@@ -158,13 +158,13 @@ Now that the implant is on the machine we need to get Sliver 'listening' for inc
 sliver > mtls
 ```
 
-Ok, we have our C2 listening for a connection, we have our implant on the target... Let's see what happens when we run it:
+Ok to recap, we have our C2 server listening for a connection, we have our implant on the target... Let's see what happens when we run it:
 
 [![7](\img\blog\sliver_C2\7.png)](\img\blog\sliver_C2\7.png)
 
 *Clicks Run*
 
-It has successfully executed on the victim and we can even see it in the task manager:
+It has successfully executed on the victim (no other popups or warnings) and we can see it in the task manager:
 
 [![8](\img\blog\sliver_C2\8.png)](\img\blog\sliver_C2\8.png)
 
@@ -210,7 +210,7 @@ Now you might be thinking "oh he's using Kali Linux, he's cheating" well, ok thi
 
 [![12](\img\blog\sliver_C2\12.png)](\img\blog\sliver_C2\12.png)
 
-Parrot Security Edition 5.3:
+Also Parrot Security Edition 5.3:
 
 [![13](\img\blog\sliver_C2\13.png)](\img\blog\sliver_C2\13.png)
 
