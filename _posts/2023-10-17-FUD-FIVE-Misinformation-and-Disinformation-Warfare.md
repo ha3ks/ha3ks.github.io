@@ -2,10 +2,10 @@
 layout: post
 title: "FUD FIVE : Misinformation and Disinformation Warfare"
 subtitle: "~ Put the kettle on ~"
-date: 2023-10-09
+date: 2023-10-17
 author: ha3ks
 category: blog post
-tags: blog ctf pentesting c2 sliver
+tags: blog writing linkedin FUD
 finished: true
 excerpt_separator: <!--more-->
 ---
