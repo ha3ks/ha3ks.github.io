@@ -18,11 +18,11 @@ That's right, after years of searching and chipping away I finally landed a job 
 
 Just kidding.
 
-Even with having atained the eJPT, stabbed at the OSCP and (a need actually) to get back to Red Team Operator... I still couldn't break into that unruly bastard that is infosec 'proper'.
+Even with having attained the eJPT, stabbed at the OSCP and (a need actually) to get back to Red Team Operator... I still couldn't break into that unruly bastard that is infosec 'proper'.
 
 I'll be honest, for the last month or so I had been debating turning my back on being a 'professional bad guy for the good guys' and pivoting to something new... learning Kubernetes and Docker had me looking into the DevOps and DevSecOps lifestyle which became tempting as I had a good friend offer some solid advice via LinkedIn a while back.
 
-As time went on I realised I can't not help people and help protect others (just look at the posts for FUD Fighters to see why protecting others is of massive importance), that's not the person I am.
+As time went on I realized I can't not help people and help protect others (just look at the posts for FUD Fighters to see why protecting others is of massive importance), that's not the person I am.
 
 So while new job is awesome and holy crap it's going to help pay the bills, I am going to keep chipping away at infosec and eventually get my way in there, it may take longer but at least this way I am doing things like paying off debt, saving to buy a monitor, saving in general TBH... you know fun stuff lke that.
 
@@ -32,9 +32,9 @@ I Still have my morning routine i.e. hack > game > learn, which has been working
 
 [![1](\img\blog\New_Job_Week_One\1.png)](\img\blog\New_Job_Week_One\1.png)
 
-Suprisingly, it's fun to maintain now, not a chore. It sort of scratches that itch of earning Achievements on the Xbox once again.
+Surprisingly, it's fun to maintain now, not a chore. It sort of scratches that itch of earning Achievements on the Xbox once again.
 
-With this structure comes time to actually work on the shed load of machine writeups and guides, I'm evern warming up to taking on AtlasOS again, just can't decide if it should be a tweet(X) thread or a video.
+With this structure comes time to actually work on the shed load of machine write-ups and guides, I'm even warming up to taking on AtlasOS again, just can't decide if it should be a tweet(X) thread or a video.
 
 Either way, with bringing some funds into the household again, a sigh of relief has been let out and I can start getting back on with things.
 
