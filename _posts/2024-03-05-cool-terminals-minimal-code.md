@@ -42,7 +42,7 @@ First we are going to want to get the newset hotness, Powershell from Microsoft.
 
 [![3](\img\blog\cool-terminals-minimal-code\3.png)](\img\blog\cool-terminals-minimal-code\3.png)
 
-After that open Terminal and set Powershell to the default terminal:
+After that open Terminal and set Windows Terminal to the default terminal and Powershell (The New one) to be the default Profile that get's loaded:
 
 [![4](\img\blog\cool-terminals-minimal-code\4.png)](\img\blog\cool-terminals-minimal-code\4.png)
 
