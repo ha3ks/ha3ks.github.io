@@ -30,6 +30,11 @@ The mental fortitude just wasn't with me and obviously to not go into too much d
 This time things are going to be different.
 
 I have a plan;
+
+<p align="center" width="100%">
+    <img width="33%" src="\img\blog\Ha3ksimal_Crossing\starlord-plan.gif">
+</p>
+
 <p align="center">
 [![1](\img\blog\Ha3ksimal_Crossing\starlord-plan.gif)](\img\blog\Ha3ksimal_Crossing\starlord-plan.gif)
 </p>
