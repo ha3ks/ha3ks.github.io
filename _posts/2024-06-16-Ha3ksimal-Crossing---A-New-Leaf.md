@@ -30,9 +30,9 @@ The mental fortitude just wasn't with me and obviously to not go into too much d
 This time things are going to be different.
 
 I have a plan;
-
+<p align="center">
 [![1](\img\blog\Ha3ksimal_Crossing\starlord-plan.gif)](\img\blog\Ha3ksimal_Crossing\starlord-plan.gif)
-
+</p>
 Yes, part of a plan!
 
 I recetly took under my wing a very powerful laptop under the name 'Black-Betty', she is the single most powerful computer I have ever owned and I am going to be putting her to work... Not just gaming at Ultra-High Definition... But that too.
@@ -55,7 +55,7 @@ I am coming for the OSCP
 
 I am going to win.
 
-Yes I am firing on all cylinders, now I have settled into my job and doing well enough that I can focus back on getting back into hacking and getting the OSCP nailed out and maybe just maube a pentesting/red teaming role. 
+Yes I am firing on all cylinders, now I have settled into my job and doing well enough that I can focus back on getting back into hacking and getting the OSCP nailed out and maybe just maybe land a pentesting/red teaming role. 
 
 Massive shoutout and thank you to [@0x_hackerfren](https://x.com/0x_hackerfren), Jacob, for inspiring me to get off my butt and getting this done. Thank you mate.
 
