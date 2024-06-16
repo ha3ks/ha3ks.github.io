@@ -31,13 +31,8 @@ This time things are going to be different.
 
 I have a plan;
 
-<p align="center" width="100%">
-    <img width="33%" src="\img\blog\Ha3ksimal_Crossing\starlord-plan.gif">
-</p>
-
-<p align="center">
 [![1](\img\blog\Ha3ksimal_Crossing\starlord-plan.gif)](\img\blog\Ha3ksimal_Crossing\starlord-plan.gif)
-</p>
+
 Yes, part of a plan!
 
 I recetly took under my wing a very powerful laptop under the name 'Black-Betty', she is the single most powerful computer I have ever owned and I am going to be putting her to work... Not just gaming at Ultra-High Definition... But that too.
