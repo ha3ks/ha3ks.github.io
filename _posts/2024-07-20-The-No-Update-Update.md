@@ -28,11 +28,11 @@ It's also been interesting seeing how everyone on the internet one day is an exp
 
 What a glorious time to be alive!
 
-Oh, and it didn't take long for a certain DNS FUD Peddler to chelp up regarding the Crowdstrike outage, specifically the FAA side,,, just waiting for those DNSVis screenshots to hit my inbox and laugh as well as research into how the DNS Sec of Crowdstrike.com meant that their drive update would go out with a buggered C++ Null Pointer error causing the problem.
+Oh, and it didn't take long for a certain DNS FUD Peddler to chelp up regarding the Crowdstrike outage, specifically the FAA side,,, just waiting for those DNSVis screenshots to hit my inbox and laugh as well as research into how the DNSSec of Crowdstrike.com meant that their driver update would go out with a buggered C++ Null Pointer error causing the problem.
 
 It's almost like there are actual real experts that research into things deeper then just making things up. **shrug**
 
-As I said, not much of an 'update' in this update, however keeping myself inline and ensuring I complete a weekly blog update, hit some CTF boxes, clear the house, do chores, etc, etc helps with focus and discipline.
+As I said, not much of an 'update' in this update, however, keeping myself inline and ensuring I complete a weekly blog update, hit some CTF boxes/game, clear the house, do chores, etc, etc helps with focus and discipline something I will need in spades for this resit.
 
 ## TL;DR
 
