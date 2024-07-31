@@ -86,6 +86,16 @@ I can however provide these two screenshots from February and April, meaning tha
 
 Interesting...Next.
 
+--- NINJA EDIT--- 
+
+Found the earlier screenshot, Andy just ran the same thing but followed the 'tree' of DNSEC and just showed off an 'INSECURE' option:
+
+[![ninja1](\img\blog\DNS-update\ninja1.png)](\img\blog\DNS-update\ninja1.png)
+Confirmation of date/time
+
+[![ninja2](\img\blog\DNS-update\ninja2.png)](\img\blog\DNS-update\ninja2.png)
+The 'INESCURE' Section which is actually secure, Andy you absolute shed.
+
 > DNS is not widely taught which is a huge faux pas due to potential 'surveillance complications and prevention.'
 
 Going to have to ask for proof on this one.
