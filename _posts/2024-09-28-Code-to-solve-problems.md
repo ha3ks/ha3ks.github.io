@@ -14,7 +14,7 @@ I mean, yeah, I did go to University to do programming and you know the end resu
 
 The SQL was the thing that got me my first job, working in an EPOS company debugging broken till systems, reprinting receipts and doing price changes (or finding half a million pounds in unprocessed card transactions). Just a handful of custom SQL scripts;
 
-[![1](/assets/blog/code-to-solve-problems/1.png)](/assets/blog/code-to-solve-problems/1.png)
+[![1](/assets/blog/code-to-solve-problems/1.jpg)](/assets/blog/code-to-solve-problems/1.jpg)
 
 Other then that, with exception to figuring out GreaseMonkey when I worked as a call taker to ensure my tickets were always right and the customer always got the correct information/faults raised (and so I hear these are still used to this day without my permission) I haven't done much 
 
