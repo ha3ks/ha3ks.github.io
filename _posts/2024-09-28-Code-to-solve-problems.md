@@ -2,7 +2,7 @@
 layout: post
 title: "Code to solve problems"
 subtitle: "~ Code ~"
-date: 2024-28-09
+date: 2024-09-28
 author: ha3ks
 tags: blog python code kiss
 finished: true
