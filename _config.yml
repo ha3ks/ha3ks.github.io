@@ -19,11 +19,11 @@ title: Ha3ks.com # the main title
 tagline: Security, Research, Fun? # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  A collection of blog posts, research and security related things.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "'https://ha3ks.github.io"
 
 github:
   username: ha3ks # change to your GitHub username
