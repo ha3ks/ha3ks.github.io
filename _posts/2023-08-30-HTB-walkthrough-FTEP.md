@@ -5,7 +5,7 @@ subtitle: "~ Reverse Engineering ~"
 date: 2023-08-30
 author: ha3ks
 tags: blog ctf pentesting re reversing strings walkthrough
-category: Reversing CTF
+category: Reversing
 ---
 
 Managed to bring this blog post out of the mothballs and get it up.

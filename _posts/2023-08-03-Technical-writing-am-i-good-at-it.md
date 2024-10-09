@@ -5,7 +5,7 @@ subtitle: "~ Technical writing ~"
 date: 2023-08-03
 author: ha3ks
 tags: blog writing linkedin
-category: Research FUD
+category: Research
 ---
 
 Recently I made an article on LinkedIn, I've done a lot of these over the years I have had an account with them and speaking generally the articles are well received.
