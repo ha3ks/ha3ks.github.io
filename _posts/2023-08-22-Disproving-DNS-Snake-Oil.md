@@ -4,10 +4,8 @@ title: "Disproving DNS Snake Oil"
 subtitle: "~ Trying something new ~"
 date: 2023-08-22
 author: ha3ks
-category: blog post
 tags: blog writing linkedin FUD
-finished: true
-excerpt_separator: <!--more-->
+category: FUD
 ---
 
 Hey Friends, Those who know me know that I have been working for a long time to combat a Snake Oil peddler on LinkedIn. 
@@ -17,8 +15,6 @@ I've had an attack on my account as well as my followers and passing by that may
 It's been a long process however as time has gone on it's become a lot easier to deal with, expose the lies and share the truth. 
 
 Well as they saying goes 'you can't beat a dead horse' but he still tries, so I figure after my last post it's to use advanced tactics...
-
-<!--more-->
 
 ## Nu Wave Thinking
 

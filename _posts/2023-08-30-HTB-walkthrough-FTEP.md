@@ -4,23 +4,19 @@ title: "HTB Walkthrough - Find The Easy Pass"
 subtitle: "~ Reverse Engineering ~"
 date: 2023-08-30
 author: ha3ks
-category: CTF
 tags: blog ctf pentesting re reversing strings walkthrough
-finished: true
-excerpt_separator: <!--more-->
+category: Reversing CTF
 ---
 
 Managed to bring this blog post out of the mothballs and get it up.
 
 A quick guide/walkthrough for 'Find The Easy Pass' on HackTheBox
 
-<!--more-->
-
 ## *Find the Easy Pass:*
 
 Upon opening this challenge you are greeted with the following screen:
 
-[![01](\img\blog\Reverse_Engineering\HTB-FTEP-01.png)](\img\blog\Reverse_Engineering\HTB-FTEP-01.png)
+[![01](/assets/blog/Reverse_Engineering/HTB-FTEP-01.png)](/assets/blog/Reverse_Engineering/HTB-FTEP-01.png)
 
 Ok, not much to go on, but we can see it has an option to download the relevant files, so lets grab them.
 
@@ -28,7 +24,7 @@ Now I want to point out here that I am not a reverse engineer, yes I have picked
 
 I knew thanks to the unstoppable force that is infosec twitter that 'obviously' the first thing you do when you are looking at an application is run strings on it, so I did:
 
-[![02](\img\blog\Reverse_Engineering\HTB-FTEP-02.png)](\img\blog\Reverse_Engineering\HTB-FTEP-02.png)
+[![02](/assets/blog/Reverse_Engineering/HTB-FTEP-02.png)](/assets/blog/Reverse_Engineering/HTB-FTEP-02.png)
 
 Now Strings is not the be all and end all of debugging, however I follow many many smart people and from my understanding of this I can see some things that may help me make sense of the program I am looking at.
 
@@ -36,7 +32,7 @@ In the above we can see that there are phrases shown like 'Enter Password', 'Che
 
 I elect to open the exe in a Test Virtual Machine (safety duh!) and after opening I run the exe and enter a password to be met with:
 
-[![03](\img\blog\Reverse_Engineering\HTB-FTEP-03.png)](\img\blog\Reverse_Engineering\HTB-FTEP-03.png)
+[![03](/assets/blog/Reverse_Engineering/HTB-FTEP-03.png)](/assets/blog/Reverse_Engineering/HTB-FTEP-03.png)
 
 This again gives me more information to work with and confims the existance of 'Wrong Password' somewhere in the code.
 
@@ -58,7 +54,7 @@ Now we have our 'environment' (oh god I can hear the professionals groaning) let
 
 Finally let's try to open the file in ollydbg:
 
-[![04](\img\blog\Reverse_Engineering\HTB-FTEP-04.png)](\img\blog\Reverse_Engineering\HTB-FTEP-04.png)
+[![04](/assets/blog/Reverse_Engineering/HTB-FTEP-04.png)](/assets/blog/Reverse_Engineering/HTB-FTEP-04.png)
 
 Ah crap, why didn't it open?
 
@@ -66,7 +62,7 @@ Oh, I see now, A super important part of programming, engineering, hacking... ev
 
 It took me a little longer then I am willing to commit to writing to figure out what the issue was, in this case it was missing the 32bit library
 
-[![05](\img\blog\Reverse_Engineering\HTB-FTEP-05.png)](\img\blog\Reverse_Engineering\HTB-FTEP-05.png)
+[![05](/assets/blog/Reverse_Engineering/HTB-FTEP-05.png)](/assets/blog/Reverse_Engineering/HTB-FTEP-05.png)
 
 A quick little:
 
@@ -76,7 +72,7 @@ And running 'ollydbg' once more and boom, we're away! Let's use the little folde
 
 The hell am I looking at?
 
-[![06](\img\blog\Reverse_Engineering\HTB-FTEP-06.png)](\img\blog\Reverse_Engineering\HTB-FTEP-06.png)
+[![06](/assets/blog/Reverse_Engineering/HTB-FTEP-06.png)](/assets/blog/Reverse_Engineering/HTB-FTEP-06.png)
 
 Yes it's 'THAT' screen you have seen in the movies and on the telly box, the hacker screen!!!
 
@@ -84,7 +80,7 @@ Well one of them its missing the black backgrounds and green text but i digress.
 
 I would HIGHLY recommend setting the font so you can read it (also see that 'all' option, use that one so you can read all the windows):
 
-[![07](\img\blog\Reverse_Engineering\HTB-FTEP-07.png)](\img\blog\Reverse_Engineering\HTB-FTEP-07.png)
+[![07](/assets/blog/Reverse_Engineering/HTB-FTEP-07.png)](/assets/blog/Reverse_Engineering/HTB-FTEP-07.png)
 
 Now that we can read, lets get hunting!
 
@@ -94,7 +90,7 @@ So we need to look for our text string 'Wrong Password' as this will likely be w
 
 To do this right hand click on the first window and select Search For > All Referenced Text Strings, this will open a new window and show any text strings stored and more importantly right next to each other:
 
-[![08](\img\blog\Reverse_Engineering\HTB-FTEP-08.png)](\img\blog\Reverse_Engineering\HTB-FTEP-08.png)
+[![08](/assets/blog/Reverse_Engineering/HTB-FTEP-08.png)](/assets/blog/Reverse_Engineering/HTB-FTEP-08.png)
 
 If we double click on 'Wrong Password' it takes us back to the initial screen showing this area in the code and with a little scrolling (like 1 click up) we see the other option of 'Good Job. Congratulations'.
 
@@ -108,7 +104,7 @@ Long story short, this blog started me in the odds and sodds of coding I have do
 
 I've watched this through a few times to learn how things work and while I am not an expert after a little searching I have learned a few things like this:
 
-[![09](\img\blog\Reverse_Engineering\HTB-FTEP-09.png)](\img\blog\Reverse_Engineering\HTB-FTEP-09.png)
+[![09](/assets/blog/Reverse_Engineering/HTB-FTEP-09.png)](/assets/blog/Reverse_Engineering/HTB-FTEP-09.png)
 
 We can see that there is 'JNZ SHORT EasyPass.00454144'. Now JNZ is a conditional jump so if we click on it and then press return you can see it jump in the code to line 00454144 which is the line for 'Wrong Password'.
 
@@ -116,17 +112,17 @@ Hmmm, it would be interesting to see what happens if we 'skip' that part so the 
 
 To do this we need to create a breakpoint, this is easy to do in OllyDbg because we can double click on the line:
 
-[![10](\img\blog\Reverse_Engineering\HTB-FTEP-10.png)](\img\blog\Reverse_Engineering\HTB-FTEP-10.png)
+[![10](/assets/blog/Reverse_Engineering/HTB-FTEP-10.png)](/assets/blog/Reverse_Engineering/HTB-FTEP-10.png)
 
 And hit Assemble to compile missing that condition entirely, notice its greyed out now, we also got rid of the JNZ jump after that and it has filled, I guess you could call it 'condition' of wrong password, with NOP then we just have to run the exe in OllyDbg:
 
-[![11](\img\blog\Reverse_Engineering\HTB-FTEP-11.png)](\img\blog\Reverse_Engineering\HTB-FTEP-11.png)
+[![11](/assets/blog/Reverse_Engineering/HTB-FTEP-11.png)](/assets/blog/Reverse_Engineering/HTB-FTEP-11.png)
 
 Well, it runs!
 
 Now to enter any password which in theory will now give us the result of 'Good Job. Congratulations'
 
-[![12](\img\blog\Reverse_Engineering\HTB-FTEP-12.png)](\img\blog\Reverse_Engineering\HTB-FTEP-12.png)
+[![12](/assets/blog/Reverse_Engineering/HTB-FTEP-12.png)](/assets/blog/Reverse_Engineering/HTB-FTEP-12.png)
 
 Huh.
 
@@ -136,13 +132,13 @@ Ok, It didn't give us the expected result of 'Good Job. Congratulations' but loo
 
 Well hot damn! lets see what happens if we just take that password and throw it into the origional exe in our totally secure and in no way janky test environment:
 
-[![13](\img\blog\Reverse_Engineering\HTB-FTEP-13.png)](\img\blog\Reverse_Engineering\HTB-FTEP-13.png)
+[![13](/assets/blog/Reverse_Engineering/HTB-FTEP-13.png)](/assets/blog/Reverse_Engineering/HTB-FTEP-13.png)
 
 Well there we have it. Confirmed correct!
 
 Lets throw it into Hack The Box and complete this challenge. remember you need to enter it in the format Hack The Box is expecting:
 
-[![14](\img\blog\Reverse_Engineering\HTB-FTEP-14.png)](\img\blog\Reverse_Engineering\HTB-FTEP-14.png)
+[![14](/assets/blog/Reverse_Engineering/HTB-FTEP-14.png)](/assets/blog/Reverse_Engineering/HTB-FTEP-14.png)
 
 Congratulations!
 

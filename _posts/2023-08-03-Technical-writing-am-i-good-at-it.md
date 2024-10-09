@@ -4,10 +4,8 @@ title: "Technical writing, am I good at it?"
 subtitle: "~ Technical writing ~"
 date: 2023-08-03
 author: ha3ks
-category: blog post
 tags: blog writing linkedin
-finished: true
-excerpt_separator: <!--more-->
+category: Research FUD
 ---
 
 Recently I made an article on LinkedIn, I've done a lot of these over the years I have had an account with them and speaking generally the articles are well received.
@@ -17,8 +15,6 @@ People actually like to comment on them, share them and react to them, it's a go
 Now for the first time someone has commented commending me on my Technical Writing skills.
 
 I never thought I had this skill.
-
-<!--more-->
 
 ## The power of Words.
 
@@ -42,7 +38,7 @@ It's been decades now so I've just lived with the two 'U's and said Fu*k it!
 
 Well to get back on track, technical writing, turns out I have a bit of a knack for this, I can take the complex and translate it for anyone to follow:
 
-![Tweet](\img\blog\technical_writing\Tweet.png)
+![Tweet](/assets/blog/technical_writing/Tweet.png)
 
 Speaking of which I wanted to make a backup of the post, just incase people try to pull it down.
 
@@ -52,7 +48,7 @@ So here we go the article hot off the LinkedIn press, and what do you think? is 
 
 # 'Smoke and Mirrors' - How Snake Oil peddlers Con Companies and Steal Money
 
-![Article_Banner](\img\blog\technical_writing\andy-banner.jpg)
+![Article_Banner](/assets/blog/technical_writing/andy-banner.jpg)
 
 You will want to put the kettle on for this one, it's a doozy.
 
@@ -118,7 +114,7 @@ Bleh, idiots.
 
 So what do we need to do in order to disprove the biggest tool in the box, I mean biggest website in this tool *wink*, is show what happens when you use tools wrong;
 
-![Wrong tool Fool!](\img\blog\technical_writing\tool.jpg)
+![Wrong tool Fool!](/assets/blog/technical_writing/tool.jpg)
 
 How can we 'influence' DNSVis to show us errors?
 
@@ -128,7 +124,7 @@ Well our lord and savior [Gary Cox, CISSP](https://www.linkedin.com/in/gcox1/) p
 
 I ran my site through DNSViz because I am a badass, also to help prove this point:
 
-![ha3ks.com its awesome 9 out of 10 dentists agree](\img\blog\technical_writing\ha3ksDNS1.png)
+![ha3ks.com its awesome 9 out of 10 dentists agree](/assets/blog/technical_writing/ha3ksDNS1.png)
 
 As you can see above, secured, updated and the Warnings are for "DNSSEC specification prohibits signing with DS records that use digest algorithm 1 (SHA-1)." so more modern only, super cereal secure.
 
@@ -136,7 +132,7 @@ All good right?
 
 Let me try something...
 
-!["You've got Red on you."](\img\blog\technical_writing\ha3ksDNS2.png)
+!["You've got Red on you."](/assets/blog/technical_writing/ha3ksDNS2.png)
 
 Well I'll be darned!
 
@@ -152,7 +148,7 @@ Oh I'm sorry.
 
 It's a smear on the lens let me get that off for you *licks fingertip and rubs*
 
-![Eh, best I can do, must be on of them, permanent markers he uses...](\img\blog\technical_writing\ha3ksDNS3.png)
+![Eh, best I can do, must be on of them, permanent markers he uses...](/assets/blog/technical_writing/ha3ksDNS3.png)
 
 Well that's weird isn't it?
 
@@ -164,15 +160,15 @@ It seems you can type anything you want into DNSViz and whack '.mail.protection.
 
 Let's take a recent-ish post from from Andy:
 
-![Don't worry, I used DNS to get this screenshot, he will never know!](\img\blog\technical_writing\schwab1.png)
+![Don't worry, I used DNS to get this screenshot, he will never know!](/assets/blog/technical_writing/schwab1.png)
 
 And his screenshot:
 
-![urgh, even the screenshots are ugly, where's the class and pizzaz](\img\blog\technical_writing\schwab2.png)
+![urgh, even the screenshots are ugly, where's the class and pizzaz](/assets/blog/technical_writing/schwab2.png)
 
 Now lets run the address plus '.mail.protection.outlook.com', removing Andy's red mark:
 
-![Dat timestamp though, almost like its an unique identifier for when that specific query was ran ...... 👀👀](\img\blog\technical_writing\schwab3.png)
+![Dat timestamp though, almost like its an unique identifier for when that specific query was ran ...... 👀👀](/assets/blog/technical_writing/schwab3.png)
 
 (Dat timestamp though, almost like its an unique identifier for when that specific query was ran ...... 👀👀)
 
@@ -180,13 +176,13 @@ Hmmm.
 
 Now one more, just the actual domain none of that extra crap:
 
-![Tada!](\img\blog\technical_writing\schwab4.png)
+![Tada!](/assets/blog/technical_writing/schwab4.png)
 
 It's actually 'secure'.
 
 Elementary my dear reader this case has been solved.
 
-![Sherlock and Elementray were damn good modern interpretations of the story, also Johnny Lee Miller is HOOOOT! and suprisingly shirtless a bunch in it.](\img\blog\technical_writing\elementray.gif)
+![Sherlock and Elementray were damn good modern interpretations of the story, also Johnny Lee Miller is HOOOOT! and suprisingly shirtless a bunch in it.](/assets/blog/technical_writing/elementray.gif)
 
 ```
 "The cat's out of the bag Mr. Turner" - Davey Jones, Pirates of the Caribbean: Dead Man's Chest 
@@ -251,7 +247,7 @@ Honestly, I've been like this my whole life, I'm the wall that stops the buck, t
 
 Let's grab a gif that explains it.
 
-![You and me both Cap.](\img\blog\technical_writing\icandothisallday.gif)
+![You and me both Cap.](/assets/blog/technical_writing/icandothisallday.gif)
 
 It doesn't effect me, like at all.
 
@@ -266,7 +262,7 @@ Or
 
 The dude with the tinfoil DNS hat <u>who misspelled Microsoft on his own fud peddling article which has his own companies headed paper</u>?
 
-![Credit to 'Microsoft DNS server 6423' for sharing this to me.](\img\blog\technical_writing\microsft.png)
+![Credit to 'Microsoft DNS server 6423' for sharing this to me.](/assets/blog/technical_writing/microsft.png)
 
 I rest my case.
 
@@ -274,7 +270,7 @@ Well, for now anyway, I'm entirely sure Andy will get the face on with me again 
 
 My thoughts;
 
-![Caption says it all doesn't it.](\img\blog\technical_writing\shame.gif)
+![Caption says it all doesn't it.](/assets/blog/technical_writing/shame.gif)
 
 ## Final thoughts
 

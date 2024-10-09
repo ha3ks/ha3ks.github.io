@@ -4,23 +4,19 @@ title: "Slow updates"
 subtitle: "~ Busy ~"
 date: 2023-12-20
 author: ha3ks
-category: blog post
 tags: blog updates
-finished: true
-excerpt_separator: <!--more-->
+category: Blog
 ---
 
 Hey friends, turns out I'm terrible at updating my blog haha!
 
 Actually I have been super busy IRL with my new job and I've had everything slide in priority:
 
-[![1](\img\blog\Slow-Updates\1.png)](\img\blog\Slow-Updates\1.png)
+[![1](/assets/blog/Slow-Updates/1.png)](/assets/blog/Slow-Updates/1.png)
 
 See!
 
 I feel gutted I got to 83 days (with a 1 day freeze hence that one gap then full day following it), but I know that it has been a lot to do in such a short time.
-
-<!--more-->
 
 I've even let my LinkedIn slide though that is more from dealing with the ongoing torrent of lies and bullsh*t coming from a certain 'named global expert in DNS and asset management' thusly named because he paid an agency to put it out there.
 

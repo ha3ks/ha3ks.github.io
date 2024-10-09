@@ -4,15 +4,13 @@ title: "FUD FIVE : Misinformation and Disinformation Warfare"
 subtitle: "~ Put the kettle on ~"
 date: 2023-10-17
 author: ha3ks
-category: blog post
 tags: blog writing linkedin FUD
-finished: true
-excerpt_separator: <!--more-->
+category: FUD
 ---
 
 This post is a cross post from my LinkedIn page, incase anything happens.
 
-[![1](\img\blog\FUD_FIVE\banner.png)](\img\blog\FUD_FIVE\banner.png)
+[![1](/assets/blog/FUD_FIVE/banner.png)](/assets/blog/FUD_FIVE/banner.png)
 
 Ok that was as close as I could get 'Fast Five' the 5th Fast and Furious Movie as a title...
 
@@ -20,9 +18,7 @@ It is 6:51am.
 
 I shared an post by Gregory Bufithis 🇺🇦 last night to my following on LinkedIn:
 
-<!--more-->
-
-[![1](\img\blog\FUD_FIVE\1.png)](\img\blog\FUD_FIVE\1.png)
+[![1](/assets/blog/FUD_FIVE/1.png)](/assets/blog/FUD_FIVE/1.png)
 
 I discovered this post after I was tagged in the comments section, those comments have now been removed as they do not follow the authors clearly bias point of view on the subject matter.
 
@@ -42,11 +38,11 @@ They are not.
 
 Infact I disproved this previously in the comments section of another post because my site, [ha3ks.com](www.ha3ks.com) DOES NOT have an SSL cert:
 
-[![2](\img\blog\FUD_FIVE\2.png)](\img\blog\FUD_FIVE\2.png)
+[![2](/assets/blog/FUD_FIVE/2.png)](/assets/blog/FUD_FIVE/2.png)
 
 But.... The DNSSEC of ha3ks.com is tighter than an Italian waiters keggs (underpants for those who don't know the phrase or didn't watch Red Dwarf):
 
-[![3](\img\blog\FUD_FIVE\3.png)](\img\blog\FUD_FIVE\3.png)
+[![3](/assets/blog/FUD_FIVE/3.png)](/assets/blog/FUD_FIVE/3.png)
 
 Hey would ya look at that, 2 of Andy's favorite sites to check things and put in red redaction boxes... almost as if they are completely free resources anyone can use... *shocked Pikachu face*
 
@@ -78,7 +74,7 @@ It is very clear that Andy is taking part in what's called 'Ambulance Chasing' w
 
 What I do know however, is Cybersecurity:
 
-[![4](\img\blog\FUD_FIVE\4.jpg)](\img\blog\FUD_FIVE\4.jpg)
+[![4](/assets/blog/FUD_FIVE/4.jpg)](/assets/blog/FUD_FIVE/4.jpg)
 
 Specifically I have multiple certifications in this field and enjoy spending my time learning about new tools and techniques as well as torturing my SSDs with constant rebuild and lab construction and destruction.
 
@@ -169,15 +165,15 @@ Again just because the shop front is wide open doesn't mean it is insecure **cou
 Screenshots, our favorite talking point from Andy, always redacted, always broken.
 Often the screenshots are for pages that no longer exist or are no longer valid/abandoned.
 
-[![5](\img\blog\FUD_FIVE\5.png)](\img\blog\FUD_FIVE\5.png)
+[![5](/assets/blog/FUD_FIVE/5.png)](/assets/blog/FUD_FIVE/5.png)
 
 Wait, what the f**k look at the green addition I made to Andy's original screenshot, check out the date, 2021? how is that even relevant anymore?:
 
-[![6](\img\blog\FUD_FIVE\6.png)](\img\blog\FUD_FIVE\6.png)
+[![6](/assets/blog/FUD_FIVE/6.png)](/assets/blog/FUD_FIVE/6.png)
 
 And the other mentioned redirects to the actual site which is secure:
 
-[![7](\img\blog\FUD_FIVE\7.png)](\img\blog\FUD_FIVE\7.png)
+[![7](/assets/blog/FUD_FIVE/7.png)](/assets/blog/FUD_FIVE/7.png)
 
 How can we be sure that Andy hasn't just rolled back the date on his computer again to F with the Certs showing them all invalid?
 
@@ -225,7 +221,7 @@ No advice on remediation?
 
 No coming back to retest in a few months when actions and recommendations should be in progress/complete?
 
-[![eek](\img\blog\FUD_FIVE\eek.gif)](\img\blog\FUD_FIVE\eek.gif)
+[![eek](/assets/blog/FUD_FIVE/eek.gif)](/assets/blog/FUD_FIVE/eek.gif)
 
 **00:17:17 - 00:17:20**
 
@@ -255,11 +251,11 @@ It means that the site may not have worked with secure socket connections for 54
 
 Oh look, another screenshot... let's get the whole picture though not just your shoddy edit:
 
-[![8](\img\blog\FUD_FIVE\8.png)](\img\blog\FUD_FIVE\8.png)
+[![8](/assets/blog/FUD_FIVE/8.png)](/assets/blog/FUD_FIVE/8.png)
 
 The bottom segment of the DNSViz site which shows the 'end' DNSSEC of a domain shows Insecure.. let's have a closer look:
 
-[![9](\img\blog\FUD_FIVE\9.png)](\img\blog\FUD_FIVE\9.png)
+[![9](/assets/blog/FUD_FIVE/9.png)](/assets/blog/FUD_FIVE/9.png)
 
 Ah ok so the reason it shows as 'insecure' is because the server that is hosting the record (not the site itself) is not responding to the DNSViz testing queries via TCP or UDP.
 
@@ -317,7 +313,7 @@ What the hell dude?
 
 For those unaware in email you can CC (Carbon Copy an email to another recipient, say a work colleague) and you can BCC (Blind Carbon Copy) someone in on the email:
 
-[![10](\img\blog\FUD_FIVE\10.jpg)](\img\blog\FUD_FIVE\10.jpg)
+[![10](/assets/blog/FUD_FIVE/10.jpg)](/assets/blog/FUD_FIVE/10.jpg)
 
 You would need access to the mail server Andy, not the DNS server.
 
@@ -394,7 +390,7 @@ Oh god he's talking about swinging appendages again, why won't he stop talking a
 
 Unredacted Screenshot:
 
-[![11](\img\blog\FUD_FIVE\11.png)](\img\blog\FUD_FIVE\11.png)
+[![11](/assets/blog/FUD_FIVE/11.png)](/assets/blog/FUD_FIVE/11.png)
 
 Andy's trick of using a hyphen and then mail protection etc etc etc, same old trick from same old conman...
 

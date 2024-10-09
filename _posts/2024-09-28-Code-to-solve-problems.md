@@ -6,7 +6,6 @@ date: 2024-09-28
 author: ha3ks
 tags: blog python code kiss
 category: Portfolio
-finished: true
 ---
 
 I'll be the first to admit, I'm not a very good programmer.

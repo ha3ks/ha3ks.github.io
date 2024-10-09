@@ -4,10 +4,8 @@ title: "Moving the blog to Azure?"
 subtitle: "~ Azure, it's the future like garlic bread ~"
 date: 2023-08-08
 author: ha3ks
-category: blog post
 tags: blog writing azure cloud
-finished: true
-excerpt_separator: <!--more-->
+category: Blog
 ---
 
 Hey Friends, I wanted to put up a quick post in addition the Youtube Video I created the other day pertaining to the blog and possibly pushing it to Azure as opposed to GitHub pages.
@@ -15,8 +13,6 @@ Hey Friends, I wanted to put up a quick post in addition the Youtube Video I cre
 I really enjoy being able to not only create content but also push the technical skill I have along with it.
 
 As per my last post commenting that I would love to work for Microsoft I figure that learning Azure will help me both in furthering my knowledge into cloud architecture and the DevOps/DevSecOps side of things and also give me a better understanding of 'how Microsoft does it'.
-
-<!--more-->
 
 ## Preamble
 

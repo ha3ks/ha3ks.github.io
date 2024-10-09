@@ -4,10 +4,8 @@ title: "Upwork is a mistake..."
 subtitle: "~ Oh, Oh God! ~"
 date: 2023-09-15
 author: ha3ks
-category: blog post
 tags: blog upwork scams
-finished: true
-excerpt_separator: <!--more-->
+category: Research
 ---
 
 [![Upwork_Profile](\img\blog\Upwork_was_a_mistake\a3b68ee8-b624-46f0-8935-cc336222b30b.png)](\img\blog\Upwork_was_a_mistake\a3b68ee8-b624-46f0-8935-cc336222b30b.png)
@@ -15,8 +13,6 @@ excerpt_separator: <!--more-->
 I decided to look into [Upwork](https://www.linkedin.com/company/upwork/) after seeing it trending on twitter (X.com or whatever)
 
 This was a mistake.....
-
-<!--more-->
 
 Link to the thread I have going:
 

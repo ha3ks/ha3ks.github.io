@@ -4,17 +4,13 @@ title: "The No Update Update"
 subtitle: "~ Weeklies anyone? ~"
 date: 2024-07-20
 author: ha3ks
-category: blog post
 tags: blog updates oscp nothing
-finished: true
-excerpt_separator: <!--more-->
+category: Blog
 ---
 
 Decided to put this post up a day early as tomorrow (Sunday) I will be working a full day shift at work (a rarity for me given the odd hours I work).
 
 Honestly though there is no 'real' update this week.
-
-<!--more-->
 
 Things were a little hectic this week; 
 
@@ -44,7 +40,7 @@ As I said, not much of an 'update' in this update, however, keeping myself inlin
 
 ## Current Obsidian Brain
 
-[![1](\img\blog\OSCP-Prep\2.png)](\img\blog\OSCP-Prep\2.png)
+[![1](/assets/blog/OSCP-Prep/2.png)](/assets/blog/OSCP-Prep/2.png)
 
 Yes its the same picture. I haven't added anything else (yet).
 

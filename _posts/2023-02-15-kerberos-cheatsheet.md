@@ -4,15 +4,14 @@ title: "Kerberos Cheatsheet"
 subtitle: "~ Kerberos Cheatsheet ~"
 date: 2023-02-15
 author: ha3ks
-category: Cheatsheet
 tags: tool ctf pentesting kerberos 
-finished: true
-excerpt_separator: <!--more-->
+category: Tooling
 ---
+
 So over this weekend I found myself trying (and failing) to run some Kerbrute bits and bats, turns out it was my error as Kali had remembered my slight spelling mistake and errornous commands when running things, so I decided to make a cheetsheet for Kerberos and things, so here goes something:
 
 Shoutout to TarlogicSecurity for this one!
-<!--more-->
+
 ## Bruteforcing
 
 With [kerbrute.py](https://github.com/TarlogicSecurity/kerbrute):

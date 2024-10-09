@@ -4,10 +4,8 @@ title: "Ha3ksimal Crossing - A New Leaf"
 subtitle: "~ Definately not addicted to the Switch also ~"
 date: 2024-06-16
 author: ha3ks
-category: blog post
 tags: blog updates inspirational
-finished: true
-excerpt_separator: <!--more-->
+category: Blog
 ---
 
 Hello friends, I really should update the blog more often. 
@@ -15,8 +13,6 @@ Hello friends, I really should update the blog more often.
 I find myself more active on LinkedIn and Twitter rather than anywhere else, maybe it's the ease of use? (apps over opening VSCode to blog) Maybe it's just laziness.. either way I want this cycle to end and start to get serious once more.
 
 I've given myself a 'lofty goal' for the end of the year and as we are already half way through, I need to get a shift on.
-
-<!--more-->
 
 So as people are aware, I failed my first attempt at the OSCP. I knew going in I wasn't ready, the venue changed last minute, I had a massive problem with my sinuses that had only just cleared up, I felt like shit and prepaired like shit to do this 48 hour commitment.
 
@@ -31,7 +27,7 @@ This time things are going to be different.
 
 I have a plan;
 
-[![1](\img\blog\Ha3ksimal_Crossing\starlord-plan.gif)](\img\blog\Ha3ksimal_Crossing\starlord-plan.gif)
+[![1](/assets/blog/Ha3ksimal_Crossing/starlord-plan.gif)](/assets/blog/Ha3ksimal_Crossing/starlord-plan.gif)
 
 Yes, part of a plan!
 
@@ -57,7 +53,7 @@ I am going to win.
 
 Yes I am firing on all cylinders, now I have settled into my job and doing well enough that I can focus back on getting back into hacking and getting the OSCP nailed out and maybe just maybe land a pentesting/red teaming role. 
 
-Massive shoutout and thank you to [@0x_hackerfren](https://x.com/0x_hackerfren), Jacob, for inspiring me to get off my butt and getting this done. Thank you mate.
+Massive shout out and thank you to [@0x_hackerfren](https://x.com/0x_hackerfren), Jacob, for inspiring me to get off my butt and getting this done. Thank you mate.
 
 Be Safe and Stay Dangerous friends, the future isn't written yet, so go grab that pen and write it!
 

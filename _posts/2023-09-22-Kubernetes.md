@@ -4,21 +4,17 @@ title: "Kubernetes"
 subtitle: "~ Like Evergiven but not stuck ~"
 date: 2023-09-22
 author: ha3ks
-category: blog post
 tags: blog kubernetes docker containers
-finished: true
-excerpt_separator: <!--more-->
+category: Learning
 ---
 
-[![1](\img\blog\Kubernetes\1.jpeg)](\img\blog\Kubernetes\1.jpeg)
+[![1](/assets/blog/Kubernetes/1.jpeg)](/assets/blog/Kubernetes/1.jpeg)
 
 That's right (K8s) pronounced kate's, that is what I am looking into at the moment, I figured it might be nice to diversify my learning.
 
 I'm already absolutely smashing learning back on TryHackMe:
 
-<!--more-->
-
-[![2](\img\blog\Kubernetes\2.png)](\img\blog\Kubernetes\2.png)
+[![2](/assets/blog/Kubernetes/2.png)](/assets/blog/Kubernetes/2.png)
 
 See, been busy.
 

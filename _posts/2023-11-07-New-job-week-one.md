@@ -4,17 +4,13 @@ title: "New Job - Week One"
 subtitle: "~ Busy ~"
 date: 2023-11-07
 author: ha3ks
-category: blog post
 tags: blog updates
-finished: true
-excerpt_separator: <!--more-->
+category: Blog
 ---
 
 Hey friends, it's been a hot minute since I put out an update and things have been a little hectic lately as I settle into a new job.
 
 That's right, after years of searching and chipping away I finally landed a job in infosec!....
-
-<!--more-->
 
 Just kidding.
 
@@ -30,7 +26,7 @@ Since I have this job it does mean though that my time has been a little better 
 
 I Still have my morning routine i.e. hack > game > learn, which has been working phenomenally and I am happy to report I have currently (today) attained a 52 day streak on TryHackMe:
 
-[![1](\img\blog\New_Job_Week_One\1.png)](\img\blog\New_Job_Week_One\1.png)
+[![1](/assets/blog/New_Job_Week_One/1.png)](/assets/blog/New_Job_Week_One/1.png)
 
 Surprisingly, it's fun to maintain now, not a chore. It sort of scratches that itch of earning Achievements on the Xbox once again.
 
