@@ -8,7 +8,7 @@ tags: blog upwork scams
 category: Research
 ---
 
-[![Upwork_Profile](\img\blog\Upwork_was_a_mistake\a3b68ee8-b624-46f0-8935-cc336222b30b.png)](\img\blog\Upwork_was_a_mistake\a3b68ee8-b624-46f0-8935-cc336222b30b.png)
+[![Upwork_Profile](/assets/blog/Upwork_was_a_mistake/a3b68ee8-b624-46f0-8935-cc336222b30b.png)](/assets/blog/Upwork_was_a_mistake/a3b68ee8-b624-46f0-8935-cc336222b30b.png)
 
 I decided to look into [Upwork](https://www.linkedin.com/company/upwork/) after seeing it trending on twitter (X.com or whatever)
 

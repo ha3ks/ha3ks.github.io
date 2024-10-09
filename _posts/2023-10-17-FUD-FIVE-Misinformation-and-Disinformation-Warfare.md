@@ -36,7 +36,7 @@ It has been previously noted that Andy is under the impression that an expired o
 
 They are not.
 
-Infact I disproved this previously in the comments section of another post because my site, [ha3ks.com](www.ha3ks.com) DOES NOT have an SSL cert:
+Infact I disproved this previously in the comments section of another post because my site, [ha3ks.com](http://www.ha3ks.com) DOES NOT have an SSL cert:
 
 [![2](/assets/blog/FUD_FIVE/2.png)](/assets/blog/FUD_FIVE/2.png)
 
