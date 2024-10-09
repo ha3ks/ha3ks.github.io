@@ -5,6 +5,7 @@ subtitle: "~ Code ~"
 date: 2024-09-28
 author: ha3ks
 tags: blog python code kiss
+category: Portfolio
 finished: true
 ---
 
