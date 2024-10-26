@@ -45,6 +45,7 @@ I mean, holy shit, Bowling for Soup were right 'high school never ends!'.
 You would think as the years have gone by and the times have changed, things would have been different. Nope. still this thing:
 
 [![2](/assets/blog/FUD2/2.jpg)](/assets/blog/FUD2/2.jpg)
+
 poop goes down, arseholes if you look up.
 
 It's a funny old world isn't it.
@@ -56,6 +57,7 @@ Well it isn't much of a hop skip and a jump to see my account died for a little 
 But then you can't have fun without consequence.. Enter 'Mr. DNS' again.
 
 [![3](/assets/blog/FUD2/3.jpg)](/assets/blog/FUD2/3.jpg)
+
 Just pretend I put Mr. DNS,, its 3:55 in the god damn morning.
 
 My previous article on this highlighted the dangers of the Snake Oil Salesman and what to look out for... now he's got more friends in 'high places' hahaha, I'm sorry, it's not high places, they are all 'self worth' CEOs and CTOs, VCIOs etc etc that don't dare put their company in their headline for fear of people knowing who the actual boss is... these 'lofty' C-Level executives all with too much money and too much time on their hands to do dumb stuff and sell oil.. Annoyingly some are good people and they are caught in a trap they can't see and aren't sure what's on the outside (It's freedom, escape!).
