@@ -144,9 +144,7 @@ Elementary my dear reader this case has been solved.
 
 ![Sherlock and Elementray were damn good modern interpretations of the story, also Johnny Lee Miller is HOOOOT! and suprisingly shirtless a bunch in it.](/assets/blog/technical_writing/elementray.gif)
 
-```
-"The cat's out of the bag Mr. Turner" - Davey Jones, Pirates of the Caribbean: Dead Man's Chest 
-```
+> "The cat's out of the bag Mr. Turner" - Davey Jones, Pirates of the Caribbean: Dead Man's Chest 
 
 Now you know how it works.
 
