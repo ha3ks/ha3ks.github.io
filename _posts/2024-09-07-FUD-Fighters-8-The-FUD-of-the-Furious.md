@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "FUD Fighters 8: The FUD of the Furious"
-subtitle: "~ Showing Off ~"
+subtitle: "~ LinkedIn Crosspost ~"
 date: 2024-09-07
 author: ha3ks
 tags: FUD OSINT linkedin DNS
-category: Portfolio
+category: FUD
 ---
 
 [![1](/assets/blog/FUD8/1.png)](/assets/blog/FUD8/1.png)
@@ -73,9 +73,7 @@ Oh boy this one made me laugh, not only is he mad at the FBI he's also bringing 
 
 There was little to unpack in this one but a part that stood out to me is:
 
-```
-In 2020 we assisted the Federal Bureau of Investigation (FBI) in the run up to the U.S. Presidential Elections. We offered our assistance and were told - unless it's free, we're not interested. Go figure.
-```
+> In 2020 we assisted the Federal Bureau of Investigation (FBI) in the run up to the U.S. Presidential Elections. We offered our assistance and were told - unless it's free, we're not interested. Go figure.
 
 That's likely because they are already aware of who you are and what games you play, putting things behind red bars on your screenshots wont help you here,, and since the services are free they are correctly informing you they are not interested in either case.
 
@@ -89,9 +87,7 @@ Next;
 
 Ambulance Chase your way right into the Telegram CEO being arrested and released on 6Million bail.
 
-```
-Privacy and Security should be ensured by all messaging platforms. It is NOT.
-```
+> Privacy and Security should be ensured by all messaging platforms. It is NOT.
 
 Does Andy know that Telegram is not a secure messenger, like at all? does Andy know that Facebook (Meta) owns Whatsapp and guess what... not secure at all.
 
