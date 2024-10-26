@@ -8,7 +8,7 @@ tags: FUD OSINT linkedin DNS
 category: FUD
 ---
 
-[![1](/assets/blog/FUD3/1.jpg)](/assets/blog/FUD3/1/jpg)
+[![1](/assets/blog/FUD3/1.jpg)](/assets/blog/FUD3/1.jpg)
 
 I'll be the first to admit, I really liked Tokyo Drift. - Yeh bet you didn't see that coming.
 
@@ -145,7 +145,7 @@ The reason that nothing happened is because I am not bullying someone. I am poin
 
 Now this is weird, the tagging ones:
 
-[![11](/assets/blog/FUD3/11.jpg)](/assets/blog/FUD3/11.jpg)
+[![11](/assets/blog/FUD3/11.png)](/assets/blog/FUD3/11.png)
 Yeh the screenshot didn't copy the tag so had to re-screenshot it.
 
 Why tag his thing? It'll just show up now when you search it now (but only his post not my article which again has nothing to do with him or his setup).
@@ -158,9 +158,9 @@ Does the context wrapped around both sides of it not explain, quite clearly, tha
 
 I don't get it but worse still he's impacting other people now:
 
-[![12](/assets/blog/FUD3/12.jpg)](/assets/blog/FUD3/12.jpg)
+[![12](/assets/blog/FUD3/12.png)](/assets/blog/FUD3/12.png)
 
-[![13](/assets/blog/FUD3/13.jpg)](/assets/blog/FUD3/13.jpg)
+[![13](/assets/blog/FUD3/13.png)](/assets/blog/FUD3/13.png)
 
 or a little explanation here the Black redaction is LinkedIn Account Name and Profile Picture. Red is where he has tagged the person in the post. Green is for the company they work for tagged in the post.
 
