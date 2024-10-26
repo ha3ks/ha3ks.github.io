@@ -71,9 +71,11 @@ Like it's completely made up, much the same as the fake bot accounts people use 
 Oh wait that's not how to do it... let's grab two screenshots of my own:
 
 [![2](/assets/blog/FUD3/2.png)](/assets/blog/FUD3/2.png)
+
 Thats weird, he's the one doing this exact thing to others but doesn't like it when it happens to him?
 
 [![3](/assets/blog/FUD3/3.png)](/assets/blog/FUD3/3.png)
+
 There he is Mr DNS.. also the double boxed one is a different person but I have to love the sweet sweet irony here.
 
 Also notice... they never put 'company name' in their LinkedIn Headline... almost like they don't want you to know who they work for?
@@ -99,6 +101,7 @@ Now I'm not entirely sure why he thinks this would be a good idea, he's even wri
 So his screenshots, let's counterpoint shall we? - Oh, since I'm actually a nice guy I redact other peoples names.
 
 [![4](/assets/blog/FUD3/4.png)](/assets/blog/FUD3/4.png)
+
 Screenshot of the post itself.
 
 A bit of an interesting open stating 'This person is not me', I've never claimed to be anyone but me but, ok(?) maybe it was an off day or something?
@@ -108,20 +111,25 @@ A bit of an interesting open stating 'This person is not me', I've never claimed
 Misdiagnosis by the NHS is a thing and anything to help it I am all for but he is under the impression that mentioning even the word insight or writing it in a certain way is an attack on him and his work... It isn't. (This stems from my previous article and this following screenshot he took from it below)
 
 [![5](/assets/blog/FUD3/5.jpg)](/assets/blog/FUD3/5.jpg)
+
 Like Project I N S I G H T from Captain America: The Winter Soldier, it's literally written in the article....
 
 The next screenshots are unrelated to anything so I am putting them in here:
 
 [![6](/assets/blog/FUD3/6.jpg)](/assets/blog/FUD3/6.jpg)
+
 Cute cat picture and a Youtube link to (at the time) Micheal Reeves newset video... 
 
 [![7](/assets/blog/FUD3/7.jpg)](/assets/blog/FUD3/7.jpg)
+
 My random DNS Facts* website, lovingly coded in an hour. I guess the #parody was completely ignored? also he had to go on my profile, click to view all my activity, click posts and then scroll and scroll and scroll and scroll... bet he still hasn't made a single donation.
 
 [![8](/assets/blog/FUD3/8.jpg)](/assets/blog/FUD3/8.jpg)
+
 Half an image here, let me open that 'see more tag'... also look at all those reports(!)
 
 [![9](/assets/blog/FUD3/9.png)](/assets/blog/FUD3/9.png)
+
 I redact the names as promised.
 
 The above was my response regarding the second article I put up ([FUD Fighters : 2fast 2DNS](https://www.linkedin.com/pulse/fud-fighters-2fast-2dns-dan-murray/)) which opens with a modified but tongue in cheek parody of a scene of a Fast and Furious sequel script from the TV show American Dad. (say that 5 times fast).
@@ -131,6 +139,7 @@ The point of opening that up is because I do stand by my words, you can't just k
 Now lets get back to all those reports from the earlier screenshot and this one:
 
 [![10](/assets/blog/FUD3/10.jpg)](/assets/blog/FUD3/10.jpg)
+
 Poor Trust & Safety Team.
 
 I'm almost entirely sure that what has happened here is he has gone on a rampage negging (a.k.a thumbs downing and reporting) every post I have made on LinkedIn as a way to flood them with reports that I have been doing something wrong and attempting to get my account banned or something (Cyber Mobbing anyone??)
@@ -146,6 +155,7 @@ The reason that nothing happened is because I am not bullying someone. I am poin
 Now this is weird, the tagging ones:
 
 [![11](/assets/blog/FUD3/11.png)](/assets/blog/FUD3/11.png)
+
 Yeh the screenshot didn't copy the tag so had to re-screenshot it.
 
 Why tag his thing? It'll just show up now when you search it now (but only his post not my article which again has nothing to do with him or his setup).
