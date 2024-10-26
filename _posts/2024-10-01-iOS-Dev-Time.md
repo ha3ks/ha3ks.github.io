@@ -12,7 +12,7 @@ category: Portfolio
 
 Yes, I've seen the videos.
 
-I have had the dreams of a 3k income from 'side hustle' app work.
+I have had the dreams of a 3k a month extra income from 'side hustle' app work.
 
 I even previously did some work in Android Development so how hard could it be?
 
