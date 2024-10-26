@@ -2,7 +2,7 @@
 layout: post
 title: "FUD Fighters 8: The FUD of the Furious"
 subtitle: "~ Showing Off ~"
-date: 2024-10-25
+date: 2024-09-07
 author: ha3ks
 tags: FUD OSINT linkedin DNS
 category: Portfolio
