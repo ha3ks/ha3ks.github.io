@@ -24,21 +24,23 @@ Amazing content.
 
 So I started watching, taking notes and doing what I could.
 
-## The the time passed
+## Then the time passed
 
-Things kinda went onto the back burner for a while, and I mean YEARS! So recently with my 'diversify myself' mindset I started some Googling and found myself on [Roadmap.sh](https://roadmap.sh/), specifically The [DevOps Roadmap](https://roadmap.sh/devops) and [DevOps Projects](https://roadmap.sh/devops/projects).
+Things kinda went onto the back burner for a while, and I mean YEARS! 
+
+So recently with my 'diversify myself' mindset I started some Googling and found myself on [Roadmap.sh](https://roadmap.sh/), specifically The [DevOps Roadmap](https://roadmap.sh/devops) and [DevOps Projects](https://roadmap.sh/devops/projects).
 
 In here I found the first thing I would take a shot at, make an [Nginx Log Analyzer](https://roadmap.sh/projects/nginx-log-analyser)
 
 ## More Google
 
-Turns out I do know a thing ot two about Linux and getting system information and details, things like 'awk', 'sort' 'uniq' and 'sed'.
+Turns out I do know a thing ot two about Linux and getting system information and details, commands like 'awk', 'sort' 'uniq' and 'sed'.
 
 So I started bashing my keys and ended up making a bash version of the script as well as a Python which I am little more familiar with.
 
 ## The Code
 
-Now, all the code is on my GitHub however because I can, here is the bash code:
+Now, all the code is on my [GitHub](https://github.com/ha3ks/Nginx-Log-Analyzer) however because I can, here is the bash code:
 
 ```
 #!/bin/bash
@@ -154,17 +156,19 @@ if __name__ == "__main__":
     display_analysis(analysis)
 ```
 
-Since they provided the log I just had to go through it and try figure out what kinds of rows and headings my mental Excel Spreadsheet was going to need.
+Since they provided the log file to work with I just had to go through it and try figure out what kinds of rows and headings my mental *Excel spreadsheet* was going to need.
 
-The GitHub also has instructions on how to run these as you need to 'chmod +x' them to make them executable etc.
+The [GitHub page](https://github.com/ha3ks/Nginx-Log-Analyzer) also has instructions on how to run these as you need to 'chmod +x' them to make them executable etc.
 
 ## Takeaways
 
-Again this was a fun little pallet cleanser. 
+Again this was a fun little 'pallet cleanser'. 
 
-It's nice to get behind the keyboard and code to solve a problem but also it's nice to quell any 'Imposter Syndrome' because this is something I know and I just need to get it out of my head and onto my keystrokes to come up with something cool and "efficient".
+It's nice to get behind the keyboard and code to solve a problem but also it's nice to quell any 'Imposter Syndrome' because this 'is' something I know and I just need to 'get it out of my head and onto my keystrokes' so I can come up with something cool and "efficient".
 
 Honestly, little sprints of dev work between the hectic IRL life stuff right now is actually good for the mind and good for the soul.
+
+I would recommend doing some bits and pieces coding every now and again to anyone if you are inclined to code, I also game too when my brain is too stressed, do what works for you.
 
 Be safe all.
 
