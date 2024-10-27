@@ -34,7 +34,13 @@ I think the game prior was Jedi Survivor if the xbox screenshots thing is anythi
 
 Also I may have found a cheeky way to play GamePass games without having a GamePass account... 🤫 ([I have reached out to them about it](https://x.com/ha3ks/status/1849079994061926757), yet to hear anything back mind...)
 
-Be safe all.
+-- UPDATE -- 
+
+Got in contact with Microsoft and Xbox support and it turns out the 'bug' I found is actually a 'feature' as the GamePass games are associated with the console itself not exclusively the accounts.
+
+Good to know...... 😈
+
+Anyway - as before be safe all.
 
 🤙
 
