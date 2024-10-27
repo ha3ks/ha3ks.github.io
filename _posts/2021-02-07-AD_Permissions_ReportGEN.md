@@ -26,7 +26,7 @@ I knew it wasn't worth anything, in fact I was entirely sure it was a built in f
 
 So after about 20 minutes of digging and a little quick test. I created a Powershell ps1 script that would output users and permissions from AD to a csv file.
 
-Needless to say they shut up and disappeared REAL QUICK after this was revealed and even my good Dan [@UK_Dan_Card](https://x.com/UK_Daniel_Card) tested this and shared the results on twitter. 
+Needless to say they shut up and disappeared REAL QUICK after this was revealed and even my good Dan [@UK_Daniel_Card](https://x.com/UK_Daniel_Card) tested this and shared the results on twitter. 
 
 Yep did exactly what it should do and didn't cost anything besides 25 minutes of my time.
 
