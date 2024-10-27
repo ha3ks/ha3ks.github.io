@@ -20,7 +20,7 @@ Well as it turns out, not the worst.
 
 ## The idea
 
-I needed to diversify my skill set and I've spent a good amount of time watching not only 'vloggers' like [Casey Neistat](https://www.youtube.com/@casey), [Johnny Hochstetler - Jhawk](https://www.youtube.com/@JHawk) and iOS Dev [Aivars Meijers](https://www.youtube.com/@AivarsMeijers) who got me thinking, "Hey I do Tech.. I did programming at University.. I already can edit videos and do cool things after nailing an A-Level in Media Studies.. Why don't I start doing App work?"
+I needed to diversify my skill set and I've spent a good amount of time watching not only 'vloggers' like [Casey Neistat](https://www.youtube.com/@casey), [Johnny Hochstetler - Jhawk](https://www.youtube.com/@JHawk) but also iOS Devs like [Aivars Meijers](https://www.youtube.com/@AivarsMeijers) who got me thinking, "Hey I do Tech.. I did programming at University.. I already can edit videos and do cool things after nailing an A-Level in Media Studies.. Why don't I start doing App work?"
 
 And with that I set about becoming an part time iOS dev.
 
