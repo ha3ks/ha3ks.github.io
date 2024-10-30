@@ -14,7 +14,7 @@ I've had my eye on making somekind of 'tracker' website for a while.
 
 I never really got a start on it but recently I was able to sit down with Google, ChatGPT and StackOverfow and finally nail some of this down.
 
-The folowing is my initial try at making a tracker.. think the [PewPewMap](https://threatmap.checkpoint.com/) from [Checkpoint(https://www.checkpoint.com/) but more basic, as I don't have 'all the skill' at this time.
+The following is my initial try at making a tracker.. think the [PewPewMap](https://threatmap.checkpoint.com/) from [Checkpoint](https://www.checkpoint.com/) but more basic as I don't have 'all the skill' at this time.
 
 ## The Map
 
@@ -37,6 +37,8 @@ After a spot of Googling I was able to remember how to add things like sidebars 
 [![map2](/assets/blog/DataCentreTracker/map2.gif)](/assets/blog/DataCentreTracker/map2.gif)
 
 And there we go.
+
+I have spotted a little bug in the zoom feature where if you zoom out the points of the DC's drifts so 'Paris' becomes 'in the middle of the sea' 😂😂😂 - I promise I will fix this issue at somepoint, I feel like I am missing a constant between the coordinates and hooking the DCs to them but I'll get there, been learning about making a threat feed and making the map display that (as above) but that's a level of work I've not touched before... better pay that ChatGPT subscription 🤣
 
 As always, if you wish to via the code for this project you can find it on my GitHub.
 
