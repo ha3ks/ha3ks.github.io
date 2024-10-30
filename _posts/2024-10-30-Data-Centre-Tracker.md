@@ -40,7 +40,7 @@ And there we go.
 
 I have spotted a little bug in the zoom feature where if you zoom out the points of the DC's drifts so 'Paris' becomes 'in the middle of the sea' 😂😂😂 - I promise I will fix this issue at somepoint, I feel like I am missing a constant between the coordinates and hooking the DCs to them but I'll get there, been learning about making a threat feed and making the map display that (as above) but that's a level of work I've not touched before... better pay that ChatGPT subscription 🤣
 
-As always, if you wish to via the code for this project you can find it on my GitHub.
+As always, if you wish to see the code for this project you can find it on my GitHub.
 
 [Ha3ks - DataCentreTracker Source on Github](https://github.com/ha3ks/DataCentreTracker)
 
