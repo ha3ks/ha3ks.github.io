@@ -42,7 +42,11 @@ I have spotted a little bug in the zoom feature where if you zoom out the points
 
 As always, if you wish to via the code for this project you can find it on my GitHub.
 
-[Ha3ks - DataCentreTracker on Github](https://github.com/ha3ks/DataCentreTracker)
+[Ha3ks - DataCentreTracker Source on Github](https://github.com/ha3ks/DataCentreTracker)
+
+You can also play with it live! 
+
+Literally right now live at [https://ha3ks.github.io/DataCentreTracker/](https://ha3ks.github.io/DataCentreTracker/)
 
 🤙
 
