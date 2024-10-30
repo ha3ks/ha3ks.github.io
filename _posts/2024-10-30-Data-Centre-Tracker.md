@@ -2,7 +2,7 @@
 layout: post
 title: "Data Centre Tracker"
 subtitle: "~ Sick WebDev Brah ~"
-date: 2024-10-01
+date: 2024-10-30
 author: ha3ks
 tags: development webdev
 category: Portfolio
