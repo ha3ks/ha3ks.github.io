@@ -57,7 +57,7 @@ git clone https://github.com/jaykali/hackerpro.git
 sudo cd hackerpro 
 chmod +x install.sh
 sudo ./install.sh
-*Enter* 
+*Follow the onscreen instructions to install*
 ```
 
 That is quite literally as easy as that, anytime you want to run HackerPro and install certain applications you can do so just by typing in 'hackerpro' While inside your WSL Ubuntu system.
