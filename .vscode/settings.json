@@ -28,5 +28,14 @@
     "zsh": { "path": "/bin/zsh", "args": ["-l", "-i"] }
   },
   "cSpell.language": "en",
-  "cSpell.words": ["Bluesky", "CCNA", "Paperwhite", "Tubberville", "yeeted"]
+  "cSpell.words": [
+    "Bluesky",
+    "CCNA",
+    "Hackertools",
+    "Metasploit",
+    "Paperwhite",
+    "pentesting",
+    "Tubberville",
+    "yeeted"
+  ]
 }
