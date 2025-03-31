@@ -22,7 +22,7 @@ No Domain Masking.
 
 Just 100% to the source (so to speak).
 
-I can't beleive how long it has taken me to finally get down to business with this... now to work on my projects like [javascriptnear.me](http://javascriptnear.me) among others 😉
+I can't beleive how long it has taken me to finally get down to business with this... now to work on my projects like [javascriptnear.me](https://javascriptnear.me) among others 😉
 
 Be safe all, I am handling burnout poorly.
 
