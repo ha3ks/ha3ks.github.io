@@ -1,4 +1,101 @@
----
-layout: home
-# Index page
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dan Murray</title>
+  <style>
+    body {
+      background-color: #fdfdfd;
+      color: #111;
+      font-family: ui-monospace, SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      padding: 2rem;
+    }
+    .container {
+      display: flex;
+      max-width: 600px;
+      align-items: center;
+      gap: 1.5rem;
+    }
+    .profile-pic {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+    .text-content {
+      flex: 1;
+    }
+    h1 {
+      font-size: 2rem;
+      margin: 0 0 0.5rem 0;
+    }
+    p {
+      margin: 0 0 1.5rem 0;
+      font-size: 1rem;
+    }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem 2rem;
+    }
+    .link {
+      display: inline-flex;
+      align-items: center;
+      white-space: nowrap;
+      color: inherit;
+      text-decoration: none;
+      font-size: 1rem;
+      min-width: 120px;
+    }
+    .link svg {
+      width: 20px;
+      height: 20px;
+      margin-right: 0.5rem;
+      fill: currentColor;
+      flex-shrink: 0;
+      overflow: visible;
+    }
+    .link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img
+      src="https://media.licdn.com/dms/image/v2/D4E03AQF0BFJEypfNXA/profile-displayphoto-shrink_800_800/B4EZdBZkUnHsAg-/0/1749148912299?e=1755129600&v=beta&t=CdowgBenvKl5IaM485zEvaOTOBwVjPGFk0X7StXvHHI"
+      alt="Dan Murray"
+      class="profile-pic"
+    />
+    <div class="text-content">
+      <h1>Dan Murray</h1>
+      <p>I make computers do what they are supposed to or not supposed to do. Sometimes for Money sometimes for Fun!</p>
+      <div class="links">
+        <a class="link" href="blog.html" title="Blog" aria-label="Blog">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M3 5v14a2 2 0 002 2h14"></path><path d="M3 7h18"></path><path d="M7 7v14"></path><path d="M7 17h10"></path></svg>
+          Blog
+        </a>
+        <a class="link" href="https://github.com/ha3ks" title="GitHub" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.426 2.865 8.18 6.839 9.504.5.09.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.153-1.11-1.46-1.11-1.46-.908-.62.069-.608.069-.608 1.003.07 1.531 1.031 1.531 1.031.892 1.53 2.341 1.088 2.91.832.091-.647.35-1.088.636-1.34-2.22-.253-4.555-1.112-4.555-4.946 0-1.092.39-1.984 1.029-2.683-.103-.254-.446-1.27.098-2.647 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.748-1.027 2.748-1.027.546 1.378.202 2.394.1 2.648.64.7 1.028 1.59 1.028 2.682 0 3.842-2.338 4.69-4.566 4.937.36.31.68.92.68 1.855 0 1.337-.012 2.417-.012 2.746 0 .268.18.58.688.48A10.019 10.019 0 0022 12.017C22 6.484 17.523 2 12 2z"/></svg>
+          GitHub
+        </a>
+        <a class="link" href="https://twitter.com/ha3ks" title="Twitter" aria-label="Twitter">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M23 3a10.9 10.9 0 01-3.14 1.53A4.48 4.48 0 0022.43.36a9.14 9.14 0 01-2.88 1.1 4.52 4.52 0 00-7.72 4.13 12.85 12.85 0 01-9.32-4.73 4.52 4.52 0 001.4 6.04 4.47 4.47 0 01-2.05-.57v.06a4.53 4.53 0 003.62 4.44 4.53 4.53 0 01-2.04.08 4.53 4.53 0 004.22 3.15A9.05 9.05 0 013 19.54 12.8 12.8 0 009.29 21c7.54 0 11.68-6.25 11.68-11.67 0-.18-.01-.35-.02-.53A8.36 8.36 0 0023 3z"/></svg>
+          Twitter
+        </a>
+        <a class="link" href="mailto:info@ha3ks.com" title="Email" aria-label="Email">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M4 4h16v16H4z" fill="none"/><path d="M22 6v12a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2h16a2 2 0 012 2zM2 6l10 7 10-7"/></svg>
+          Email
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
