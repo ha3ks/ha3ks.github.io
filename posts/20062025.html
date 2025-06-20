@@ -63,62 +63,7 @@
   <p>Honestly this was a fun way to spend the morning it got me used to how Cisco thinks about things and how the format for some of their exams questions might go in prep for the CCNA/CCNP like; how they might present a multiple choice question to you, or how they might present a web link question where you have to do an 'answers A, B, C' and link them to the relevant answer.</p>
   <p>All in all and I said it just a few lines up I think because this is a <u>free</u> certification you should 100% go for it!</p>
   <p>You don't have to spend hundreds and hundreds of pounds earning the CEH or something like that, yeah every recruiter in their mum knows what a CEH is and for some weird reason every employer wants the CEH even though it is a colossal bag of sh*t (in my opinion).</p>
-  <p>This Ethical Hacker certification from Cisco has the potential to <u>absolutely</u> dethrone and replace the CEH. It has question and answer formatting for the exam but the material has you spinning up testing VMs and If enough people pick up on it, spread the word and make it so that it IS something that employers and job recruiters are looking for and know what it is, it is going to be 100% worth your time and effort.</p>
+  <p>This Ethical Hacker certification from Cisco has the potential to <u>absolutely</u> dethrone and replace the CEH. It has question and answer formatting for the exam but the material has you spinning up testing VMs etc and If enough people pick up on it, spread the word and make it so that it IS something that employers and job recruiters are looking for and know what it is, it is going to be 100% worth your time and effort.</p>
   <p>All in all, it's 'Dan approved'.</p>
-</BR>
-</BR>
-</BR>
-</BR>
-</BR>
-</BR>
-</BR>
-</BR>
-</BR>
-</BR>
-</BR>
-
-</BR>
-</BR>
-</BR>
-</BR>
-</BR>
-
-</BR>
-  <p>As such today I'm looking at the open source SIEM (which stands for Security Information and Event Management) software called <a href="https://wazuh.com/">Wazuh</a>.</p>
-  <p>Since Wazuh is free and it's open source it does make things a little bit easier for me because I don't have hundreds upon thousands of pounds to be spending on things, Accordingly the entire environment that I'm building for this little project is going to be made from virtual machines in this case I'm using VMware</p>
-  <h2>Prerequisites:</h2>
-  * Installation media(s) - Windows and Ubuntu for me<br>
-  * Hardware - To run it, laptop will do!<br>
-  * Software - In this case, VMWare (yes I know F Broadcom)<br>
-  <p>Now that we have all that out the way let's get cracking.</p>
-  <h2>Getting Started</h2>
-  <p>Initially you'll want to get your virtual machines set up firstly I'm not bothering using any kind of virtual firewall or virtual router I'm literally just building a Windows 11 evaluation edition machine and one ubuntu 'server' in this case it's version 24.04 .02 LTS.</p>
-  <p>As you can set things up how you want all I have done is leave everything as default, but on the Ubuntu Server I did enable SSH access so I can access it from my host machines terminal</p>
-  <h2>Quick and Dirty</h2>
-  <h3>Server/Dashboard Machine (Ubuntu)</h3>
-  <p>As I want to use all defaults for this to make life a lot quicker and easier I'm just going to copy the quick start installation from <a href="https://documentation.wazuh.com/current/quickstart.html">Wazuh's Quickstart Guide</a></p>
-  <p>For my example, I run the quick start which is this snip of code:</p>
-  <code>curl -sO https://packages.wazuh.com/4.12/wazuh-install.sh && sudo bash ./wazuh-install.sh -a</code>
-  <p>Once that completes you should see an output similar to this:</p>
-  <a href="/assets/13062025/complete.png" target="_blank"> <img src="/assets/13062025/complete.png" alt="current blog" height="100" width="750"></a>
-  <p>Which gives you an 'address' for the Dashboard to view as well as an Username and Password (definately write that down a moment). If you see this though, excellent lets move onto step 2, if not check your log files and see what's going wrong. Wazuh has a pretty darned good Documentation page as well as a Discord for questions.</p>
-  <p>For example: Durning the first 4 times (yes 4!!) I tried this install, it kept falling over at the dashboard. It would not install the dashboard no matter what I did, I checked the logs and it was moaning about disk space so I increased the VM, and again, and checked the documantation, and again and again then for run 5 just went balls to the wall and massively overprovisioned it... success.</p>
-  <p>Now that's taken care of let's make sure we can log in and see the actual dashboard:</p>
-  <a href="/assets/13062025/dashboard.png" target="_blank"> <img src="/assets/13062025/dashboard.png" alt="current blog" height="400" width="750"></a>
-  <p>Ah much better, if you want to you can do things like add users, change passwords etc etc but now let's move onto a VM victim/user machine</p>
-  <h3>Endpoint Machine (Windows)</h3>
-  <p>For the windows endpoint the installation is actually quite simple all you have to do at least in this case anyway is download the agent software and run the install, after which you will be prompted by default to open the agent config, in this you can add your 'servers' IP address:</p>
-  <a href="/assets/13062025/windowsagent.png" target="_blank"> <img src="/assets/13062025/windowsagent.png" alt="current blog" height="370" width="334"></a>
-  <p>Now that's running lets take a look back at the dashboard:</p>
-  <a href="/assets/13062025/server1.png" target="_blank"> <img src="/assets/13062025/server1.png" alt="current blog" height="400" width="750"></a></br>
-  <p>Ok we have an agent showing now, you can click it</p>
-  <a href="/assets/13062025/server2.png" target="_blank"> <img src="/assets/13062025/server2.png" alt="current blog" height="400" width="750"></a></br>
-  <p>And see what it is and what its getting up to and well as things like Compliance, Events, how it squares up with the MITRE framework... theres loads in here and I have barely touched anything yet!</p>
-  <a href="/assets/13062025/server3.png" target="_blank"> <img src="/assets/13062025/server3.png" alt="current blog" height="400" width="750"></a>
-  <p>Stupid simple, definately simplified because I want to play with this but I wanted to take you along for the ride.</p>
-  <h2>Takeaways:</h2>
-  * Sometimes things don't work the first time you try them. Failure is enevetable but when you do fail, make sure you fail forward!</br>
-  * Dashboards are ALWAYS cool!</br>
-  * I stil dont know what I am doing but at least I am having fun!
 </body>
 </html>
