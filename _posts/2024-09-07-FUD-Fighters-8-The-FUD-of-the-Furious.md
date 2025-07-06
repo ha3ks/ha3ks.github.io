@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "FUD Fighters 8: The FUD of the Furious"
-subtitle: "~ LinkedIn Crosspost ~"
-date: 2024-09-07
 author: ha3ks
+date: 2024-09-07
 tags: FUD OSINT linkedin DNS
 category: FUD
 ---

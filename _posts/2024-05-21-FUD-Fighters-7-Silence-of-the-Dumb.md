@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "FUD Fighters 7: Silence of the Dumb"
-subtitle: "~ LinkedIn Crosspost ~"
-date: 2024-05-21
 author: ha3ks
+date: 2024-05-21
 tags: FUD OSINT linkedin DNS
 category: FUD
 ---

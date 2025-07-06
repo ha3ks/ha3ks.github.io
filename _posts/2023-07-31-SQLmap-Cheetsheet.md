@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "SQLMap Cheatsheet"
-subtitle: "~ SQLMap Cheatsheet ~"
-date: 2023-07-31
 author: ha3ks
+date: 2023-07-31
 tags: tool ctf pentesting sqlmap 
 category: Tooling
 ---

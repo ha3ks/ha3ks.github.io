@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Ha3ksimal Crossing - A New Leaf"
-subtitle: "~ Definately not addicted to the Switch also ~"
-date: 2024-06-16
 author: ha3ks
+date: 2024-06-16
 tags: blog updates inspirational
 category: Blog
 ---

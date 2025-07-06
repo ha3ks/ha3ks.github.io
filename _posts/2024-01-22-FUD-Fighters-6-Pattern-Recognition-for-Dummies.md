@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "FF:SIX - Pattern Recognition for Dummies"
-subtitle: "~ LinkedIn Crosspost ~"
-date: 2024-01-22
 author: ha3ks
+date: 2024-01-22
 tags: FUD OSINT linkedin DNS
 category: FUD
 ---

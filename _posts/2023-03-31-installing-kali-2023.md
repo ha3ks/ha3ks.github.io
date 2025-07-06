@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Installing Kali 2023"
-subtitle: "~ Just Kali ~"
-date: 2023-03-31
 author: ha3ks
+date: 2023-03-31
 tags: blog oscp howto
 category: Tooling
 ---

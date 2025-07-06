@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Send a Movie!"
-subtitle: "~ Viral Videos ~"
-date: 2021-03-07
 author: ha3ks
+date: 2021-03-07
 tags: development joke python
 category: Portfolio
 ---

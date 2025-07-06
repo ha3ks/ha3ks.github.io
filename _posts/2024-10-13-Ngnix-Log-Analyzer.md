@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Nginx Log Analyzer"
-subtitle: "~ Linux Stuff ~"
-date: 2024-10-13
 author: ha3ks
+date: 2024-10-13
 tags: development DevOps bash python
 category: Portfolio
 ---

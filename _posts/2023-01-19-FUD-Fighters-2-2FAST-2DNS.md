@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "FUD Fighters 2 : 2Fast 2DNS"
-subtitle: "~ LinkedIn Crosspost ~"
-date: 2023-01-19
 author: ha3ks
+date: 2023-01-19
 tags: FUD OSINT linkedin DNS
 category: FUD
 ---

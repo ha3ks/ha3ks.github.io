@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Wax on, Wax off"
-subtitle: "~ Deliberate Practice ~"
-date: 2023-09-30
 author: ha3ks
+date: 2023-09-30
 tags: blog improvement productivity
 category: Blog
 ---

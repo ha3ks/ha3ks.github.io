@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Kubernetes"
-subtitle: "~ Like Evergiven but not stuck ~"
-date: 2023-09-22
 author: ha3ks
+date: 2023-09-22
 tags: blog kubernetes docker containers
 category: Learning
 ---

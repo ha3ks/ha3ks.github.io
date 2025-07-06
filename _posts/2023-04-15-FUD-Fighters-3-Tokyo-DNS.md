@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "FUD Fighters 3 - Tokyo DNS"
-subtitle: "~ LinkedIn Crosspost ~"
-date: 2023-04-15
 author: ha3ks
+date: 2023-04-15
 tags: FUD OSINT linkedin DNS
 category: FUD
 ---

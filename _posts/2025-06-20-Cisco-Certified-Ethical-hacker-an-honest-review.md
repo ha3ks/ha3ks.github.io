@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Cisco Certified Ethical Hacker - an Honest Review"
-subtitle: "~ HACKING ~"
-date: 2025-06-20
 author: ha3ks
+date: 2025-06-20
 tags: blog hacking certification
 category: Blog
 ---

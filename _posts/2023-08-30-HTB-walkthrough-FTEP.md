@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "HTB Walkthrough - Find The Easy Pass"
-subtitle: "~ Reverse Engineering ~"
-date: 2023-08-30
 author: ha3ks
+date: 2023-08-30
 tags: blog ctf pentesting re reversing strings walkthrough
 category: Reversing
 ---

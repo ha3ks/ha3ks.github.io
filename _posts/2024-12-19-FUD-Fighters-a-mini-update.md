@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "FUD Fighters - a mini update"
-subtitle: "~ Incremental growth ~"
-date: 2024-12-19
 author: ha3ks
+date: 2024-12-19
 tags: FUD OSINT linkedin DNS
 category: FUD
 ---

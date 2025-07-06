@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "FUD Fighters 4 - 'Smoke and Mirrors' - How Snake Oil peddlers Con Companies and Steal Money"
-subtitle: "~ LinkedIn Crosspost ~"
-date: 2023-08-01
 author: ha3ks
+date: 2023-08-01
 tags: FUD OSINT linkedin DNS
 category: FUD
 ---

@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "The No Update Update"
-subtitle: "~ Weeklies anyone? ~"
-date: 2024-07-20
 author: ha3ks
+date: 2024-07-20
 tags: blog updates oscp nothing
 category: Blog
 ---

@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Upwork is a mistake..."
-subtitle: "~ Oh, Oh God! ~"
-date: 2023-09-15
 author: ha3ks
+date: 2023-09-15
 tags: blog upwork scams
 category: Research
 ---

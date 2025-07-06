@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "AD_Permissions_ReportGEN"
-subtitle: "~ Disproving a Bully~"
-date: 2021-02-07
 author: ha3ks
+date: 2021-02-07
 tags: development joke powershell FUD
 category: Portfolio
 ---

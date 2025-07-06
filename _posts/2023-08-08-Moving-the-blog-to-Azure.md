@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Moving the blog to Azure?"
-subtitle: "~ Azure, it's the future like garlic bread ~"
-date: 2023-08-08
 author: ha3ks
+date: 2023-08-08
 tags: blog writing azure cloud
 category: Blog
 ---

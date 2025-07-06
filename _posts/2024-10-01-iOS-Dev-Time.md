@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "iOS Development - Time to Hack"
-subtitle: "~ I R DEVELOPER NOW ~"
-date: 2024-10-01
 author: ha3ks
+date: 2024-10-01
 tags: development iOS swift android
 category: Portfolio
 ---

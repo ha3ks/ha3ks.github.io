@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "FUD Fighters: What is DNS, and why does 'that bloke'​ go on about it?"
-subtitle: "~ LinkedIn Crosspost ~"
-date: 2022-08-13
 author: ha3ks
+date: 2022-08-13
 tags: FUD OSINT linkedin DNS
 category: FUD
 ---

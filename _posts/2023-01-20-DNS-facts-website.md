@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "DNS Facts* Website"
-subtitle: "~ Windows Stuff ~"
-date: 2023-01-20
 author: ha3ks
+date: 2023-01-20
 tags: development webdev joke
 category: Portfolio
 ---

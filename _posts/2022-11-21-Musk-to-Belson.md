@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Musk-to-Belson"
-subtitle: "~ Big Oof ~"
-date: 2022-11-21
 author: ha3ks
+date: 2022-11-21
 tags: development webdev joke browserextension maliciouscode
 category: Portfolio
 ---

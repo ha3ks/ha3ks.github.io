@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "The Sliver C2 Installation and Demo"
-subtitle: "~ Time to lean into C2's ~"
-date: 2023-10-09
 author: ha3ks
+date: 2023-10-09
 tags: blog ctf pentesting c2 sliver
 category: Tooling
 ---

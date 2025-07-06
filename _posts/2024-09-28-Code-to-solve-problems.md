@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Code to solve problems - PageRequestChecker"
-subtitle: "~ Code ~"
-date: 2024-09-28
 author: ha3ks
+date: 2024-09-28
 tags: blog python code kiss development htmlrequests
 category: Portfolio
 ---

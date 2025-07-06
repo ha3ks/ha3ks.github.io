@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Tool Highlight - The OSINT Framework"
-subtitle: "~ OSINT, OSINT EVERYWHERE! ~"
-date: 2023-08-15
 author: ha3ks
+date: 2023-08-15
 tags: tool OSINT
 category: Tooling
 ---

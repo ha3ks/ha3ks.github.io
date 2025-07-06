@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Kerberos Cheatsheet"
-subtitle: "~ Kerberos Cheatsheet ~"
-date: 2023-02-15
 author: ha3ks
+date: 2023-02-15
 tags: tool ctf pentesting kerberos 
 category: Tooling
 ---

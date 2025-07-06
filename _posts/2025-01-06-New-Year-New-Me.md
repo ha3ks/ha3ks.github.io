@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "New Year. New Me."
-subtitle: "~ feels ~"
-date: 2025-01-06
 author: ha3ks
+date: 2025-01-06
 tags: blog updates
 category: Blog
 ---

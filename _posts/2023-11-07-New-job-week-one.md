@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "New Job - Week One"
-subtitle: "~ Busy ~"
-date: 2023-11-07
 author: ha3ks
+date: 2023-11-07
 tags: blog updates
 category: Blog
 ---

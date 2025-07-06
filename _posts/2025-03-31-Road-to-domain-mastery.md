@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "The road to domain mastery"
-subtitle: "~ Gah! ~"
-date: 2025-03-31
 author: ha3ks
+date: 2025-03-31
 tags: blog javascript ai toolin
 category: Blog
 ---

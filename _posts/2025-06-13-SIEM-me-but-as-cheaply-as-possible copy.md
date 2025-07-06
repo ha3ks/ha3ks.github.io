@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "SIEM me, but as cheaply as possible"
-subtitle: "~ Exposition ~"
-date: 2025-06-13
 author: ha3ks
+date: 2025-06-13
 tags: blog SIEM opensource
 category: Blog
 ---

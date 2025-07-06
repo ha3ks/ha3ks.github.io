@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Disproving DNS Snake Oil"
-subtitle: "~ Trying something new ~"
-date: 2023-08-22
 author: ha3ks
+date: 2023-08-22
 tags: blog writing linkedin FUD
 category: FUD
 ---

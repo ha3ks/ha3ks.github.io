@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "PowerBoarding"
-subtitle: "~ Windows Stuff ~"
-date: 2023-08-28
 author: ha3ks
+date: 2023-08-28
 tags: development Powershell
 category: Portfolio
 ---

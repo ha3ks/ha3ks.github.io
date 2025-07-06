@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Technical writing, am I good at it?"
-subtitle: "~ Technical writing ~"
-date: 2023-08-03
 author: ha3ks
+date: 2023-08-03
 tags: blog writing linkedin
 category: Research
 ---

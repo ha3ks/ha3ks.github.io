@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "ToolTime - HackerPro"
-subtitle: "~ Tools ~"
-date: 2025-03-01
 author: ha3ks
+date: 2025-03-01
 tags: blog pentesting HackerPro
 category: Tooling
 ---

@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "FUD FIVE : Misinformation and Disinformation Warfare"
-subtitle: "~ Put the kettle on ~"
-date: 2023-10-17
 author: ha3ks
+date: 2023-10-17
 tags: blog writing linkedin FUD
 category: FUD
 ---

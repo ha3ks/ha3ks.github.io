@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Quick Update"
-subtitle: "~ Busy ~"
-date: 2023-09-18
 author: ha3ks
+date: 2023-09-18
 tags: blog updates
 category: Blog
 ---

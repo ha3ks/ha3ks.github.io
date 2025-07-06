@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Portfolio Works"
-subtitle: "~ Showing Off ~"
-date: 2024-10-25
 author: ha3ks
+date: 2024-10-25
 tags: development improvement 
 category: Portfolio
 ---

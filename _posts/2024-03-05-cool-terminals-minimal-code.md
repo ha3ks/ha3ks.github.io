@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Cool Looking Terminals with Minimal Code"
-subtitle: "~ Busy ~"
-date: 2024-03-05
 author: ha3ks
+date: 2024-03-05
 tags: blog updates
 category: Tooling
 ---

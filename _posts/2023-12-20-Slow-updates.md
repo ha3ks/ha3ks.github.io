@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Slow updates"
-subtitle: "~ Busy ~"
-date: 2023-12-20
 author: ha3ks
+date: 2023-12-20
 tags: blog updates
 category: Blog
 ---

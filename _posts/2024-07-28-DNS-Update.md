@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "DNS Update"
-subtitle: "~ Weeklies anyone? ~"
-date: 2024-07-28
 author: ha3ks
+date: 2024-07-28
 tags: blog updates oscp DNS
 category: Blog
 ---
