@@ -53,7 +53,7 @@ And then run your configuration (you can edit this beforehand however I went com
 ./configure
 ```
 
-Now if that finger corssing worked you will have successfully installed Asterisk if you see something similar to this screen:
+Now if that finger crossing worked you will have successfully installed Asterisk if you see something similar to this screen:
 
 [![config](/assets/blog/PBX/config.png)](/assets/blog/PBX/config.png)
 
@@ -62,7 +62,7 @@ Now if that finger corssing worked you will have successfully installed Asterisk
 The next thing you will want to install is a firewall, beleive me they are important and for the purposes of my testing we are using IPTables which is a simple Linux Firewall and again guide parts borrowed from [dev.to](https://dev.to/ekim34351855/asterisk-basic-set-up-4ple) and [voip-info](https://www.voip-info.org/asterisk-firewall-rules/)
 
 ```
-apt instal iptables
+apt install iptables
 ```
 
 You will want to also make sure that you add these specific entries into it to allow asterisk to 'work' properly (and yes you can really knuckle down this firewalla and allow or disallow exactly what you want).
@@ -179,11 +179,13 @@ So run that Start Asterisk and now with things up and running let's log into Mic
 
 The following details were used:
 
+``` 
 192.168.84.136 - Server IP
 username: 1108 - Caller ID
 domain: 192.168.84.136 - Server IP (again)
 login: DB589C0875AB - User Login for 1100 
 Password: KAthufrudE6uyAs - Password for 1100
+```
 
 Entering these into MicroSIP under 'add user'
 
