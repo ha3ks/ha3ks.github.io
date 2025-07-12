@@ -13,7 +13,7 @@ As such today I'm looking at the open source SIEM (which stands for Security Inf
 
 Since Wazuh is free and it's open source it does make things a little bit easier for me because I don't have hundreds upon thousands of pounds to be spending on things, Accordingly the entire environment that I'm building for this little project is going to be made from virtual machines in this case I'm using VMware
 
-## Prerequisites:
+## Prerequisites
 
 * Installation media(s) - Windows and Ubuntu for me
 * Hardware - To run it, laptop will do!
