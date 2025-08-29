@@ -7,7 +7,7 @@ tags: blog VMWare Fortigate
 category: Blog
 ---
 
-It has been some considerable time since I last put up a blog post, this is through no fault of my own I just wanted to go in a different direction for a while.
+It has been some considerable time since I last put up a blog post, I just wanted to go in a different direction for a while, it happens.
 
 The direction has been confusing and has me wondering what my next steps will be...
 
