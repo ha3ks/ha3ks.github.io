@@ -27,7 +27,7 @@ From the latter I wanted to share setting up a Fortigate locally on your machine
 
 ## Prerequisites
 
-To install a Fortigate Firewall on VMware Workstation you will first need to register for an Fortinet Support Account so you access the downloads section.
+To install a Fortigate Firewall on VMware Workstation you will first need to register for an Fortinet Support Account so you access the downloads section - [https://support.fortinet.com/Download/VMImages.aspx](https://support.fortinet.com/Download/VMImages.aspx).
 
 Once logged in click on Download > VM Images, Select Product: FortiGate and Select Platform: VMware ESXi and download the Latest Version (7.6.4). 
 
@@ -38,6 +38,8 @@ Be sure to click Download under the 'New deployment of FortiFirewall for VMware 
 Once downloaded you can extract out the files by right clicking and 'Extract All' and let it dump out to your download folder:
 
 [![3](/assets/blog/FortiVM/3.png)](/assets/blog/FortiVM/3.png)
+
+## Installation
 
 Now you have done that open VMWare Workstation and select 'Open a Virtual Machine':
 
@@ -68,6 +70,8 @@ It will run its initial auto config, repartition the disk drive etc etc and even
 The username is admin, the password is blank... super secure... though when you do log in it asks you to set up a new admin password ;)
 
 [![8](/assets/blog/FortiVM/8.png)](/assets/blog/FortiVM/8.png)
+
+## Configuration
 
 Once logged in you can start to do some initial setup, to get this working the following is what I entered:
 
@@ -136,6 +140,8 @@ Now when you log in you are presented with a setup screen which may also warn th
 [![13](/assets/blog/FortiVM/13.png)](/assets/blog/FortiVM/13.png)
 
 Once 'activated' you should be brought to the 'main menu', the Dashboard of the Fortigate, if not it may take you through a quick little setup side mission but you can skip that part for now.
+
+## Success
 
 Behold! Your Dashboard:
 
