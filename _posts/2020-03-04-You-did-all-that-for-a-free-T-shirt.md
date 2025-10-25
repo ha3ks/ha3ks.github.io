@@ -153,6 +153,6 @@ Yes, for the sake of a little of my bandwidth which I ‘donated’ to a good ca
 
 Also a sweet ass free Tor shirt <b>#represent</b>
 
-[![6](/assets/blog/content/oots_black_metallic.jpeg)](/assets/blog/content/oots_black_metallic.jpeg)
+[![6](/assets/blog/content/roots_black_metallic.jpeg)](/assets/blog/content/roots_black_metallic.jpeg)
 
 (also the torrenting thing was a joke, sort of, I do torrent stuff but not stuff that can lead to my ISP giving me a warning email and then not doing anything about it ((which they are not legally obliged to do they just send you the warning then sinkhole the warnings from the copyright holder)). this was an internal joke from a former role I worked at where we would always see people grabbing the same episodes and swearing blind it wasn’t them – <b>SPOILER</b> – it always was).

@@ -42,8 +42,9 @@ Maltego is an open-source intelligence and forensics application developed by Pa
 
 Maltego permits creating custom entities, allowing it to represent any type of information in addition to the basic entity types which are part of the software. The basic focus of the application is analyzing real-world relationships between people, groups, websites, domains, networks, internet infrastructure, and affiliations with online services such as Twitter and Facebook. Maltego is a java-based program that runs on Windows, Mac, and Linux.
 
-[![OpenReach Network]({{ site.contenturl }}maltego.jpg)]({{ site.contenturl }}maltego.jpg)
+[![2](/assets/blog/content/maltego.jpg)](/assets/blog/content/maltego.jpg)
 
+.
 
 CREEPY
 
@@ -51,7 +52,7 @@ The app, actually a software package for Windows and Linux, hooks into social ne
 
 Creepy is currently available to download for Windows and Linux operating systems and a version for Mac OS X is in the works.
 
-[![OpenReach Network]({{ site.contenturl }}creepy.jpg)]({{ site.contenturl }}creepy.jpg)
+[![3](/assets/blog/content/creepy.jpg)](/assets/blog/content/creepy.jpg)
 
 .
 
@@ -61,7 +62,7 @@ Spokeo is a social network aggregator website that aggregates data from many onl
 
 All data collected by Spokeo is publicly accessible from its original sources. According to the site, Spokeo does not originate data and information available is only as good as its source. The information available originates from information people provide that becomes public information “even if a person isn’t on Facebook or Twitter.”
 
-[![OpenReach Network]({{ site.contenturl }}spokeo.jpg)]({{ site.contenturl }}spokeo.jpg)
+[![4](/assets/blog/content/spokeo.jpg)](/assets/blog/content/spokeo.jpg)
 
 .
 
@@ -71,7 +72,7 @@ CaseFile is the little brother to Maltego. It targets a unique market of ‘offl
 
 CaseFile gives you the ability to quickly add, link and analyze data having the same graphing flexibility and performance as Maltego without the use of transforms. CaseFile is roughly a third of the price of Maltego.
 
-[![OpenReach Network]({{ site.contenturl }}casefile.jpg)]({{ site.contenturl }}casefile.jpg)
+[![5](/assets/blog/content/casefile.jpg)](/assets/blog/content/casefile.jpg)
 
 .
 
@@ -81,7 +82,7 @@ Intelligence analysts are under increasing pressure to forecast what the future 
 
 Using what they call a “temporal analytics engine”, Recorded Future provides forecasting and analysis tools to help analysts predict future events by scanning sources on the Internet, and extracting, measuring, and visualizing the information to show networks and patterns in the past, present, and future. The software analyzes sources and forms “invisible links” between documents to find links that tie them together and may possibly indicate the entities and events involved.
 
-[![OpenReach Network]({{ site.contenturl }}recordedfuture.jpg)]({{ site.contenturl }}recordedfuture.jpg)
+[![6](/assets/blog/content/recordedfuture.jpg)](/assets/blog/content/recordedfuture.jpg)
 
 .
 

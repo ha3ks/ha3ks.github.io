@@ -45,11 +45,11 @@ Now again this isn’t the speeds per say but it is showing you what is availabl
 
 [![1](/assets/blog/content/2020-07-28-09_22_29-https___availability.samknows.com_broadband_broadband_checker.png)](/assets/blog/content/2020-07-28-09_22_29-https___availability.samknows.com_broadband_broadband_checker.png)
 
-So this is showing you the local area and what services are available, notice I could have ADSL broadband (which by now is ‘up to’ 21Mb across the UK), FTTC and FTTP (that’s fibre to the local cabinet near your home (usually) and also if you can afford it you could have it to your property if your ISP offers this (expensive and rare AF).
+So this is showing you the local area and what services are available, notice I could have ADSL broadband (which by now is ‘up to’ 21Mb across the UK), FTTC and FTTP (that’s fibre to the local cabinet near your home (usually)) and also if you can afford it you could have it to your property if your ISP offers this (expensive and rare AF).
 
 [![2](/assets/blog/content/2020-07-28-09_23_33-https___availability.samknows.com_broadband_broadband_checker.png)](/assets/blog/content/2020-07-28-09_23_33-https___availability.samknows.com_broadband_broadband_checker.png)
 
-Drilling down a little further on the ADSL side of things notice it shows you how far away from the local exchange you are, 895 meters but TAKE NOTE!! This figure is as the crow flies, a line, it does not represent how far the cabling has to loop around to get to you (could be 4.5km of cable and you’re at the end of it (doomed to a 1Mb connection if that).
+Drilling down a little further on the ADSL side of things notice it shows you how far away from the local exchange you are, 895 meters but TAKE NOTE!! This figure is as the crow flies, a line, it does not represent how far the cabling has to loop around to get to you (could be 4.5km of cable and you’re at the end of it (doomed to a 1Mb connection if that)).
 
 [![3](/assets/blog/content/2020-07-28-09_24_24-https___availability.samknows.com_broadband_broadband_checker.png)](/assets/blog/content/2020-07-28-09_24_24-https___availability.samknows.com_broadband_broadband_checker.png)
 
@@ -118,7 +118,7 @@ So Interference is a real thing and it will cut into your WiFi just like thick w
 
 You can eventually settle on something that works and gets good speeds and good coverage and that’s all there is to it, we don’t all have cash to burn on top of the line kit…
 
-[![6](/assets/blog/content/http://img.youtube.com/vi/5aJ2QAO9PZo/0.jpg)](/assets/blog/content/http://img.youtube.com/vi/5aJ2QAO9PZo/0.jpg  "I REPLACED my $1000 Wifi....")
+[![6](https://th.bing.com/th/id/OVP.OobhgnjR3bsEk0qcpxTGUAHgFo?w=356&h=200&c=7&rs=1&qlt=90&o=6&pid=1.7)](https://th.bing.com/th/id/OVP.OobhgnjR3bsEk0qcpxTGUAHgFo?w=356&h=200&c=7&rs=1&qlt=90&o=6&pid=1.7  "I REPLACED my $1000 Wifi....")
 
 dat UniFi kit doe *drools in connectivity*.
 

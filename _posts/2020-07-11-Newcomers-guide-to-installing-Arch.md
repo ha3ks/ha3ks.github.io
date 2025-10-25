@@ -31,8 +31,7 @@ Place your CD-ROM into the optical disk drive or insert your USB device into a U
 
 Once you have selected the media you wish to boot you should be greeted with an Arch Linux boot prompt asking you to select an option. Your screen should look something like this:
 
-[![4](/assets/blog/content/0days.gif)](/assets/blog/content/0days.gif)
-[![arch4]({{ site.contenturl }}arch4.png)]({{ site.contenturl }}arch4.png)
+[![4](/assets/blog/content/arch4.png)](/assets/blog/content/arch4.png)
 
 Using the Up, Down and Enter keys on your Keyboard, highlight and select the option that reads:
 
