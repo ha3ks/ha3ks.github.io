@@ -82,7 +82,7 @@ Intelligence analysts are under increasing pressure to forecast what the future 
 
 Using what they call a “temporal analytics engine”, Recorded Future provides forecasting and analysis tools to help analysts predict future events by scanning sources on the Internet, and extracting, measuring, and visualizing the information to show networks and patterns in the past, present, and future. The software analyzes sources and forms “invisible links” between documents to find links that tie them together and may possibly indicate the entities and events involved.
 
-[![6](/assets/blog/content/recordedfuture.jpg)](/assets/blog/content/recordedfuture.jpg)
+[![6](/assets/blog/content/recordedfuture.png)](/assets/blog/content/recordedfuture.png)
 
 .
 
