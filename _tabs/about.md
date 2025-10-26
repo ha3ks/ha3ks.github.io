@@ -4,7 +4,8 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-<img style="float: right;" src="/assets/profile.jpg">
+<img alt="Portrait of Dan" style="float: right;" src="https://www.ha3ks.com/assets/profile.jpg">
+
 
 Dan "ha3ks" Murray is a seasoned Cybersecurity and Systems Engineer with extensive expertise in Open Source Intelligence (OSINT), Threat Analysis, and Digital Forensics. 
 
