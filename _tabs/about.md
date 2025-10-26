@@ -4,8 +4,16 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Dan "ha3ks" Murray is a seasoned Cybersecurity and Systems Engineer with extensive expertise in Open Source Intelligence (OSINT), threat analysis, and digital forensics. With decades of experience, he specialises in penetration testing, incident response, and security operations, utilising tools such as Splunk, Wireshark, Kali Linux, and various SIEM platforms to identify and mitigate threats.
+<img style="float: right;" src="https://www.ha3ks.com/assets/profile.jpg">
 
-Dan holds multiple cybersecurity certifications and training, including the Cisco Certidied Ethical Hacker, eLearnSecurity Junior Penetration Tester, CompTIA Security+, Certified Ethical Hacker (CEH), and GIAC training, demonstrating his proficiency in ethical hacking, network defence, and risk assessment. He is also expanding his expertise into cloud security, particularly focusing on AWS and Azure security frameworks and cloud-native technologies like Docker and Kubernetes for secure and scalable virtualised environments.
+Dan "ha3ks" Murray is a seasoned Cybersecurity and Systems Engineer with extensive expertise in Open Source Intelligence (OSINT), Threat Analysis, and Digital Forensics. 
+
+With decades of experience, he specialises in Penetration Testing, Incident Response, and Security Operations.
+
+His day job has him building secure and encyypted infrastructure for communications and safe web browsing but at night Dan likes to play games and debunk misinformation on the internet.
+
+Dan holds multiple cybersecurity certifications and experienes in training, demonstrating his proficiency in Ethical Hacking, Network Defence, and Risk Assessment. 
+
+In addition to this He is also expanding his expertise into Cloud Security, particularly focusing on AWS and Azure security frameworks and cloud-native technologies like Docker and Kubernetes for secure and scalable virtualised environments.
 
 Passionate about cybersecurity awareness and digital defence, Dan actively debunks misinformation, exposes fraud, and shares valuable insights to help organisations and individuals navigate the evolving security landscape.
