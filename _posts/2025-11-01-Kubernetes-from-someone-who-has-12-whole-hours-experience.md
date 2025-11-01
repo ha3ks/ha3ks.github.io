@@ -284,7 +284,7 @@ I can't wait for future me to have money so that I can invest in some Self Host 
 
 Honestly I would be happy with 3 Raspberry Pis and a simple NAS, I can assure you I would have headroom have network wide Ad Blocking and be able to entertain my family.
 
-[![6](/assets/blog/Kubernetes-12-hours/6.gif)](/assets/blog/Kubernetes-12-hours/6.gif)
+[![6](/assets/blog/Kubernetes-12-hours/6.GIF)](/assets/blog/Kubernetes-12-hours/6.GIF)
 
 If you haven't considered it before.. look into it. If my haggared laptop can survive long enough to not only do this lab but also survive the write up, you can do it too and learn something.
 
