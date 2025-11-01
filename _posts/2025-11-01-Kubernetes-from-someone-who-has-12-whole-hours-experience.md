@@ -161,7 +161,7 @@ Yeh, you can see it can't you, damn experts...
 
 When runing the code initially I was met with a confusing amount of various errors:
 
-- “Unknown field in spec.template.spec.containtrs”
+- “Unknown field in spec.template.spec.contaiters"
 - “error converting YAML to JSON: YAML: line blah blah blah”
 - “Mapping values not allowed in this context”
 
