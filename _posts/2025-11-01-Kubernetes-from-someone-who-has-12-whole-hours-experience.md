@@ -55,7 +55,7 @@ Once one machine was up and running and aptly named 'kb1' I set up 'kb2' and 'kb
 
 ## Configuration of VMs 
 
-Now using my big wringkly brain and the Youtube video above I was able to configure 'kb1' as the controller and then 'kb2' and 'kb3' would be nodes that connect to 'kb1'.
+Now using my big wrinkly brain and the Youtube video above I was able to configure 'kb1' as the controller and then 'kb2' and 'kb3' would be nodes that connect to 'kb1'.
 
 The setup process was suprisingly easy, as per the video (and in this case I am using K3s) go to [k3s.io/](https://k3s.io/) and you can run the quickstart that is literally in the banner up top:
 
@@ -65,7 +65,7 @@ The setup process was suprisingly easy, as per the video (and in this case I am 
 curl -sfL https://get.k3s.io | sh - 
 ```
 
-This will get your initial controller up and going, if you are a nerd like me and during the setup of Ubuntu server you enabled SSL (but didnt add a key because YOLO) you can SSH into your 'kb1' and run the command which will install everything. Make sure your hostname on your main controller matches:
+This will get your initial controller up and going, if you are a nerd like me and during the setup of Ubuntu server you enabled SSH (but didn't add a key because YOLO) you can SSH into your 'kb1' and run the command which will install everything. Make sure your hostname on your main controller matches:
 
 ```
 dm@kb-01:~$ hostname
@@ -105,7 +105,7 @@ curl -sfL https://get.k3s.io | K3S_URL=https://192.168.4.131:6443 K3S_TOKEN=K104
 
 Which downloads the files from the web, gets the configuration from your local control-pane or master 'kb1' and bippity boppity you have 2 nodes connecting to your master.
 
-Now you can ssh into 'kb1' again and see them running with the ```get notes``` command as per below:
+Now you can ssh into 'kb1' again and see them running with the ```get nodes``` command as per below:
 
 ```
 dm@kb-01:~$ kubectl get nodes
@@ -123,7 +123,7 @@ For those who don’t know Kubernetes uses YAML files for its sets of instructio
 
 I would be following the video to the letter to get a nice little web app up and running so I was going to be installing [LinkDing](https://linkding.link/)
 
-LinkDing is a bookmark manager that you can run on your Self Host and syncronyse bookmarks between browsers and devices... pretty neat.
+LinkDing is a bookmark manager that you can run on your Self Host and synchronise bookmarks between browsers and devices... pretty neat.
 
 Accordingly I paused the video and copied the code, word for word... or so I thought.
 
@@ -157,11 +157,11 @@ spec:
      - containerPort: 9090
 ```
 
-Yeh, you can see it can't you.
+Yeh, you can see it can't you, damn experts...
 
 When runing the code initially I was met with a confusing amount of various errors:
 
-- “Unknown field in spec.template.spec.containers”
+- “Unknown field in spec.template.spec.containtrs”
 - “error converting YAML to JSON: YAML: line blah blah blah”
 - “Mapping values not allowed in this context”
 
@@ -229,9 +229,13 @@ spec:
 
 Then I ran ```sudo kubectl apply -f dep.yaml``` which would install and configure the app based on the yaml input..
 
-Build complete
+Build complete..
 
-It actaully did it, you can check and make sure it is running by entering:
+It actaully did it! 
+
+Happy Dance moment if you please!
+
+Now not to get too carried away you can check and make sure it is running by entering:
 
 ```
 dm@kb-01:~$ kubectl get pods
@@ -265,14 +269,14 @@ Now remember that name ```linkding-7d4c6f6dbb-nrk9c``` because we are going to n
 
 Now we have a working and live webapp running, we need to be able to access it, turns out you can't just type in the IP address to your browser and it will suddenly take you there, you need to set up a portforward so you can log into it and access it.
 
-This process is relatively straightforward if you have a basic understanding of port forwarding so I will drop the commend I used:
+This process is relatively straight forward if you have a basic understanding of port forwarding so I will drop the commend I used:
 
 ```
 kubectl port-forward pod/linkding-7d4c6f6dbb-nrk9c 9090:9090
 ```
 So we are telling Kubectl (control) to set up a port forward of this particular app or pod and the name of it to a certain port we can access in this case 9090.
 
-Running it gives little in the way ourf output as it is in a 'running' state, but when you try browsing to it then it will start to fill with logging:
+Running it gives little in the way of output as it is in a 'running' state, but when you try browsing to it then it will start to fill with logging:
 
 [![5](/assets/blog/Kubernetes-12-hours/5.png)](/assets/blog/Kubernetes-12-hours/5.png)
 
