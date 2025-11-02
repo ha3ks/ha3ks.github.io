@@ -177,7 +177,7 @@ Lo, I am not rich and My laptop dies often as we all know so back to it
 
 ## Flipping the table
 
-After a few hours, like literally two hours, I decided to give up for now, I had done everything I can think of to get this thing up and running and it just was not budging, I had even used an online YAML checker as part of debigging which is why the error kept changing and that was coming back green saying 'yeh this is valid YAML my dude' so I decided to power off the cluster. Gather my thoughts on my notepad and take a break.
+After a few hours, like literally two hours, I decided to give up for now, I had done everything I can think of to get this thing up and running and it just was not budging, I had even used an online YAML checker as part of debugging which is why the error kept changing and that was coming back green saying 'yeh this is valid YAML my dude' so I decided to power off the cluster. Gather my thoughts on my notepad and take a break.
 
 I had planned to do something that day and ended up getting it hammered out, watched some TV and played some games as a distraction.
 
@@ -291,6 +291,8 @@ Honestly I would be happy with 3 Raspberry Pis and a simple NAS, I can assure yo
 [![6](/assets/blog/Kubernetes-12-hours/6.GIF)](/assets/blog/Kubernetes-12-hours/6.GIF)
 
 If you haven't considered it before.. look into it. If my haggared laptop can survive long enough to not only do this lab but also survive the write up, you can do it too and learn something.
+
+I didn't quite get to scratch that Ai 'extra mile' off the list, but it is on the cards. It's nice to have 'project work' in the background, I also have some certs to be studying for.. will see what happens with them.
 
 Be safe all and I'll see you in the next post.
 
