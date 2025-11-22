@@ -9,7 +9,7 @@ category: Blog
 
 The other day I while having one of my usual mid career crisis’ moments I recalled that I wanted to know more about Kubernetes.
 
-![1](/assets/blog/Kubernetes-12-hours/1.jpg){: .align-center }
+![1](/assets/blog/Kubernetes-12-hours/1.gif){: .align-center }
 
 It’s a niche topic, companies are paying top dollar for people who know how to use it so I figured I would invest an hour or two of my time nailing down some of the basics.
 
@@ -43,9 +43,9 @@ I settled on Ubuntu server as I can happily run it headless (so no GUI) and they
 
 One thing I did learn when provisioning machines is 'dont just set them to 1 CPU and 1GB RAM' right off the bat, otherwise you will run into errors like this:
 
-<img src="/assets/blog/Kubernetes-12-hours/2.png" class="align-left" />
-
 --- 
+
+<img src="/assets/blog/Kubernetes-12-hours/2.png" class="align-left" /> 
 
 Yeh, that was my fault. 
 
