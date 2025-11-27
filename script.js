@@ -98,10 +98,10 @@ posts.slice(0,5).forEach(post=>{
 }
 
 // Initial load
-updateDashboard();
+(async () => { await updateDashboard(); })();
 
 // Auto-refresh
-setInterval(updateDashboard, REFRESH_INTERVAL);
+setInterval(() => { updateDashboard(); }, REFRESH_INTERVAL);
 
   // DONUT CHART (based on tags.json) — only update on dashboard refresh
   async function updateDonutChart() {
