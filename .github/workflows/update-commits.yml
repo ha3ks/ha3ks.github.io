@@ -1,0 +1,83 @@
+name: Build and deploy site (with commits data)
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * *' # daily at 06:00 UTC
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch commit data (last 7 days)
+        env:
+          REPO: ${{ github.repository }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Querying GitHub API for commits..."
+          DATA=$(curl -s -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $GITHUB_TOKEN" "https://api.github.com/repos/${REPO}/commits?per_page=100")
+          # Get last commit date (first item) and count commits from last 7 days
+          LAST=$(echo "$DATA" | python3 - <<'PY'
+import sys, json
+try:
+  d=json.load(sys.stdin)
+  print(d[0]['commit']['author']['date'] if d else "")
+except Exception:
+  print("")
+PY
+)
+          COUNT=$(echo "$DATA" | python3 - <<'PY'
+import sys, json, time, datetime
+now=time.time()
+try:
+  d=json.load(sys.stdin)
+except Exception:
+  d=[]
+cnt=0
+for item in d:
+  try:
+    dt=datetime.datetime.fromisoformat(item['commit']['author']['date'].replace('Z','+00:00'))
+    if now - dt.timestamp() < 7*24*60*60:
+      cnt += 1
+  except Exception:
+    pass
+print(cnt)
+PY
+)
+          echo "{\"commits_last_7_days\": $COUNT, \"last_commit_date\": \"$LAST\"}" > commits.json
+          echo "Wrote commits.json: $(cat commits.json)"
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install --jobs 4 --retry 3
+
+      - name: Build site with Jekyll
+        run: bundle exec jekyll build
+
+      - name: Upload artifact for GitHub Pages
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: ./_site
+
+  deploy:
+    needs: build-and-deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v1

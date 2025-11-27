@@ -79,6 +79,11 @@
   <!-- Calendar Panel -->
   <div class="panel" id="calendar-panel">
     <div class="panel-title">Calendar</div>
+    <div class="calendar-header">
+      <div id="calendarLabel" class="calendar-label">Loading...</div>
+      <button id="calPrev" class="calendar-nav left" aria-label="Previous month">◀</button>
+      <button id="calNext" class="calendar-nav right" aria-label="Next month">▶</button>
+    </div>
     <div class="calendar" id="calendar"></div>
   </div>
 
@@ -88,80 +93,3 @@
 </body>
 </html>
 
-<script>
-async function fetchLastCommitDate() {
-    const apiUrl = `https://api.github.com/repos/ha3ks/ha3ks.github.io/commits?per_page=1`; <!-- change this to your name and repo -->
-    const response = await fetch(apiUrl);
-    const data = await response.json();
-    if (data && data[0] && data[0].commit) {
-        return new Date(data[0].commit.author.date);
-    }
-    return new Date(); // fallback to now
-}
-
-function formatDuration(ms) {
-    const totalSeconds = Math.floor(ms / 1000);
-    const days = Math.floor(totalSeconds / 86400);
-    const hours = Math.floor((totalSeconds % 86400) / 3600);
-    const minutes = Math.floor((totalSeconds % 3600) / 60);
-    const seconds = totalSeconds % 60;
-    return `${days}d ${hours}h ${minutes}m ${seconds}s`;
-}
-
-async function startUptimeCounter() {
-    const lastCommitDate = await fetchLastCommitDate();
-    const uptimeEl = document.getElementById("uptime");
-
-    function update() {
-        const now = new Date();
-        const diff = now - lastCommitDate;
-        uptimeEl.textContent = formatDuration(diff);
-    }
-
-    update();
-    setInterval(update, 1000); // update every second
-}
-
-startUptimeCounter();
-</script>
-
-<script>
-const calendarEl = document.getElementById("calendar");
-if (calendarEl) {
-    const today = new Date();
-    const year = today.getFullYear();
-    const month = today.getMonth();
-
-    const firstDay = new Date(year, month, 1);
-    const lastDay = new Date(year, month + 1, 0);
-    const numDays = lastDay.getDate();
-
-    // Add blank days for weekday offset
-    const firstWeekday = firstDay.getDay(); // 0 = Sunday
-    for (let i = 0; i < firstWeekday; i++) {
-        const empty = document.createElement("div");
-        calendarEl.appendChild(empty);
-    }
-
-    // Add actual days
-    for (let day = 1; day <= numDays; day++) {
-        const dayEl = document.createElement("div");
-        dayEl.className = "calendar-day";
-
-        // Mark today
-        if (day === today.getDate()) dayEl.classList.add("today");
-
-        // Example: mark posts days
-        const postDates = [
-            "2025-11-01",
-            "2025-08-28",
-            "2025-07-12",
-        ]; // update with your blog post dates
-        const dayString = `${year}-${String(month + 1).padStart(2,'0')}-${String(day).padStart(2,'0')}`;
-        if (postDates.includes(dayString)) dayEl.classList.add("posted");
-
-        dayEl.textContent = day;
-        calendarEl.appendChild(dayEl);
-    }
-}
-</script>

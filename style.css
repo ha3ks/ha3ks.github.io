@@ -165,24 +165,77 @@ canvas {
   margin-top: 10px;
   font-size: 13px;
 }
+/* Calendar header (month label + nav) */
+.calendar-header {
+  /* 3-column grid: prev | label | next - forces single row */
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
 
-.calendar-day {
-  padding: 6px 4px;
+.calendar-header > * { display: block; }
+
+.calendar-header button {
+  background: transparent;
+  border: 1px solid #333;
+  color: #e0e0e0;
+  padding: 6px 8px;
   border-radius: 4px;
-  background: #2f2f2f;
-  border: 1px solid #3b3b3b;
+  cursor: pointer;
+  min-width: 36px;
+  width: 36px; /* force small fixed width to avoid stacking */
+  text-align: center;
+}
+.calendar-header button:hover { border-color: #555; }
+
+.calendar-label {
+  font-weight: 600;
+  color: #ccc;
+  text-align: center;
+  min-width: 0; /* allow the label to shrink inside grid */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.calendar-day.today {
-  background: #73d98c;
-  color: #000;
-  font-weight: bold;
+@media (max-width: 360px) {
+  .calendar-label { font-size: 13px; }
+  .calendar-header button { padding: 4px 6px; min-width: 30px; }
 }
 
-.calendar-day.posted {
-  background: #3399ff;
-  color: #fff;
+/* Strong override: absolute-button layout so header always stays on one line */
+.panel#calendar-panel .calendar-header {
+  position: relative !important;
+  display: block !important;
+  padding: 6px 8px !important;
+  box-sizing: border-box !important;
 }
+.panel#calendar-panel .calendar-label {
+  display: block !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  min-width: 0 !important;
+}
+.panel#calendar-panel .calendar-nav {
+  position: absolute !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  width: 36px !important;
+  height: auto !important;
+  padding: 4px 6px !important;
+  background: transparent !important;
+  border: 1px solid #333 !important;
+  color: #e0e0e0 !important;
+  border-radius: 4px !important;
+}
+.panel#calendar-panel .calendar-nav.left { left: 6px !important; }
+.panel#calendar-panel .calendar-nav.right { right: 6px !important; }
 
 
 /* ---------------------------------------------------------
@@ -190,7 +243,7 @@ canvas {
    (ensures content stays inside the panel)
 --------------------------------------------------------- */
 
-/* The main post-panel is defined inside post.html, but global rules help reinforce it */
+/* The main post-panel is defined inside post.html, but global rules help to reinforce it */
 
 .post-panel * {
   max-width: 100%;
