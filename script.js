@@ -44,48 +44,47 @@ async function loadCommitsData() {
   }
 }
 
-function updateDashboard() {
-
+async function updateDashboard() {
   // FETCH POSTS (use absolute paths to avoid relative-path issues on GitHub Pages)
-  fetch("/posts.json")
-    .then(r=>r.json())
-    .then(data=>{
-      const posts = data.posts;
+  try {
+    const postsRes = await fetch("/posts.json");
+    const data = await postsRes.json();
+    const posts = data.posts;
 
-      // Update stat panels
-      document.getElementById("totalPosts").textContent = posts.length;
-      const allTags = [...new Set(posts.flatMap(p=>p.tags))];
-      document.getElementById("categoryCount").textContent = allTags.length;
+    // Update stat panels
+    document.getElementById("totalPosts").textContent = posts.length;
+    const allTags = [...new Set(posts.flatMap(p=>p.tags))];
+    document.getElementById("categoryCount").textContent = allTags.length;
 
-      // Update posts list
-      const list = document.getElementById("postsList");
-      list.innerHTML = "";
-// Limit to 5 latest posts
-posts.slice(0,5).forEach(post=>{
-  const li = document.createElement("li");
-  li.innerHTML = `<a href="${post.url}" class="post-link">${post.title}</a>
-                  <span class="post-date">${post.date}</span>`;
-  list.appendChild(li);
-});
-
-      // ...existing code...
-
-      // Calendar: cache posts and render current calendar view
-      postsCache = posts;
-      // initialize calendar month/year on first load
-      if (calendarYear === null || calendarMonth === null) {
-        const t = new Date();
-        calendarYear = t.getFullYear();
-        calendarMonth = t.getMonth();
-      }
-      renderCalendar();
+    // Update posts list
+    const list = document.getElementById("postsList");
+    list.innerHTML = "";
+    // Limit to 5 latest posts
+    posts.slice(0,5).forEach(post=>{
+      const li = document.createElement("li");
+      li.innerHTML = `<a href="${post.url}" class="post-link">${post.title}</a>
+                      <span class="post-date">${post.date}</span>`;
+      list.appendChild(li);
     });
 
+    // Calendar: cache posts and render current calendar view
+    postsCache = posts;
+    // initialize calendar month/year on first load
+    if (calendarYear === null || calendarMonth === null) {
+      const t = new Date();
+      calendarYear = t.getFullYear();
+      calendarMonth = t.getMonth();
+    }
+    renderCalendar();
+  } catch (e) {
+    console.warn('posts.json fetch or dashboard update failed', e);
+  }
+
   // FETCH GITHUB ACTIVITY (commits in last 7 days)
-  // Load commits data and update UI
-    loadCommitsData().then(data => {
-      const el = document.getElementById('githubCommits');
-      if (!el) return;
+  try {
+    const data = await loadCommitsData();
+    const el = document.getElementById('githubCommits');
+    if (el) {
       if (data && typeof data.commits_last_7_days === 'number') {
         el.textContent = String(data.commits_last_7_days);
         if (data.last_commit_date) {
@@ -94,7 +93,13 @@ posts.slice(0,5).forEach(post=>{
       } else {
         el.textContent = 'N/A';
       }
-    });
+    }
+  } catch (e) {
+    console.warn('commits.json fetch or update failed', e);
+  }
+
+  // DONUT CHART (based on tags.json)
+  await updateDonutChart();
 }
 
 // Initial load
