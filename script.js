@@ -113,7 +113,10 @@ fetch("/tags.json")
       const counts = Object.values(tags);
       const donutEl = document.getElementById("donutChart");
       if (donutEl && donutEl.getContext) {
-        new Chart(donutEl.getContext("2d"), {
+        if (window.donutChart) {
+          try { window.donutChart.destroy(); } catch (e) { /* ignore */ }
+        }
+        window.donutChart = new Chart(donutEl.getContext("2d"), {
           type: 'doughnut',
           data: {
             labels: labels,
