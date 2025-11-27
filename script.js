@@ -44,61 +44,72 @@ async function loadCommitsData() {
   }
 }
 
-async function updateDashboard() {
+function updateDashboard() {
+
   // FETCH POSTS (use absolute paths to avoid relative-path issues on GitHub Pages)
-  try {
-    const postsRes = await fetch("/posts.json");
-    if (!postsRes.ok) throw new Error('Failed to fetch /posts.json: ' + postsRes.status);
-    const data = await postsRes.json();
-    if (!data || !Array.isArray(data.posts)) throw new Error('posts.json missing or malformed');
-    const posts = data.posts;
+  fetch("/posts.json")
+    .then(r=>r.json())
+    .then(data=>{
+      const posts = data.posts;
 
-    // Update stat panels
-    const totalPostsEl = document.getElementById("totalPosts");
-    if (totalPostsEl) totalPostsEl.textContent = posts.length;
-    else console.error('Missing #totalPosts element');
-
-    const categoryCountEl = document.getElementById("categoryCount");
-    if (categoryCountEl) {
+      // Update stat panels
+      document.getElementById("totalPosts").textContent = posts.length;
       const allTags = [...new Set(posts.flatMap(p=>p.tags))];
-      categoryCountEl.textContent = allTags.length;
-    } else {
-      console.error('Missing #categoryCount element');
-    }
+      document.getElementById("categoryCount").textContent = allTags.length;
 
-    // Update posts list
-    const list = document.getElementById("postsList");
-    if (list) {
+      // Update posts list
+      const list = document.getElementById("postsList");
       list.innerHTML = "";
-      // Limit to 5 latest posts
-      posts.slice(0,5).forEach(post=>{
-        const li = document.createElement("li");
-        li.innerHTML = `<a href="${post.url}" class="post-link">${post.title}</a>
-                        <span class="post-date">${post.date}</span>`;
-        list.appendChild(li);
-      });
-    } else {
-      console.error('Missing #postsList element');
-    }
+// Limit to 5 latest posts
+posts.slice(0,5).forEach(post=>{
+  const li = document.createElement("li");
+  li.innerHTML = `<a href="${post.url}" class="post-link">${post.title}</a>
+                  <span class="post-date">${post.date}</span>`;
+  list.appendChild(li);
+});
 
-    // Calendar: cache posts and render current calendar view
-    postsCache = posts;
-    // initialize calendar month/year on first load
-    if (calendarYear === null || calendarMonth === null) {
-      const t = new Date();
-      calendarYear = t.getFullYear();
-      calendarMonth = t.getMonth();
-    }
-    renderCalendar();
-  } catch (e) {
-    console.error('posts.json fetch or dashboard update failed', e);
-  }
+      // Donut chart by tag (guarded)
+      try {
+        const tagCounts = {};
+        posts.forEach(p => p.tags.forEach(t => tagCounts[t] = (tagCounts[t] || 0) + 1));
+        const donutEl = document.getElementById("donutChart");
+        if (donutEl && donutEl.getContext) {
+          const ctx = donutEl.getContext("2d");
+          if (window.donutChart) {
+            try { window.donutChart.destroy(); } catch (e) { /* ignore */ }
+          }
+          window.donutChart = new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+              labels: Object.keys(tagCounts),
+              datasets: [{
+                data: Object.values(tagCounts),
+                backgroundColor: ["#73d98c", "#3399ff", "#f2cc0c", "#eb4d5c", "#9b59b6", "#e67e22"]
+              }]
+            },
+            options: { plugins: { legend: { labels: { color: "#ccc" } } } }
+          });
+        }
+      } catch (e) {
+        console.warn('Donut chart render failed', e);
+      }
+
+      // Calendar: cache posts and render current calendar view
+      postsCache = posts;
+      // initialize calendar month/year on first load
+      if (calendarYear === null || calendarMonth === null) {
+        const t = new Date();
+        calendarYear = t.getFullYear();
+        calendarMonth = t.getMonth();
+      }
+      renderCalendar();
+    });
 
   // FETCH GITHUB ACTIVITY (commits in last 7 days)
-  try {
-    const data = await loadCommitsData();
-    const el = document.getElementById('githubCommits');
-    if (el) {
+  // Load commits data and update UI
+    loadCommitsData().then(data => {
+      const el = document.getElementById('githubCommits');
+      if (!el) return;
       if (data && typeof data.commits_last_7_days === 'number') {
         el.textContent = String(data.commits_last_7_days);
         if (data.last_commit_date) {
@@ -107,45 +118,26 @@ async function updateDashboard() {
       } else {
         el.textContent = 'N/A';
       }
-    } else {
-      console.error('Missing #githubCommits element');
-    }
-  } catch (e) {
-    console.error('commits.json fetch or update failed', e);
-  }
-
-  // DONUT CHART (based on tags.json)
-  try {
-    await updateDonutChart();
-  } catch (e) {
-    console.error('updateDonutChart failed', e);
-  }
+    });
 }
 
 // Initial load
-document.addEventListener('DOMContentLoaded', () => {
-  updateDashboard();
-});
+updateDashboard();
 
 // Auto-refresh
-setInterval(() => {
-  updateDashboard();
-}, REFRESH_INTERVAL);
+setInterval(updateDashboard, REFRESH_INTERVAL);
 
-  // DONUT CHART (based on tags.json) — only update on dashboard refresh
-  async function updateDonutChart() {
+  // DONUT CHART (based on tags.json) — use absolute path
+fetch("/tags.json")
+  .then(r => r.json())
+  .then(data => {
     try {
-      const res = await fetch("/tags.json");
-      const data = await res.json();
       const tags = data.tags;
       const labels = Object.keys(tags);
       const counts = Object.values(tags);
       const donutEl = document.getElementById("donutChart");
       if (donutEl && donutEl.getContext) {
-        if (window.donutChart) {
-          try { window.donutChart.destroy(); } catch (e) { /* ignore */ }
-        }
-        window.donutChart = new Chart(donutEl.getContext("2d"), {
+        new Chart(donutEl.getContext("2d"), {
           type: 'doughnut',
           data: {
             labels: labels,
@@ -167,14 +159,7 @@ setInterval(() => {
     } catch (e) {
       console.warn('tags.json donut render failed', e);
     }
-  }
-
-  // Call donut chart update on dashboard refresh
-  async function updateDashboard() {
-    // ...existing code...
-    // At the end of updateDashboard, update donut chart
-    await updateDonutChart();
-  }
+  }).catch(e => console.warn('tags.json fetch failed', e));
 
 // LINE CHART (example only)
 const lineChartEl = document.getElementById("lineChart");
