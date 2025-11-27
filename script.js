@@ -103,11 +103,11 @@ updateDashboard();
 // Auto-refresh
 setInterval(updateDashboard, REFRESH_INTERVAL);
 
-  // DONUT CHART (based on tags.json) — use absolute path
-fetch("/tags.json")
-  .then(r => r.json())
-  .then(data => {
+  // DONUT CHART (based on tags.json) — only update on dashboard refresh
+  async function updateDonutChart() {
     try {
+      const res = await fetch("/tags.json");
+      const data = await res.json();
       const tags = data.tags;
       const labels = Object.keys(tags);
       const counts = Object.values(tags);
@@ -138,7 +138,14 @@ fetch("/tags.json")
     } catch (e) {
       console.warn('tags.json donut render failed', e);
     }
-  }).catch(e => console.warn('tags.json fetch failed', e));
+  }
+
+  // Call donut chart update on dashboard refresh
+  async function updateDashboard() {
+    // ...existing code...
+    // At the end of updateDashboard, update donut chart
+    await updateDonutChart();
+  }
 
 // LINE CHART (example only)
 const lineChartEl = document.getElementById("lineChart");
