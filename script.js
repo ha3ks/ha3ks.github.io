@@ -68,31 +68,7 @@ posts.slice(0,5).forEach(post=>{
   list.appendChild(li);
 });
 
-      // Donut chart by tag (guarded)
-      try {
-        const tagCounts = {};
-        posts.forEach(p => p.tags.forEach(t => tagCounts[t] = (tagCounts[t] || 0) + 1));
-        const donutEl = document.getElementById("donutChart");
-        if (donutEl && donutEl.getContext) {
-          const ctx = donutEl.getContext("2d");
-          if (window.donutChart) {
-            try { window.donutChart.destroy(); } catch (e) { /* ignore */ }
-          }
-          window.donutChart = new Chart(ctx, {
-            type: 'doughnut',
-            data: {
-              labels: Object.keys(tagCounts),
-              datasets: [{
-                data: Object.values(tagCounts),
-                backgroundColor: ["#73d98c", "#3399ff", "#f2cc0c", "#eb4d5c", "#9b59b6", "#e67e22"]
-              }]
-            },
-            options: { plugins: { legend: { labels: { color: "#ccc" } } } }
-          });
-        }
-      } catch (e) {
-        console.warn('Donut chart render failed', e);
-      }
+      // ...existing code...
 
       // Calendar: cache posts and render current calendar view
       postsCache = posts;
