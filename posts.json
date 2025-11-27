@@ -1,0 +1,29 @@
+{
+  "posts": [
+    
+    {
+      "title": "Kubernetes - from someone who has 12 whole hours experience",
+      "url": "/blog/2025/11/01/Kubernetes-from-someone-who-has-12-whole-hours-experience.html",
+      "date": "2025-11-01",
+      "tags": ["blog","Kubernetes","DevOps"]
+    }
+    ,
+    
+    {
+      "title": "Running a FortiGate in VMWare",
+      "url": "/blog/2025/08/29/Running-a-FortiGate-In-VMWare.html",
+      "date": "2025-08-29",
+      "tags": ["blog","VMWare","Fortigate"]
+    }
+    ,
+    
+    {
+      "title": "Building a PBX system",
+      "url": "/blog/2025/07/12/Building-an-PBX-system.html",
+      "date": "2025-07-12",
+      "tags": ["blog","pbx","telecommunications"]
+    }
+    
+    
+  ]
+}

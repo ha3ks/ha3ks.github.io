@@ -1,0 +1,323 @@
+/* ---------------------------------------------------------
+   GLOBAL LAYOUT + THEME
+--------------------------------------------------------- */
+
+body {
+  margin: 0;
+  background: #1f1f1f;
+  font-family: "Inter", sans-serif;
+  color: #e0e0e0;
+}
+
+/* Top navigation bar */
+.top-nav {
+  background: #111;
+  padding: 12px 20px;
+  border-bottom: 1px solid #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-title {
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+
+/* ---------------------------------------------------------
+   DASHBOARD GRID
+--------------------------------------------------------- */
+
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+
+/* ---------------------------------------------------------
+   PANEL BASE
+--------------------------------------------------------- */
+
+.panel {
+  background: #242424;
+  border: 1px solid #333;
+  padding: 20px;
+  border-radius: 6px;
+  transition: 0.2s ease-in-out;
+}
+
+.panel:hover {
+  border-color: #555;
+}
+
+.panel-title {
+  color: #9aa0a6;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.stat-value {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.stat-footer {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #777;
+}
+
+#uptime-panel #uptime,
+#uptime-bar-panel #uptime-percent {
+  font-size: 40;     /* Grafana-style stat */
+  font-weight: 600;
+}
+
+/* COLORS */
+.green .stat-value { color: #73d98c; }
+.yellow .stat-value { color: #f2cc0c; }
+.red .stat-value { color: #eb4d5c; }
+
+/* ---------------------------------------------------------
+   ABOUT PANEL
+--------------------------------------------------------- */
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #73d98c;
+}
+
+.about-panel p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+
+/* ---------------------------------------------------------
+   LISTS / LATEST POSTS PANEL
+--------------------------------------------------------- */
+
+#postsList {
+  list-style: none;
+  padding-left: 0;
+}
+
+#postsList li {
+  margin-bottom: 6px;
+}
+
+#postsList a {
+  color: #3399ff;
+  text-decoration: none;
+}
+
+#postsList a:hover {
+  text-decoration: underline;
+}
+
+
+/* ---------------------------------------------------------
+   DONUT CHART PANEL
+--------------------------------------------------------- */
+
+canvas {
+  width: 100% !important;
+  height: auto !important;
+}
+
+
+/* ---------------------------------------------------------
+   CALENDAR PANEL
+--------------------------------------------------------- */
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 13px;
+}
+/* Individual day cells */
+.calendar-day {
+  padding: 8px 6px;
+  border-radius: 4px;
+  background: transparent;
+  color: #ccc;
+  border: 1px solid transparent;
+}
+.calendar-day.posted {
+  background: #3399ff;
+  color: #fff;
+  border-color: rgba(51,153,255,0.25);
+}
+.calendar-day.today {
+  box-shadow: 0 0 0 2px rgba(115,217,140,0.12) inset;
+  border-color: rgba(115,217,140,0.25);
+}
+/* Calendar header (month label + nav) */
+.calendar-header {
+  /* 3-column grid: prev | label | next - forces single row */
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.calendar-header > * { display: block; }
+
+.calendar-header button {
+  background: transparent;
+  border: 1px solid #333;
+  color: #e0e0e0;
+  padding: 6px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  min-width: 36px;
+  width: 36px; /* force small fixed width to avoid stacking */
+  text-align: center;
+}
+.calendar-header button:hover { border-color: #555; }
+
+.calendar-label {
+  font-weight: 600;
+  color: #ccc;
+  text-align: center;
+  min-width: 0; /* allow the label to shrink inside grid */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 360px) {
+  .calendar-label { font-size: 13px; }
+  .calendar-header button { padding: 4px 6px; min-width: 30px; }
+}
+
+/* Strong override: absolute-button layout so header always stays on one line */
+.panel#calendar-panel .calendar-header {
+  position: relative !important;
+  display: block !important;
+  padding: 6px 8px !important;
+  box-sizing: border-box !important;
+}
+.panel#calendar-panel .calendar-label {
+  display: block !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  min-width: 0 !important;
+}
+.panel#calendar-panel .calendar-nav {
+  position: absolute !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  width: 36px !important;
+  height: auto !important;
+  padding: 4px 6px !important;
+  background: transparent !important;
+  border: 1px solid #333 !important;
+  color: #e0e0e0 !important;
+  border-radius: 4px !important;
+}
+.panel#calendar-panel .calendar-nav.left { left: 6px !important; }
+.panel#calendar-panel .calendar-nav.right { right: 6px !important; }
+
+
+/* ---------------------------------------------------------
+   BLOG POST PAGE SUPPORT
+   (ensures content stays inside the panel)
+--------------------------------------------------------- */
+
+/* The main post-panel is defined inside post.html, but global rules help to reinforce it */
+
+.post-panel * {
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  box-sizing: border-box;
+}
+
+/* Images fit the box */
+.post-panel img {
+  display: block;
+  max-width: 98%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 6px;
+  object-fit: contain;
+}
+
+.post-panel figure,
+.post-panel p img,
+.post-panel a img {
+  max-width: 98%;
+  margin: 20px auto;
+}
+
+/* Code blocks */
+.post-panel pre {
+  background: #1a1a1a;
+  padding: 15px;
+  border-radius: 6px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* Tables */
+.post-panel table {
+  width: 100%;
+  border-collapse: collapse;
+  display: block;
+  overflow-x: auto;
+}
+
+.post-panel table th,
+.post-panel table td {
+  border: 1px solid #444;
+  padding: 8px;
+}
+
+
+/* ---------------------------------------------------------
+   FOOTER (optional)
+--------------------------------------------------------- */
+
+footer {
+  text-align: center;
+  padding: 25px;
+  color: #777;
+  font-size: 13px;
+}

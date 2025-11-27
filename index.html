@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Main Dashboard</title>
+<link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="/assets/favicon.png">
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<!-- Top Navigation -->
+<nav class="top-nav">
+    <div class="nav-title">Ha3ks.com Main Dashboard</div>
+
+    <div class="nav-links">
+        <a href="/">🏠 Home</a>
+        <a href="/archive">📝 Blog</a>
+    </div>
+</nav>
+
+<!-- Dashboard Grid -->
+<div class="dashboard">
+
+
+  <div class="panel text-panel about-panel">
+  <div class="panel-title">About Me</div>
+  <div class="about-content">
+    <img src="/assets/profile.jpg" alt="Profile Picture" class="profile-pic">
+    <p>
+      Hello! I'm Dan.<br> 
+      Welcome to my Grafana Inspired personal website.<br><br>
+      This panel serves as a simple “About Me” section for this site.<br>
+      If you want to know more, please <a href="/about/">click me!</a>
+    </p>
+  </div>
+</div>
+
+
+  <!-- Stat Panels -->
+  <div class="panel stat green">
+    <div class="panel-title">Total Posts</div>
+    <div class="stat-value" id="totalPosts">0</div>
+    <div class="stat-footer">Updated just now</div>
+  </div>
+
+  <div class="panel stat yellow">
+    <div class="panel-title">Categories</div>
+    <div class="stat-value" id="categoryCount">0</div>
+    <div class="stat-footer">Unique tags</div>
+  </div>
+
+  <!-- Donut Chart Panel -->
+  <div class="panel chart">
+    <div class="panel-title">Posts by Tag</div>
+    <canvas id="donutChart"></canvas>
+  </div>
+
+  <div class="panel stat red">
+    <div class="panel-title">GitHub Commits</div>
+    <div class="stat-value" id="githubCommits">0</div>
+    <div class="stat-footer">Last 7 days</div>
+  </div>
+
+  <div class="panel" id="uptime-panel">
+    <div class="panel-title">Uptime</div>
+    <div id="uptime">Loading...</div>
+    <div class="stat-footer">(Since Last Commit)</div>
+  </div>
+
+  <!-- Blog Post List Panel -->
+  <div class="panel text-panel">
+    <div class="panel-title">Latest Alerts</div>
+    <ul id="postsList"></ul>
+  </div>
+
+  <!-- Calendar Panel -->
+  <div class="panel" id="calendar-panel">
+    <div class="panel-title">Calendar</div>
+    <div class="calendar-header">
+      <div id="calendarLabel" class="calendar-label">Loading...</div>
+      <button id="calPrev" class="calendar-nav left" aria-label="Previous month">◀</button>
+      <button id="calNext" class="calendar-nav right" aria-label="Next month">▶</button>
+    </div>
+    <div class="calendar" id="calendar"></div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
