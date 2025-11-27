@@ -10,7 +10,7 @@ const MONTH_NAMES = ["January","February","March","April","May","June","July","A
 async function loadCommitsData() {
   try {
     // Prefer the static file generated at build time
-    const res = await fetch('commits.json');
+    const res = await fetch('/commits.json');
     if (res.ok) {
       const j = await res.json();
       return j; // expected keys: commits_last_7_days, last_commit_date
@@ -46,8 +46,8 @@ async function loadCommitsData() {
 
 function updateDashboard() {
 
-  // FETCH POSTS
-  fetch("posts.json")
+  // FETCH POSTS (use absolute paths to avoid relative-path issues on GitHub Pages)
+  fetch("/posts.json")
     .then(r=>r.json())
     .then(data=>{
       const posts = data.posts;
@@ -127,8 +127,8 @@ updateDashboard();
 // Auto-refresh
 setInterval(updateDashboard, REFRESH_INTERVAL);
 
-// DONUT CHART (based on tags.json)
-fetch("tags.json")
+  // DONUT CHART (based on tags.json) — use absolute path
+fetch("/tags.json")
   .then(r => r.json())
   .then(data => {
     try {
@@ -236,6 +236,17 @@ startUptimeCounter();
 // -------------------
 // Calendar rendering + navigation
 // -------------------
+// Robust ISO date parser for YYYY-MM-DD and full ISO timestamps
+function parseISODate(s) {
+  if (!s) return null;
+  // If it's already a Date-ish string, try Date first
+  const maybe = new Date(s);
+  if (!isNaN(maybe)) return maybe;
+  // Fallback: parse YYYY-MM-DD manually
+  const m = s.match(/(\d{4})-(\d{2})-(\d{2})/);
+  if (m) return new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3]));
+  return null;
+}
 function renderCalendar() {
   const calendar = document.getElementById("calendar");
   const label = document.getElementById("calendarLabel");
@@ -253,10 +264,10 @@ function renderCalendar() {
   const firstDay = new Date(year, month, 1).getDay();
   const daysInMonth = new Date(year, month + 1, 0).getDate();
 
-  // Find post days for this month/year
+  // Find post days for this month/year (robust parsing)
   const postDates = postsCache
-    .map(p => new Date(p.date))
-    .filter(d => d.getFullYear() === year && d.getMonth() === month)
+    .map(p => parseISODate(p.date))
+    .filter(d => d && d.getFullYear() === year && d.getMonth() === month)
     .map(d => d.getDate());
 
   // Add blank days for weekday offset

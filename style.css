@@ -165,6 +165,23 @@ canvas {
   margin-top: 10px;
   font-size: 13px;
 }
+/* Individual day cells */
+.calendar-day {
+  padding: 8px 6px;
+  border-radius: 4px;
+  background: transparent;
+  color: #ccc;
+  border: 1px solid transparent;
+}
+.calendar-day.posted {
+  background: #3399ff;
+  color: #fff;
+  border-color: rgba(51,153,255,0.25);
+}
+.calendar-day.today {
+  box-shadow: 0 0 0 2px rgba(115,217,140,0.12) inset;
+  border-color: rgba(115,217,140,0.25);
+}
 /* Calendar header (month label + nav) */
 .calendar-header {
   /* 3-column grid: prev | label | next - forces single row */
