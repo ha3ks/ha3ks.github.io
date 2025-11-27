@@ -48,24 +48,38 @@ async function updateDashboard() {
   // FETCH POSTS (use absolute paths to avoid relative-path issues on GitHub Pages)
   try {
     const postsRes = await fetch("/posts.json");
+    if (!postsRes.ok) throw new Error('Failed to fetch /posts.json: ' + postsRes.status);
     const data = await postsRes.json();
+    if (!data || !Array.isArray(data.posts)) throw new Error('posts.json missing or malformed');
     const posts = data.posts;
 
     // Update stat panels
-    document.getElementById("totalPosts").textContent = posts.length;
-    const allTags = [...new Set(posts.flatMap(p=>p.tags))];
-    document.getElementById("categoryCount").textContent = allTags.length;
+    const totalPostsEl = document.getElementById("totalPosts");
+    if (totalPostsEl) totalPostsEl.textContent = posts.length;
+    else console.error('Missing #totalPosts element');
+
+    const categoryCountEl = document.getElementById("categoryCount");
+    if (categoryCountEl) {
+      const allTags = [...new Set(posts.flatMap(p=>p.tags))];
+      categoryCountEl.textContent = allTags.length;
+    } else {
+      console.error('Missing #categoryCount element');
+    }
 
     // Update posts list
     const list = document.getElementById("postsList");
-    list.innerHTML = "";
-    // Limit to 5 latest posts
-    posts.slice(0,5).forEach(post=>{
-      const li = document.createElement("li");
-      li.innerHTML = `<a href="${post.url}" class="post-link">${post.title}</a>
-                      <span class="post-date">${post.date}</span>`;
-      list.appendChild(li);
-    });
+    if (list) {
+      list.innerHTML = "";
+      // Limit to 5 latest posts
+      posts.slice(0,5).forEach(post=>{
+        const li = document.createElement("li");
+        li.innerHTML = `<a href="${post.url}" class="post-link">${post.title}</a>
+                        <span class="post-date">${post.date}</span>`;
+        list.appendChild(li);
+      });
+    } else {
+      console.error('Missing #postsList element');
+    }
 
     // Calendar: cache posts and render current calendar view
     postsCache = posts;
@@ -77,7 +91,7 @@ async function updateDashboard() {
     }
     renderCalendar();
   } catch (e) {
-    console.warn('posts.json fetch or dashboard update failed', e);
+    console.error('posts.json fetch or dashboard update failed', e);
   }
 
   // FETCH GITHUB ACTIVITY (commits in last 7 days)
@@ -93,13 +107,19 @@ async function updateDashboard() {
       } else {
         el.textContent = 'N/A';
       }
+    } else {
+      console.error('Missing #githubCommits element');
     }
   } catch (e) {
-    console.warn('commits.json fetch or update failed', e);
+    console.error('commits.json fetch or update failed', e);
   }
 
   // DONUT CHART (based on tags.json)
-  await updateDonutChart();
+  try {
+    await updateDonutChart();
+  } catch (e) {
+    console.error('updateDonutChart failed', e);
+  }
 }
 
 // Initial load
