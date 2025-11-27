@@ -45,14 +45,9 @@ jobs:
       - name: Build site with Jekyll
         run: bundle exec jekyll build
 
-      - name: Upload artifact for GitHub Pages
-        uses: actions/upload-pages-artifact@v1
+      - name: Deploy to GitHub Pages (via gh-pages branch)
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          path: ./_site
-
-  deploy:
-    needs: build-and-deploy
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
+          branch: gh-pages
+          folder: ./_site
+          token: ${{ secrets.GITHUB_TOKEN }}
