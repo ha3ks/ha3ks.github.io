@@ -103,10 +103,14 @@ async function updateDashboard() {
 }
 
 // Initial load
-(async () => { await updateDashboard(); })();
+document.addEventListener('DOMContentLoaded', () => {
+  updateDashboard();
+});
 
 // Auto-refresh
-setInterval(() => { updateDashboard(); }, REFRESH_INTERVAL);
+setInterval(() => {
+  updateDashboard();
+}, REFRESH_INTERVAL);
 
   // DONUT CHART (based on tags.json) — only update on dashboard refresh
   async function updateDonutChart() {
