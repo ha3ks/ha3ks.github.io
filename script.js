@@ -6,6 +6,44 @@ let calendarYear = null;
 let calendarMonth = null; // 0-based
 const MONTH_NAMES = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 
+// Try reading prebuilt `commits.json` (created by GitHub Actions). Fallback to GitHub API if missing.
+async function loadCommitsData() {
+  try {
+    // Prefer the static file generated at build time
+    const res = await fetch('commits.json');
+    if (res.ok) {
+      const j = await res.json();
+      return j; // expected keys: commits_last_7_days, last_commit_date
+    }
+  } catch (e) {
+    // ignore and fallback
+  }
+
+  // Fallback: try GitHub API (unauthenticated — may be rate-limited)
+  try {
+    const res = await fetch("https://api.github.com/repos/ha3ks/ha3ks.github.io/commits?per_page=100");
+    if (!res.ok) return null;
+    const data = await res.json();
+    if (!Array.isArray(data)) return null;
+    const now = Date.now();
+    let count = 0;
+    let lastDate = null;
+    data.forEach(c => {
+      try {
+        const d = new Date(c.commit.author.date);
+        if (!isNaN(d)) {
+          if (!lastDate || d > lastDate) lastDate = d;
+          if ((now - d.getTime()) < 7*24*60*60*1000) count++;
+        }
+      } catch (e) {}
+    });
+    return { commits_last_7_days: count, last_commit_date: lastDate ? lastDate.toISOString() : null };
+  } catch (e) {
+    console.warn('fetch commits fallback failed', e);
+    return null;
+  }
+}
+
 function updateDashboard() {
 
   // FETCH POSTS
@@ -68,45 +106,7 @@ posts.slice(0,5).forEach(post=>{
     });
 
   // FETCH GITHUB ACTIVITY (commits in last 7 days)
-    // Try reading prebuilt `commits.json` (created by GitHub Actions). Fallback to GitHub API if missing.
-    async function loadCommitsData() {
-      try {
-        // Prefer the static file generated at build time
-        const res = await fetch('commits.json');
-        if (res.ok) {
-          const j = await res.json();
-          return j; // expected keys: commits_last_7_days, last_commit_date
-        }
-      } catch (e) {
-        // ignore and fallback
-      }
-
-      // Fallback: try GitHub API (unauthenticated — may be rate-limited)
-      try {
-        const res = await fetch("https://api.github.com/repos/ha3ks/ha3ks.github.io/commits?per_page=100");
-        if (!res.ok) return null;
-        const data = await res.json();
-        if (!Array.isArray(data)) return null;
-        const now = Date.now();
-        let count = 0;
-        let lastDate = null;
-        data.forEach(c => {
-          try {
-            const d = new Date(c.commit.author.date);
-            if (!isNaN(d)) {
-              if (!lastDate || d > lastDate) lastDate = d;
-              if ((now - d.getTime()) < 7*24*60*60*1000) count++;
-            }
-          } catch (e) {}
-        });
-        return { commits_last_7_days: count, last_commit_date: lastDate ? lastDate.toISOString() : null };
-      } catch (e) {
-        console.warn('fetch commits fallback failed', e);
-        return null;
-      }
-    }
-
-    // Load commits data and update UI
+  // Load commits data and update UI
     loadCommitsData().then(data => {
       const el = document.getElementById('githubCommits');
       if (!el) return;
@@ -190,7 +190,7 @@ if (lineChartEl) {
 
 // --- UPTIME COUNTER (moved from index.html) ---
 // cached last commit date used by uptime counter
-let lastCommitDateCached = new Date();
+let lastCommitDateCached = null;
 
 async function fetchLastCommitDate() {
   // try to use cached value first
@@ -198,7 +198,10 @@ async function fetchLastCommitDate() {
 
   // otherwise attempt to load commits data
   const data = await loadCommitsData();
-  if (data && data.last_commit_date) return new Date(data.last_commit_date);
+  if (data && data.last_commit_date) {
+    lastCommitDateCached = new Date(data.last_commit_date);
+    return lastCommitDateCached;
+  }
   return new Date();
 }
 

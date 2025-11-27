@@ -26,34 +26,9 @@ jobs:
         run: |
           echo "Querying GitHub API for commits..."
           DATA=$(curl -s -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $GITHUB_TOKEN" "https://api.github.com/repos/${REPO}/commits?per_page=100")
-          # Get last commit date (first item) and count commits from last 7 days
-          LAST=$(echo "$DATA" | python3 - <<'PY'
-import sys, json
-try:
-  d=json.load(sys.stdin)
-  print(d[0]['commit']['author']['date'] if d else "")
-except Exception:
-  print("")
-PY
-)
-          COUNT=$(echo "$DATA" | python3 - <<'PY'
-import sys, json, time, datetime
-now=time.time()
-try:
-  d=json.load(sys.stdin)
-except Exception:
-  d=[]
-cnt=0
-for item in d:
-  try:
-    dt=datetime.datetime.fromisoformat(item['commit']['author']['date'].replace('Z','+00:00'))
-    if now - dt.timestamp() < 7*24*60*60:
-      cnt += 1
-  except Exception:
-    pass
-print(cnt)
-PY
-)
+          # Extract last commit date and count commits from last 7 days using jq (if available)
+          LAST=$(echo "$DATA" | jq -r '.[0].commit.author.date // ""' 2>/dev/null || echo "")
+          COUNT=$(echo "$DATA" | jq '[.[] | select( (now - (.commit.author.date|fromdateiso8601)) < (7*24*60*60) )] | length' 2>/dev/null || echo 0)
           echo "{\"commits_last_7_days\": $COUNT, \"last_commit_date\": \"$LAST\"}" > commits.json
           echo "Wrote commits.json: $(cat commits.json)"
 
