@@ -24,46 +24,49 @@
 <!-- Dashboard Grid -->
 <div class="dashboard">
 
-
+  <!-- About Me Panel -->
   <div class="panel text-panel about-panel">
   <div class="panel-title">About Me</div>
   <div class="about-content">
     <img src="/assets/profile.jpg" alt="Profile Picture" class="profile-pic">
-    <p>
-      Hello! I'm Dan.<br> 
-      Welcome to my Grafana Inspired personal website.<br><br>
-      This panel serves as a simple “About Me” section for this site.<br>
-      If you want to know more, please <a href="/about/">click me!</a>
+    <p> 
+      Network Security Engineer | Developer | Fortinet Certified | Penetration Tester | CISCO Certified Ethical Hacker | OSS </br><br>
+      "I use a laptop to bend reality itself"<br><br>
+      Hello! I'm Dan and welcome personal website. If you want to know more, please <a href="/about/">click here</a> to view the about me section.
     </p>
   </div>
 </div>
 
 
-  <!-- Stat Panels -->
+  <!-- Number of Posts Panel -->
   <div class="panel stat green">
     <div class="panel-title">Total Posts</div>
     <div class="stat-value" id="totalPosts">0</div>
     <div class="stat-footer">Updated just now</div>
   </div>
 
+ <!-- Numbered Tags List Panel -->
   <div class="panel stat yellow">
     <div class="panel-title">Categories</div>
     <div class="stat-value" id="categoryCount">0</div>
     <div class="stat-footer">Unique tags</div>
   </div>
 
-  <!-- Donut Chart Panel -->
+  <!-- Donut Chart Tags Panel -->
   <div class="panel chart">
     <div class="panel-title">Posts by Tag</div>
     <canvas id="donutChart"></canvas>
+    <div class="stat-footer">*Refreshes every minute</div>
   </div>
 
+    <!--Numbered GH Commits List Panel -->
   <div class="panel stat red">
     <div class="panel-title">GitHub Commits</div>
     <div class="stat-value" id="githubCommits">0</div>
     <div class="stat-footer">Last 7 days</div>
   </div>
 
+    <!-- Uptime Panel -->
   <div class="panel" id="uptime-panel">
     <div class="panel-title">Uptime</div>
     <div id="uptime">Loading...</div>
