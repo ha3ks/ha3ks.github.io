@@ -2,6 +2,14 @@
   "posts": [
     
     {
+      "title": "On Data Loss",
+      "url": "/blog/2025/12/05/On-Data-Loss.html",
+      "date": "2025-12-05",
+      "tags": ["blog"]
+    }
+    ,
+    
+    {
       "title": "Kubernetes - from someone who has 12 whole hours experience",
       "url": "/blog/2025/11/01/Kubernetes-from-someone-who-has-12-whole-hours-experience.html",
       "date": "2025-11-01",
