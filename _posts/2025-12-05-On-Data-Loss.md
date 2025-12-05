@@ -7,6 +7,8 @@ tags: blog
 category: Blog
 ---
 
+![1](/assets/blog/On-Data-Loss/1.avif){: .align-center }
+
 I lost data the other day. I'm pretty bummed out about it. I lost all my entire 'Documents' folder. Here's the worst part... I truly in my heart of hearts don't know how it happened. It's one thing to make a mistake, hell I make them ALL the time. But it's another to have something bad happen, play it back in your head and not know WHY it happened.
 
 I like to pride myself on having a pretty spotless data loss record. For the last maybe 15 years or a little more I have NEVER lost files. Hellova record.
