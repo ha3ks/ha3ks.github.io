@@ -6,6 +6,19 @@ let calendarYear = null;
 let calendarMonth = null; // 0-based
 const MONTH_NAMES = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 
+// Generate vibrant colors dynamically for any number of tags
+function generateColors(count) {
+  const colors = [];
+  const baseHues = [140, 210, 50, 0, 270, 25]; // Green, Blue, Yellow, Red, Purple, Orange
+  for (let i = 0; i < count; i++) {
+    const hue = baseHues[i % baseHues.length] + Math.floor(i / baseHues.length) * 30;
+    const saturation = 65 + (i % 3) * 10;
+    const lightness = 55 + (i % 2) * 5;
+    colors.push(`hsl(${hue % 360}, ${saturation}%, ${lightness}%)`);
+  }
+  return colors;
+}
+
 // Try reading prebuilt `commits.json` (created by GitHub Actions). Fallback to GitHub API if missing.
 async function loadCommitsData() {
   try {
@@ -78,16 +91,27 @@ posts.slice(0,5).forEach(post=>{
           if (window.donutChart) {
             try { window.donutChart.destroy(); } catch (e) { /* ignore */ }
           }
+          const tagLabels = Object.keys(tagCounts);
+          const tagValues = Object.values(tagCounts);
           window.donutChart = new Chart(ctx, {
             type: 'doughnut',
             data: {
-              labels: Object.keys(tagCounts),
+              labels: tagLabels,
               datasets: [{
-                data: Object.values(tagCounts),
-                backgroundColor: ["#73d98c", "#3399ff", "#f2cc0c", "#eb4d5c", "#9b59b6", "#e67e22"]
+                data: tagValues,
+                backgroundColor: generateColors(tagLabels.length)
               }]
             },
-            options: { plugins: { legend: { labels: { color: "#ccc" } } } }
+            options: { 
+              plugins: { 
+                legend: { 
+                  display: false 
+                },
+                tooltip: {
+                  enabled: true
+                }
+              } 
+            }
           });
         }
       } catch (e) {
@@ -143,17 +167,19 @@ fetch("/tags.json")
             labels: labels,
             datasets: [{
               data: counts,
-              backgroundColor: [
-                "#73d98c",
-                "#3399ff",
-                "#f2cc0c",
-                "#eb4d5c",
-                "#9b59b6",
-                "#e67e22"
-              ]
+              backgroundColor: generateColors(labels.length)
             }]
           },
-          options: { plugins: { legend: { labels: { color: "#ccc" } } } }
+          options: { 
+            plugins: { 
+              legend: { 
+                display: false 
+              },
+              tooltip: {
+                enabled: true
+              }
+            } 
+          }
         });
       }
     } catch (e) {
@@ -191,6 +217,10 @@ if (lineChartEl) {
 // --- UPTIME COUNTER (moved from index.html) ---
 // cached last commit date used by uptime counter
 let lastCommitDateCached = null;
+let totalCommitsCount = 0;
+const REPO_CREATION_DATE = new Date('2024-11-21'); // Adjust this to your actual repo creation date
+const DOWNTIME_PER_COMMIT = 0.5; // Each commit represents 0.5% downtime
+const RECOVERY_RATE_PER_DAY = 0.5; // Recover 0.5% per day
 
 async function fetchLastCommitDate() {
   // try to use cached value first
@@ -205,6 +235,43 @@ async function fetchLastCommitDate() {
   return new Date();
 }
 
+async function fetchTotalCommits() {
+  try {
+    const res = await fetch("https://api.github.com/repos/ha3ks/ha3ks.github.io/commits?per_page=1");
+    if (!res.ok) return 0;
+    const linkHeader = res.headers.get('Link');
+    if (linkHeader) {
+      const match = linkHeader.match(/page=(\d+)>; rel="last"/);
+      if (match) return parseInt(match[1]);
+    }
+    const data = await res.json();
+    return Array.isArray(data) ? data.length : 0;
+  } catch (e) {
+    console.warn('fetch total commits failed', e);
+    return 0;
+  }
+}
+
+function calculateUptimePercentage(lastCommitDate, totalCommits) {
+  const now = new Date();
+  const daysSinceLastCommit = (now - lastCommitDate) / (1000 * 60 * 60 * 24);
+  const repoAgeDays = (now - REPO_CREATION_DATE) / (1000 * 60 * 60 * 24);
+  
+  // Base downtime from all commits
+  const commitDowntime = totalCommits * DOWNTIME_PER_COMMIT;
+  
+  // Recovery since last commit
+  const recovery = daysSinceLastCommit * RECOVERY_RATE_PER_DAY;
+  
+  // Calculate percentage (start at 100%, subtract commit downtime, add recovery)
+  let percentage = 100 - commitDowntime + recovery;
+  
+  // Cap between 0 and 100
+  percentage = Math.max(0, Math.min(100, percentage));
+  
+  return percentage;
+}
+
 function formatDuration(ms) {
   const totalSeconds = Math.floor(ms / 1000);
   const days = Math.floor(totalSeconds / 86400);
@@ -216,14 +283,33 @@ function formatDuration(ms) {
 
 async function startUptimeCounter() {
   const uptimeEl = document.getElementById("uptime");
+  const uptimeBarEl = document.getElementById("uptimeBar");
+  const uptimePercentageEl = document.getElementById("uptimePercentage");
   if (!uptimeEl) return; // nothing to do if element not present
 
   const lastCommitDate = await fetchLastCommitDate();
+  totalCommitsCount = await fetchTotalCommits();
 
   function update() {
     const now = new Date();
     const diff = now - lastCommitDate;
     uptimeEl.textContent = formatDuration(diff);
+    
+    // Update percentage bar
+    if (uptimeBarEl && uptimePercentageEl) {
+      const percentage = calculateUptimePercentage(lastCommitDate, totalCommitsCount);
+      uptimeBarEl.style.width = percentage + '%';
+      uptimePercentageEl.textContent = percentage.toFixed(2) + '%';
+      
+      // Change color based on percentage
+      if (percentage >= 95) {
+        uptimePercentageEl.style.color = '#73d98c'; // green
+      } else if (percentage >= 80) {
+        uptimePercentageEl.style.color = '#f2cc0c'; // yellow
+      } else {
+        uptimePercentageEl.style.color = '#eb4d5c'; // red
+      }
+    }
   }
 
   update();
