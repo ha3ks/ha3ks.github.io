@@ -6,27 +6,13 @@ permalink: /about/
 
 <img src="/assets/profile.jpg" alt="Profile Picture" style="float:left; margin:0 20px 20px 0; width:300px; border-radius:10%;">
 
-Dan “ha3ks” Murray is a seasoned Cybersecurity and Systems Engineer with extensive expertise in Networking, Open Source Intelligence (OSINT), Threat Analysis, and Digital Forensics.
+Hi I'm Dan, a UK-based Network Security Engineer and Cybersecurity specialist with a deep focus on penetration testing, incident response and building secure, privacy-first infrastructure. My background spans network operations, ethical hacking, digital forensics and systems engineering with hands-on experience designing and defending real-world environments.
 
-With decades of experience, he specializes in Penetration Testing, Incident Response, and Security Network Operations. In addition to this He is also expanding his expertise into Cloud Security, particularly focusing on AWS and Azure security frameworks and cloud-native technologies like Docker and Kubernetes for secure and scalable virtualized environments.
+I work extensively with networking and security technologies including Linux, Cisco, Fortinet and Asterisk. I’ve built everything from automated router configuration systems to privacy-focused PBX platforms. I hold multiple cybersecurity certifications notably from Cisco, Fortinet and INE (fka eLearnSecurity) and I’m continually expanding my skill set into cloud and container security using AWS, Azure, Docker and Kubernetes.
 
-His day job has him building secure and encrypted infrastructure for communications and safe web browsing.
+Alongside professional roles, I’ve spent years as an independent security consultant reporting high-risk vulnerabilities, presenting at security conferences and contributing to open-source and research-driven projects. I’m particularly interested in the intersection of security, automation and agentic AI—finding ways to apply intelligent workflows to real operational problems.
 
-Dan holds multiple cybersecurity certifications and experiences with training, demonstrating his proficiency in Ethical Hacking, Network Defense and Risk Assessment.
-
-Note:
-
-I have a list of 'silly projects' and I try to bring them to life in my spare time. Passionate about Open Source Software (OSS) and a Privacy advocate.
-
----
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-- Built for [Jekyll](https://jekyllrb.com)
-- Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-- Coded with [VSCode](https://code.visualstudio.com/)
+At my core, I enjoy breaking systems to understand them, rebuilding them stronger and helping organizations communicate and operate securely in an increasingly hostile digital landscape.
 
 Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/ha3ks/ha3ks.github.io/issues/new) or [ask me on Twitter](https://twitter.com/ha3ks).
 
