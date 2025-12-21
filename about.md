@@ -1,12 +1,11 @@
 ---
-layout: post
+layout: page
 title: About
-permalink: /about/
 ---
 
-<img src="/assets/profile.jpg" alt="Profile Picture" style="float:left; margin:0 20px 20px 0; width:300px; border-radius:10%;">
+<img src="/assets/profile.jpg" alt="Left aligned" class="align-left" />
 
-Hi I'm Dan, a UK-based Network Security Engineer and Cybersecurity specialist with a deep focus on penetration testing, incident response and building secure, privacy-first infrastructure. My background spans network operations, ethical hacking, digital forensics and systems engineering with hands-on experience designing and defending real-world environments.
+Hi I’m Dan, a UK-based Network Security Engineer and Cybersecurity specialist with a deep focus on penetration testing, incident response and building secure, privacy-first infrastructure. My background spans network operations, ethical hacking, digital forensics and systems engineering with hands-on experience designing and defending real-world environments.
 
 I work extensively with networking and security technologies including Linux, Cisco, Fortinet and Asterisk. I’ve built everything from automated router configuration systems to privacy-focused PBX platforms. I hold multiple cybersecurity certifications notably from Cisco, Fortinet and INE (fka eLearnSecurity) and I’m continually expanding my skill set into cloud and container security using AWS, Azure, Docker and Kubernetes.
 

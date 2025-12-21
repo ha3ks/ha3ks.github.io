@@ -23,7 +23,9 @@ So I wrote down short list:
 
 It was at this moment the YouTube algorithm gods pushed me a recommendation and I couldn’t turn it down.
 
-![Video: The Kubernetes Homelab That Prints Job Offers (Simple & Proven)](https://i.ytimg.com/vi/NkM6wQL2UvM/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDRd8NXi7tyy_6uQfim61HDhvRTFw){: .align-center }
+<div style="text-align: center; margin: 2rem 0;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/NkM6wQL2UvM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+</div>
 
 He was a nurse that pivoted into DevOps and is helping others along the way, awesome.
 
@@ -173,7 +175,9 @@ I elected to not actually use AI in this project, partly due to the challenge of
 
 If I had the cash and the ability I would absolutely do a PewDiePie and set up a Self Host and do it all locally:
 
-![Video: STOP. Using AI Right now](https://i.ytimg.com/vi/qw4fDU18RcU/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAyXEQjCb4yj3oanYaR8aqDuLmHxA){: .align-center }
+<div style="text-align: center; margin: 2rem 0;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/qw4fDU18RcU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+</div>
 
 Lo, I am not rich and My laptop dies often as we all know so back to it
 

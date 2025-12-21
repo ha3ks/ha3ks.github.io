@@ -1,120 +1,25 @@
 ---
-layout: null
+layout: default
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>{{ page.title }}</title>
-
-<!-- Use the same CSS as your dashboard -->
-<link rel="stylesheet" href="/style.css">
-
-<style>
-  /* Override body background to match dashboard */
-  body {
-    background: #1f1f1f;
-    color: #e0e0e0;
-    font-family: "Inter", sans-serif;
-    margin: 0;
-  }
-
-  /* Navbar (same as dashboard) */
-  .top-nav {
-    background: #111;
-    padding: 12px 20px;
-    border-bottom: 1px solid #333;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .nav-title {
-    font-size: 20px;
-    font-weight: 600;
-  }
-
-  .nav-links a {
-    color: #fff;
-    text-decoration: none;
-    margin-left: 15px;
-    font-size: 14px;
-  }
-
-  .nav-links a:hover {
-    text-decoration: underline;
-  }
-
-  /* Grafana-style post container panel */
-  .post-panel {
-    max-width: 900px;
-    margin: 40px auto;
-    background: #242424;
-    border: 1px solid #333;
-    border-radius: 6px;
-    padding: 25px 35px;
-    font-size: 18px;
-    line-height: 1.7;
-  }
-
-  .post-panel h1 {
-    color: #73d98c; /* Grafana green heading */
-    margin-top: 0;
-  }
-
-  .post-date {
-    color: #aaa;
-    font-size: 14px;
-    margin-bottom: 20px;
-    display: block;
-  }
-
-  .post-panel a {
-    color: #3399ff;
-    text-decoration: none;
-  }
-
-  .post-panel a:hover {
-    text-decoration: underline;
-  }
-
-  .post-panel p {
-    margin-bottom: 1.2em;
-  }
-
-  .post-panel ul, .post-panel ol {
-    margin-bottom: 1.2em;
-    line-height: 1.8;
-  }
-
-  .post-panel h2, .post-panel h3 {
-    margin-top: 1.5em;
-    margin-bottom: 0.7em;
-  }
-</style>
-</head>
-
-<body>
-
-<!-- Navbar -->
-<nav class="top-nav">
-  <div class="nav-title">{{ site.title }}</div>
-
-  <div class="nav-links">
-    <a href="/">🏠 Home</a>
-    <a href="/archive">📝 Blog</a> 
-    <!-- optional extra link goes here-->
-  </div>
-</nav>
-
-<!-- Post Content Panel -->
-<div class="post-panel">
-  <h1>{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date: "%Y-%m-%d" }}</span>
-
+<article class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
   {{ content }}
-</div>
+</article>
 
-</body>
-</html>
+{% if site.related_posts != empty %}
+<aside class="related">
+  <h3>Related posts</h3>
+  <ul class="related-posts">
+    {% for post in site.related_posts limit:3 %}
+      <li>
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          {{ post.title }}
+          <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</aside>
+{% endif %}
