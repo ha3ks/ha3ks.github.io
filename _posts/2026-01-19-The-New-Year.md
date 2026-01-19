@@ -69,7 +69,7 @@ Ok so it does lean towards the 'cyber' bracket but hey, least I am learning!
 
 This year I set myself a side challenge to read more (goes hand in hand with working out and eating healthy). I have already made it through some of my new list/pile - google 'PocketBook' and get an account, download the app and read on your phone. It is actually working for me and it might help you too! Additionally you can dump .epub books in it as well as .pdfs ...  
 
-For any curious, I finished - ebook[The Unfair Advantage: How You Already Have What It Takes to Succeed ](https://amzn.eu/d/3HGfRjp) - Ash Ali & Hasan Kubba AND ALSO my audiobook copy of [Permanent Record: A Memoir of a Reluctant Whistleblower](https://amzn.eu/d/3CbADm4) - Edward Snowden all by the 16th.
+For any curious, I finished the ebook version of [The Unfair Advantage: How You Already Have What It Takes to Succeed ](https://amzn.eu/d/3HGfRjp) - Ash Ali & Hasan Kubba AND ALSO my audiobook copy of [Permanent Record: A Memoir of a Reluctant Whistleblower](https://amzn.eu/d/3CbADm4) - Edward Snowden all by the 16th.
 
 Turns out a chapter per day is 'doable' and audiobooks are just a 'when doing something' listening so suprisingly easy to get on with, walking, odd jobs, headphones in and audiobook playing.
 
