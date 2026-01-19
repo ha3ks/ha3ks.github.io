@@ -1,52 +1,93 @@
-﻿# Setup
-title: Ha3ks.com
-url: https://ha3ks.com
-paginate: 1
-baseurl: ""
+# Site settings
+site: Ha3ks.com
+title: Ha3ks.com - for nerds
+keywords: cybersecurity, network engineering, blog
+description: >-
+  Ha3ks.com - for nerds
+lang: en-US
+timezone:
+repo: https://github.com/onepase/Ephesus # site repo [optional]
+google_verify:      XXX # Put your Google Verification here
+google_analytics:   G-XXXXXXXXXX # Put your Google Analytics 4 ID here (e.g., G-XXXXXXXXXX)
+discus-identifier:  XXX
+
+# Author settings
+author:
+  name: Dan Murray
+  bio: Network Security Engineer <br> Father <br> Open Source / linux
+  picture: assets/images/profile.jpg 
+  github: ha3ks # github username
+  twitter: ha3ks # twitter username
+  facebook: # facebook username
+  instagram: ha3ks # instagram username
+  youtube: https://www.youtube.com/@ha3ks # youtube username
+  linkedin: accountreset # linkedin username
+  email: hello@ha3ks.com # email adress
+
+
+# URL settings
+url: "http://127.0.0.1:4000" # Domain Name of host. [username].github.io for github pages
 permalink: pretty
 
-# Gems
-plugins:
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-seo-tag
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
-# Optimize Jekyll
+
 exclude:
-  - .editorconfig
-  - .git
   - .jekyll-cache
+  - .obsidian
   - Gemfile
   - Gemfile.lock
   - LICENSE.md
   - README.md
+  - CONTRIBUTING.md
 
-sass:
-  sass_dir: _sass
-  style: :compressed
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-feed
+paginate: 20
+paginate_path: "/page/:num"
 
-# Options
-
-# Replace this value and uncomment to enable Google Analytics tracking
-# ga_analytics: UA-000000-0
-
-# Specify the author for blog posts
-author:
+# SEO Plugin settings
+twitter_username: ha3ks
+social:
   name: Dan Murray
-  url: https://twitter.com/ha3ks
-  email: hello@ha3ks.com
+  links:
+    - https://github.com/ha3ks
+    - https://twitter.com/ha3ks
+    - https://linkedin.com/in/accountreset
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:slug
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 
-# Custom vars
-version: 3.0.0
-
-# Navbar page list
-nav:
-  - title: Blog
-    url: /archive
-
-  - title: About
-    url: /about
-
-
-  - title: Projects
-    url: /projects
+relative_links:
+  enabled:     true
+  collections: false

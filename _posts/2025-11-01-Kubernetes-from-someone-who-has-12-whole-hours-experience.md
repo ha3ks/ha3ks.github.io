@@ -298,7 +298,7 @@ I have had some time to play with this and generally, I love it.
 
 I can't wait for future me to have money so that I can invest in some Self Host Loving and get a little server up and running with our Plex needs, networking labs, pentesting labs, Kubernetes Clusters and other things.
 
-<img src="/assets/blog/Kubernetes-12-hours/6.GIF" class="align-right" />
+<img src="/assets/blog/Kubernetes-12-hours/6.GIF" class="align-right" width="450" height="315" />
 
 Honestly I would be happy with 3 Raspberry Pis and a simple NAS, I can assure you I would have headroom have network wide Ad Blocking and be able to entertain my family.
 
