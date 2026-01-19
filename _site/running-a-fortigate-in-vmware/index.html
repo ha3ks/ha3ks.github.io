@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en-US" data-theme="light">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, viewport-fit=cover">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- SEO Meta Tags -->
+		<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Running a FortiGate in VMWare | Ha3ks.com - for nerds</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Running a FortiGate in VMWare" />
+<meta name="author" content="ha3ks" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="It has been some considerable time since I last put up a blog post, I just wanted to go in a different direction for a while, it happens." />
+<meta property="og:description" content="It has been some considerable time since I last put up a blog post, I just wanted to go in a different direction for a while, it happens." />
+<link rel="canonical" href="https://www.ha3ks.com/running-a-fortigate-in-vmware/" />
+<meta property="og:url" content="https://www.ha3ks.com/running-a-fortigate-in-vmware/" />
+<meta property="og:site_name" content="Ha3ks.com - for nerds" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-08-28T00:00:00+01:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Running a FortiGate in VMWare" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"ha3ks"},"dateModified":"2025-08-28T00:00:00+01:00","datePublished":"2025-08-28T00:00:00+01:00","description":"It has been some considerable time since I last put up a blog post, I just wanted to go in a different direction for a while, it happens.","headline":"Running a FortiGate in VMWare","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.ha3ks.com/running-a-fortigate-in-vmware/"},"url":"https://www.ha3ks.com/running-a-fortigate-in-vmware/"}</script>
+<!-- End Jekyll SEO tag -->
+
+		<!-- Preconnect to external resources -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<!-- Stylesheets -->
+		<link rel="stylesheet" href="/assets/css/highlight.css">
+		<link rel="stylesheet" href="/assets/css/style.css">
+		<link rel="shortcut icon" href="/assets/images/favicon.png" />
+		<!-- Feed links -->
+		<link rel="alternate" type="application/atom+xml" title="Ha3ks.com - for nerds" href="https://www.ha3ks.com/atom.xml">
+		<link rel="alternate" type="application/json" title="Ha3ks.com - for nerds" href="https://www.ha3ks.com/feed.json" />
+		<link rel="alternate" type="application/xml" title="Sitemap" href="https://www.ha3ks.com/sitemap.xml" />
+		<!-- Content Security Policy -->
+		<meta http-equiv="Content-Security-Policy" content="default-src 'self' https:; script-src 'self' https: 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' https: 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' https: data:; font-src 'self' https://fonts.gstatic.com;">
+		<!-- Verification -->
+		<meta name="google-site-verification" content="XXX" />
+	</head>
+<body>
+<div class="container">
+	<div class="profile">
+		<a href="https://www.ha3ks.com" aria-label="Homepage"><img src="/assets/images/profile.jpg" alt="Dan Murray profile picture" class="profile-image"></a>
+		<div class="profile-about">
+			<h2 style="margin-bottom: 0; font-weight: 700;">Dan Murray</h2>
+			
+			
+				<a href="https://twitter.com/ha3ks" target="_blank" rel="noopener noreferrer" aria-label="Twitter profile"><img src="/assets/images/icon/twitter.svg" alt="Twitter icon" class="social-icon"></a>
+			
+			
+				<a href="https://instagram.com/ha3ks" target="_blank" rel="noopener noreferrer" aria-label="Instagram profile"><img src="/assets/images/icon/instagram.svg" alt="Instagram icon" class="social-icon"></a>
+			
+			
+				<a href="https://www.youtube.com/@ha3ks" target="_blank" rel="noopener noreferrer" aria-label="YouTube channel"><img src="/assets/images/icon/youtube.svg" alt="YouTube icon" class="social-icon"></a>
+			
+			
+				<a href="https://github.com/ha3ks" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><img src="/assets/images/icon/github.svg" alt="GitHub icon" class="social-icon"></a>
+			
+			
+				<a href="https://linkedin.com/in/accountreset" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"><img src="/assets/images/icon/linkedin.svg" alt="LinkedIn icon" class="social-icon"></a>
+			
+			<a href="about" aria-label="About page"><img src="/assets/images/icon/me.svg" alt="About me icon" class="social-icon"></a>
+			<br>
+			Network Security Engineer <br> Father <br> Open Source / linux
+			<br>
+			<div class="mode" id="mode-switcher" onclick="toggleNightMode();" role="button" tabindex="0" aria-label="Toggle dark mode" aria-pressed="false">
+				<span></span>
+			</div>
+		</div>
+	</div>
+	
+<div class="post-header">
+	<div class="post-date">28/08/2025</div>
+	<div class="post-share">
+		Share:&nbsp; 
+		<a href="https://www.facebook.com/sharer/sharer.php?u=https://www.ha3ks.com/running-a-fortigate-in-vmware" target="_blank" rel="noopener noreferrer"><img src="/assets/images/icon/facebook.svg" alt="Facebook" class="social-icon"></a>
+		<a href="https://twitter.com/intent/tweet?source=tweetbutton&amp;original_referer=https://www.ha3ks.com/running-a-fortigate-in-vmware&amp;text=Running a FortiGate in VMWare - https://www.ha3ks.com/running-a-fortigate-in-vmware" target="_blank" rel="noopener noreferrer"><img src="/assets/images/icon/twitter.svg" alt="Twitter" class="social-icon"></a>
+		<a href="https://api.whatsapp.com/send?text=https://www.ha3ks.com/running-a-fortigate-in-vmware" target="_blank" rel="noopener noreferrer"><img src="/assets/images/icon/whatsapp.svg" alt="WhatsApp" class="social-icon"></a>
+	</div>
+</div>
+
+<div class="blog-post-content">
+	<h1>Running a FortiGate in VMWare</h1>
+	<p>It has been some considerable time since I last put up a blog post, I just wanted to go in a different direction for a while, it happens.</p>
+
+<p>The direction has been confusing and has me wondering what my next steps will be…</p>
+
+<p>I love security don’t get me wrong, it’s the most fun you can have on a computer when you are a nerd and a gamer, but I feel a pull in another direction and as such I want to put up some helpful posts every now and again for people that might want to play with something new.</p>
+
+<p>Recently I undertook some free training from Fortinet… you know that company that constantly has exploits and news cycles, that one.</p>
+
+<p>I felt a little bad about it but as time has gone on I can kinda see where the problem might be and as such my ‘I can help’ voice took over for a bit…</p>
+
+<p><img src="/assets/blog/FortiVM/1.png" alt="1" class="align-center" /></p>
+
+<p>See.. crazy I know.</p>
+
+<p>So in the last week I’ve broadened my horizons and learned about AI and Agentic Systems as well as an ‘ass load’ of Fortinet Cybersecurity content.</p>
+
+<p>From the latter I wanted to share setting up a Fortigate locally on your machine (Via VMware) so you too can have a play and a poke with it, some features are unavailable however you can set things up and run some stuff through it to see what kinds of fun things you can log and track.</p>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<p>To install a Fortigate Firewall on VMware Workstation you will first need to register for an Fortinet Support Account so you access the downloads section - <a href="https://support.fortinet.com/Download/VMImages.aspx">https://support.fortinet.com/Download/VMImages.aspx</a>.</p>
+
+<p>Once logged in click on Download &gt; VM Images, Select Product: FortiGate and Select Platform: VMware ESXi and download the Latest Version (7.6.4).</p>
+
+<p>Be sure to click Download under the ‘New deployment of FortiFirewall for VMware FFW_VM64-v7.6.4.F-build3596-FORTINET.out.ovf.zip (111.94 MB)’ if this is a new installation or VM, if you already have it installed you can grab the one titled ‘Upgrade from previous version of FortiFirewall for VMWare FFW_VM64-v7.6.4.F-build3596-FORTINET.out (112.43 MB)’:</p>
+
+<p><img src="/assets/blog/FortiVM/2.png" alt="2" class="align-center" /></p>
+
+<p>Once downloaded you can extract out the files by right clicking and ‘Extract All’ and let it dump out to your download folder:</p>
+
+<p><img src="/assets/blog/FortiVM/3.png" alt="3" class="align-center" /></p>
+
+<h2 id="installation">Installation</h2>
+
+<p>Now you have done that open VMWare Workstation and select ‘Open a Virtual Machine’:</p>
+
+<p><img src="/assets/blog/FortiVM/4.png" alt="4" class="align-center" /></p>
+
+<p>Select your ‘main’ file:</p>
+
+<p><img src="/assets/blog/FortiVM/5.png" alt="5" class="align-center" /></p>
+
+<p>And you’llm need to accept the EULA:</p>
+
+<p><img src="/assets/blog/FortiVM/6.png" alt="6" class="align-center" /></p>
+
+<p>After hitting Next you will get the option to give the VM a name and where it will be stored (I keep everything in a ‘Virtual Machines’ local folder):</p>
+
+<p><img src="/assets/blog/FortiVM/7.png" alt="7" class="align-center" /></p>
+
+<p>Now some guides will have you change the initial ‘Network Adapter’ to NAT, run the VM, log into it and then reset it and do it all over again on round2 because of how the VM licence works.</p>
+
+<p>I tried this and completely shafted the install so instead go to the Edit Virtual Machine Settings and under Options, make sure VMware Tools Time Sync, is set to sync with host:</p>
+
+<p><img src="/assets/blog/FortiVM/14.png" alt="14" class="align-center" /></p>
+
+<p>And save it, then boot it up!</p>
+
+<p>It will run its initial auto config, repartition the disk drive etc etc and eventually spit you out at the login screen.</p>
+
+<p>The username is admin, the password is blank… super secure… though when you do log in it asks you to set up a new admin password 😉</p>
+
+<p><img src="/assets/blog/FortiVM/8.png" alt="8" class="align-center" /></p>
+
+<h2 id="configuration">Configuration</h2>
+
+<p>Once logged in you can start to do some initial setup, to get this working the following is what I entered:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>get system status  <span class="c">#Displays a ton of information about the current state of the device</span>
+</code></pre></div></div>
+<p><img src="/assets/blog/FortiVM/9.png" alt="9" class="align-center" /></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>show system interface  <span class="c">#Displays the interfaces (ports and access) of the device</span>
+</code></pre></div></div>
+<p><img src="/assets/blog/FortiVM/10.png" alt="10" class="align-center" /></p>
+
+<p>We need to configure the port and then the default gateway so we can access the device so run the following:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>config system interface
+
+edit port1
+
+<span class="nb">set </span>mode static 
+
+<span class="nb">set </span>ip <span class="o">(</span>your desired IP <span class="k">in </span>my <span class="k">case</span> it was 192.168.4.200<span class="p">)</span> 255.255.255.0
+
+<span class="nb">set </span>allowaccess https http ping ssh
+
+end
+
+config router static
+
+edit 1
+
+<span class="nb">set </span>device port1
+
+<span class="nb">set </span>gateway <span class="o">(</span>your desired IP <span class="k">in </span>my <span class="k">case</span> it was 192.168.4.199 as 200 was taken<span class="p">)</span>
+
+next
+
+end
+</code></pre></div></div>
+
+<p>That will configure the port and gateway so we can log into the router via the web.</p>
+
+<p>The next thing I had an issue with was getting the licence, kept throwing up DNS errors so while we are here, lets configure the DNS:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>config system dns
+
+<span class="nb">set </span>primary 8.8.8.8
+
+<span class="nb">set </span>secondary 8.8.4.4
+
+end
+</code></pre></div></div>
+
+<p>Now to be safe you can reboot the device from the VMware menu up top:</p>
+
+<p><img src="/assets/blog/FortiVM/11.png" alt="11" class="align-center" /></p>
+
+<p>Once rebooted we can try to log in via the web interface with the admin username and password you have created:</p>
+
+<p><img src="/assets/blog/FortiVM/12.png" alt="12" class="align-center" /></p>
+
+<p>Now when you log in you are presented with a setup screen which may also warn that you need a valid licence to use the software, not to worry you can get a free perpetual licence for use from fortigate:</p>
+
+<p><img src="/assets/blog/FortiVM/13.png" alt="13" class="align-center" /></p>
+
+<p>Once ‘activated’ you should be brought to the ‘main menu’, the Dashboard of the Fortigate, if not it may take you through a quick little setup side mission but you can skip that part for now.</p>
+
+<h2 id="success">Success</h2>
+
+<p>Behold! Your Dashboard:</p>
+
+<p><img src="/assets/blog/FortiVM/15.png" alt="15" class="align-center" /></p>
+
+<p>And that it! Following on from this you can follow along with your training to play around with most parts and sections, again some locked off as its only a perm evaluation licence, but still enough to play around to try new things.</p>
+
+<p>Good luck.</p>
+
+<p>Peace</p>
+
+<p>🤙</p>
+
+<hr />
+
+<p>I don’t have any sponsors or anything but if you enjoy my work, or feel sympathy for my wife, then I have set up a <a href="https://ko-fi.com/ha3ks">Ko-Fi account</a> as well as a <a href="https://www.buymeacoffee.com/ha3ks">BuyMeACoffee</a> people can donate to.</p>
+
+</div>
+<div class="tags-container">
+	
+		<a href="https://www.ha3ks.com/tags/#blog" class="post-tag">blog</a>, 
+	
+		<a href="https://www.ha3ks.com/tags/#VMWare" class="post-tag">VMWare</a>, 
+	
+		<a href="https://www.ha3ks.com/tags/#Fortigate" class="post-tag">Fortigate</a>
+	
+</div>
+<div class="navigation">
+	
+		<a class="prev" href="/building-an-pbx-system/">< Building a PBX system</a>
+	 
+	<a class="next" href="/kubernetes-from-someone-who-has-12-whole-hours-experience/">Kubernetes - from someone who has 12 whole hours experience ></a>
+
+</div>
+
+	<section class="comment-area w-100">
+		<div class="comment-wrapper">
+			<div id="disqus_thread" class="article-comments"></div>
+			<script>
+			(function() {
+			var d = document, s = d.createElement('script');
+			s.src = '//XXX.disqus.com/embed.js';
+			s.setAttribute('data-timestamp', +new Date());
+			(d.head || d.body).appendChild(s);
+			})();
+			</script>
+			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		</div>
+	</section>
+
+	<div class="footer">
+		<span>Made with <span class="heart">❤</span> on Earth, definately not Mars. Minimalist Jekyll Theme by <a href="https://hakan.io"><strong>Hakan</strong> and modded my <strong>Ha3ks</strong></a></span>
+	</div>
+</div>
+	<script src="/assets/js/ephesus.js" defer></script>
+	<script type="text/javascript" defer>
+		if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+			document.documentElement.setAttribute('data-theme', 'dark');
+			const switcher = document.getElementById('mode-switcher');
+			if (switcher) {
+				switcher.classList.add('active');
+			}
+		}
+	</script>
+
+	<!-- Google Analytics 4 -->
+	
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-XXXXXXXXXX', {
+				'page_path': window.location.pathname,
+				'page_title': document.title
+			});
+		</script>
+	
+
+	<!-- Schema.org structured data -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Blog",
+		"name": "Ha3ks.com - for nerds",
+		"url": "https://www.ha3ks.com",
+		"description": "Ha3ks.com - for nerds",
+		"image": "https://www.ha3ks.com/assets/images/profile.jpg",
+		"author": {
+			"@type": "Person",
+			"name": "Dan Murray"
+		}
+	}
+	</script>
+</body>
+</html>
