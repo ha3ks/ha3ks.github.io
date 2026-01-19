@@ -64,10 +64,10 @@ social:
 collections:
   pages:
     output: true
-    permalink: /:name
+    permalink: /:name/
   posts:
     output: true
-    permalink: /:slug
+    permalink: /:slug/
   
 defaults:
   -
