@@ -1,5 +1,5 @@
 User-agent: *
-Sitemap: https://ha3ks.com/sitemap.xml
+Sitemap: https://www.ha3ks.com/sitemap.xml
 
                                                                            ........                 
                                  ............                          ....... .......              
