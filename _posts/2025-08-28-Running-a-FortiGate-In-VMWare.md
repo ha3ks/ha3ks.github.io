@@ -2,7 +2,7 @@
 layout: post
 title: "Running a FortiGate in VMWare"
 author: ha3ks
-date: 2025-08-29
+date: 2025-08-28
 slug: running-a-fortigate-in-vmware
 tags: blog VMWare Fortigate
 category: Blog
