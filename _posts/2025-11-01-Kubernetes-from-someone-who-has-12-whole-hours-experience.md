@@ -3,6 +3,7 @@ layout: post
 title: "Kubernetes - from someone who has 12 whole hours experience"
 author: ha3ks
 date: 2025-11-01
+slug: kubernetes-from-someone-who-has-12-whole-hours-experience
 tags: blog Kubernetes DevOps
 category: Blog
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "On Data Loss"
 author: ha3ks
 date: 2025-12-05
+slug: on-data-loss
 tags: blog
 category: Blog
 ---

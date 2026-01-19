@@ -3,6 +3,7 @@ layout: post
 title: "Building a PBX system"
 author: ha3ks
 date: 2025-07-12
+slug: building-an-pbx-system
 tags: blog pbx telecommunications
 category: Blog
 ---

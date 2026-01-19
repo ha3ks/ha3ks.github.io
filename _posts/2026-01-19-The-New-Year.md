@@ -3,6 +3,7 @@ layout: post
 title: "The New Year"
 author: ha3ks
 date: 2026-01-19
+slug: the-new-year
 tags: blog
 category: Blog
 ---
