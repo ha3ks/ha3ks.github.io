@@ -1,4 +1,394 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://www.ha3ks.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ha3ks.com/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2026-02-07T06:29:46+00:00</updated><id>https://www.ha3ks.com/feed.xml</id><title type="html">Ha3ks.com - for nerds</title><subtitle>Ha3ks.com - for nerds</subtitle><author><name>Dan Murray</name><email>hello@ha3ks.com</email></author><entry><title type="html">The New Year</title><link href="https://www.ha3ks.com/the-new-year/" rel="alternate" type="text/html" title="The New Year" /><published>2026-01-19T00:00:00+00:00</published><updated>2026-01-19T00:00:00+00:00</updated><id>https://www.ha3ks.com/the-new-year</id><content type="html" xml:base="https://www.ha3ks.com/the-new-year/"><![CDATA[<p>So with the last year now behind us, and no it was not an easy one (all things considered), I look forward to the new things that this year brings us… <em>checks news</em> something something Greenland something something World War 3 probably something something Rising Prices.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://www.ha3ks.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ha3ks.com/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2026-02-07T12:40:33+00:00</updated><id>https://www.ha3ks.com/feed.xml</id><title type="html">Ha3ks.com - for nerds</title><subtitle>Ha3ks.com - for nerds</subtitle><author><name>Dan Murray</name><email>hello@ha3ks.com</email></author><entry><title type="html">Weekly Recap</title><link href="https://www.ha3ks.com/weekly-recap/" rel="alternate" type="text/html" title="Weekly Recap" /><published>2026-02-07T00:00:00+00:00</published><updated>2026-02-07T00:00:00+00:00</updated><id>https://www.ha3ks.com/weekly-recap</id><content type="html" xml:base="https://www.ha3ks.com/weekly-recap/"><![CDATA[<p>I have decided to try doing a weekly update of my learning/experiences for previous days.</p>
+
+<p>I have no idea if this will be popular or a good idea but at least it is something.</p>
+
+<p>And per my mumblings further down, least it shows I am actually doing somehting.</p>
+
+<h1 id="02022026">02/02/2026</h1>
+
+<h2 id="warmup">Warmup</h2>
+
+<p>Starting February by relearning TryHackMe. I don’t know if I will stream this but Imposter Syndrome hits hard sometimes and my usual brain screams ‘I don’t know what I am doing’ so I tear down everything and start again… Today is no different, he says with a completely reset and rebuilt VIP account… Paid this time instead of bugged out and free for an entire year and a half (it seems), This time will be different. It has to be. I know where I want to be in life and there is one way to get there - HARD WORK.</p>
+
+<p>I asked ChatGPT recently for some advice on this and ended up making a fairly solid game plan - 2 hours a day on weekdays:</p>
+
+<p>15 mins warm up</p>
+
+<p>90 mins actual work</p>
+
+<p>15 mins cool down and review.. take notes and summarize where I got to.</p>
+
+<p>What I want to do:</p>
+
+<ul>
+  <li>Better hacker</li>
+  <li>Solid Fundamentals</li>
+  <li>Actually learn, no shortcuts and only refer to a walkthrough when stuck (stuck timer?)</li>
+  <li>Share the journey?</li>
+  <li>Actually show I know this stuff, I’m not as stupid as I think I am, I am better I just need to prove it to myself…. - Eliminate self doubt.</li>
+</ul>
+
+<p>It’s not an exhaustive list, but its one I want to work on, for all I know there could be changes made, or things added, lets see what happens with this first 5 days.</p>
+
+<h2 id="deep-focuslearning">Deep Focus/Learning</h2>
+
+<ul>
+  <li>Completed Offensive Security Intro</li>
+  <li>Completed Defensive Security Intro</li>
+  <li>Completed Careers in Cyber</li>
+</ul>
+
+<p><img src="/assets/blog/07-02-2026/1.png" alt="1" /></p>
+
+<ul>
+  <li>Completed What is Networking?</li>
+  <li>Completed Intro to Lan</li>
+</ul>
+
+<p><img src="/assets/blog/07-02-2026/2.png" alt="2" /></p>
+
+<ul>
+  <li>Completed OSI Model</li>
+</ul>
+
+<h2 id="wrap-up">Wrap Up</h2>
+
+<p>Did the quiz in Careers in Cyber and lo and behold,,, Red Teamer</p>
+
+<p><img src="/assets/blog/07-02-2026/3.png" alt="3" /></p>
+
+<p><img src="/assets/blog/07-02-2026/4.png" alt="4" /></p>
+
+<p>I want to be a red teamer and this thinks I should be one so….</p>
+
+<p>Fair amount of ‘intro’ machines done today. Felt good to be getting back into it. I know, quite obviously, that future hacking will not be ‘hey read this and the answer is revealed’ most of the machines will be ‘deposit user and root flags’ type scenarios and also along that path of Red Teamer a lot more complex and fun things will be hiding… I look forward to it.</p>
+
+<p>I need to make myself aware that not everything will be easy mode, some things will be complex and require a lot of testing and thinking, same with re-sitting (eventually) the OSCP, IT IS GOING TO TAKE TIME! so spend it correctly and get that win!</p>
+
+<h2 id="03022026">03/02/2026</h2>
+
+<h2 id="warmup-1">Warmup</h2>
+
+<p>Ok kicking things off today, I want to recap yesterday, from what I recall I completed a lot of the ‘info’/’intro’ rooms, this is to be expected given that I am on the first path on the platform - Pre Security, after that they next path will be Cyber Security 101 which will be a little more interesting then after that and as per my quiz results I am going straight down the Penetration tester path.</p>
+
+<p>It is unlikely I will get any of the certifications along this path as, money, but least I can hammer out the learning and then start to focus on machines.</p>
+
+<p>I figure doing the same thing I did with Hack The Box back in the day, hit every ‘easy’ machine then move onto the mediums, hards and insanes.</p>
+
+<p>At that point I want to swap out my TryHackMe VIP for a Hack The Box subscription as by that time the rust should be cleared off and I should be able to perform as well as I used to with things flowing back into my mindset.</p>
+
+<p>The time to get dangerous again, is now.</p>
+
+<p>I am also trying to use just one screen, just the laptop. While it is nice to have my monitor as well for all the extra 1080p screen real estate I can get, I kinda want to downsize a little and go a little more minimal.. Will it work? Maybe…</p>
+
+<p>Deep down I cant wait to get the sensory room/office sorted so my gear has a permanent home again, then I can splurge out a little… If I get a job I can finally sort out my dream setup of having a decent Mac and glorious big screen, maybe even curved(?) but I digress, trying new things.</p>
+
+<h2 id="deep-focuslearning-1">Deep Focus/Learning</h2>
+
+<ul>
+  <li>Completed Extending your Network</li>
+  <li>Completed DNS in Detail</li>
+  <li>Completed HTTP in Detail</li>
+  <li>Completed How Websites Work</li>
+  <li>Completed Putting it all together</li>
+  <li>Completed Linux Fundamentals Part 1</li>
+  <li>Completed Linux Fundamentals Part 2</li>
+</ul>
+
+<p>Check CronJobs with</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>crontab <span class="nt">-e</span>
+</code></pre></div></div>
+
+<ul>
+  <li>Completed Linux Fundamentals Part 3</li>
+</ul>
+
+<h2 id="wrap-up-1">Wrap Up</h2>
+
+<p>Managed to get a lot done today, jumped to the top of the bronze league leader board… Not that I care about that, I know there are badges and stuff for it but I literally don’t give a shit, I am here for the learning not for the league.</p>
+
+<p>Googled an interesting reminder for checking cronjobs running on Linux, strangely enough I was able to read and answer questions quite well and quite quickly though this is because I already know all this and the rust is starting to get work off, I become a machine once more… eventually.</p>
+
+<p>I didn’t get distracted today or need any external reminders (aside from Binaural Beats playing in my headphones).</p>
+
+<p>Even being able to get the Windows Timer to hover in the corner helped.. One Screen and all that…</p>
+
+<p>My experiment worked pretty will using just the laptop and mouse.</p>
+
+<p>I did use the keyboard but that was only because my laptop couldn’t be brought forwards to the pull out drawer and as such more comfortable on the sofa.</p>
+
+<p>Perhaps after this period today I can remove the keyboard, rewire some stuff and test the headphones directly into the laptop again, if all is well I can take the monitor back upstairs for now and settle into a minimalism desk again… I want to empty out my backpack and really clear things down.. I don’t need all the faff just the things that work.</p>
+
+<p>I still dream of a nice MacBook and maybe one day that will happen but for now Windows will have to do…</p>
+
+<p>I feel like, so far, this system is working.. In my head I know I can do more and add an extra hour in and what not but I really want to give this thing a proper try, avoid burnout and really grow and develop.</p>
+
+<p>Part of my mind debates if I should copy paste all this and dump it as a weekly blog post update, mainly because content but also to show people that I am not just sat around with my thumb in my arse.</p>
+
+<p>I potentially may end up working in a NOC/SOC but being a Red Teamer in a Blue Team field means I have a pretty good idea how a Threat Actor would come in, or better still how to stop it from every becoming a thing…. I digress.</p>
+
+<p>So far I am loving this newer, kinda more ‘relaxed’ way of doing things, I wonder how for I can go in ‘just’ 4 weeks…</p>
+
+<p>I feel like when I get through all this ‘info’ stuff and actually start going after machines, my notes will be getting a lot more filled up. May have to use pages with bullet points to make things neater then each machine with its own dedicated page can just have an ass load of content, scripts, results, notes, screenshots etc so its all correlated in one specific place, more on that later though.</p>
+
+<h2 id="04022026">04/02/2026</h2>
+
+<h2 id="warmup-2">Warmup</h2>
+
+<p>Did a fair amount of exercise this morning, ended up doing 44 mins strength and a 25 minute walk at ~3mph, not bad when your legs are in agony from lifting and an inconveniently placed newly developed skin tag…</p>
+
+<p>From what I recall from yesterday I really felt myself getting into some kind of flow state, relaxing and just cracking on with the objective, I am hopeful today I can finish off this Pre Security path and move onto the Cyber Security 101 path, strangely because of the pre path (at present) 10% of the 101 is done.</p>
+
+<p>This is one of the downsides to TryHackMe. I really wish the training was ‘siloed’ into the specific sections, so there is no chance of completing something before you get there and letting you get on with the flow.</p>
+
+<p>Tiny problem I know but perhaps they could, instead of recycling the content for some sections, approach it in a new way or do a recap and then some more ‘in depth’ that would be awesome.</p>
+
+<p>I find it funny that, for the most part people who were ‘influencers’ during the Advent of Cyber only did it for that and since then have had little to no new activity… yeah people have jobs and lives etc. but I thought there was supposed to be some engagement with the community(?)… I could be wrong and what the hell do I know about being an ‘influencer’.</p>
+
+<p>I think it’s interesting that I am, so far anyway, sticking to the plan of doing work on certain days, I know places like THM have a focus on streaks etc but I really don’t care about them. It’s easy to get the 365 days badge and whatnot just by doing 1 action per day, its dumb.</p>
+
+<p>I removed the monitor and the keyboard from my setup now so its just me, this desk from the school for the blind and my laptop. I can sit back on the sofa and get cracking.</p>
+
+<h2 id="deep-focuslearning-2">Deep Focus/Learning</h2>
+
+<ul>
+  <li>Completed Windows Fundamentals 1</li>
+  <li>Completed Windows Fundamentals 2</li>
+  <li>
+    <p>Completed Windows Fundamentals 3</p>
+
+    <p>Finished Pre Security path and awarded certificate (took roughly 3 and a half hours in total)</p>
+
+    <p><img src="/assets/blog/07-02-2026/5.png" alt="5" /></p>
+  </li>
+  <li>Cyber Security 101 is at present 15% complete after doing Pre Security, Noted Web Fundamentals in the Penetration Tester Path is also 16% completed, this annoys me but I get whey they have spill over given what is actually available on the platform.</li>
+  <li>Started Cyber Security 101 path 54 mins remaining on clock for this session.</li>
+  <li>Completed Search Skills</li>
+  <li>
+    <p>Completed Active Directory Basics</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  tasklist /FI <span class="s2">"imagename eq notepad.exe” ## Kills notepad from the command line can change to other exe's
+</span></code></pre></div>    </div>
+  </li>
+  <li>Completed Windows Command Line</li>
+  <li>Completed Windows PowerShell</li>
+  <li>Completed Linux Scripts</li>
+  <li>Completed Networking Concepts</li>
+</ul>
+
+<h2 id="wrap-up-2">Wrap Up</h2>
+
+<p>Managed to smash out quite a good few rooms today, I feel like I am starting to become the analyst I was before… focused, disciplined.. sharp.</p>
+
+<p>Completed the Pre Security Path and started chopping my way through Cyber Security 101.</p>
+
+<p>I have to admit a few times I caught myself reading something and accidently picking up on the next answer to a question, annoying but what do you expect when everyone has already done all these rooms and paths and all the information is freely available on the internet for all to see.</p>
+
+<p>When I get around to machines things might be a little easier for googling and checking my math with avoiding the walkthroughs, can only hope mind.</p>
+
+<p>AI summarization on the internet is an absolute bastard, it killed StackOverflow and it is going to kill more things, yes its easier but it leaves corpses in its path.</p>
+
+<p>It was a little harder to concentrate today, not because I’m sore, it’s because of musical earworms getting in and interrupting my flow, need to deal with that better, FWIW the Binaural Beats seems to be helping, keeping interesting tones and whatnot constantly feeding my brain while I work has helped before and it will continue to do so now.</p>
+
+<p>I wonder about not only using TryHackMe for my ‘education’ side of things, I think about cracking on with HTB academy too, though their cubes system can be an arse as you only have a limited amount and after that you run out of training, I do enjoy their training material but its difficult to split between the two when you are ‘out of work’ so to speak so have to find some way of footing the bill…</p>
+
+<p>So far this week, this year, I have dedicated 270 minutes (4.5 hours) to focused learning, seems to be working but I really need to push this number up higher.</p>
+
+<p>Now I build my body and my brain.</p>
+
+<h2 id="05022026">05/02/2026</h2>
+
+<h2 id="warmup-3">Warmup</h2>
+
+<p>Ok so did my exercises, did the pots, fed the animals, quick walk to the shop and met 2 Great Pyrenees. This day is awesome.</p>
+
+<p>From what I recall yesterday I am now progressing through the Cyber Security 101 Path, the basics of Cyber Security so should be relatively straightforward and let me focus and crack on.</p>
+
+<p>Trying my knock off AirPods Pros today, mainly because I found them again while sorting through some stuff and majorly because I can’t keep wearing the massive Corsair Headset I have.</p>
+
+<p>I also don’t want to faff around pairing my actual Airpods (Gen 4s not pros and I do regret it) from my phone to my laptop and back again… it’s annoying switching Bluetooth off and on for each device etc. so as I have 2 I can use 2… very minimalist…</p>
+
+<p>I’ve been thinking about my friends in the field a lot lately.. literal wizards of Cyber Security, Analysis, Malware, Defence its all so cool and I really want to be there with them and operating on the same level.. there’s nothing to it but to do it, same as my health and that I definitely need to keep an eye on.</p>
+
+<h2 id="deep-focuslearning-3">Deep Focus/Learning</h2>
+
+<ul>
+  <li>Completed Networking Essentials</li>
+</ul>
+
+<p>| <strong>Protocol</strong> | <strong>Transport Protocol</strong> | <strong>Default Port Number</strong> |
+| — | — | — |
+| TELNET | TCP | 23 |
+| DNS | UDP or TCP | 53 |
+| HTTP | TCP | 80 |
+| HTTPS | TCP | 443 |
+| FTP | TCP | 21 |
+| SMTP | TCP | 25 |
+| POP3 | TCP | 110 |
+| IMAP | TCP | 143 |</p>
+<ul>
+  <li>Completed Networking Core Protocols</li>
+  <li>Completed Networking Secure Protocols</li>
+  <li>Completed Wireshark The Basics</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Command</strong></th>
+      <th><strong>Explanation</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">tcpdump -i INTERFACE</code></td>
+      <td>Captures packets on a specific network interface</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">tcpdump -w FILE</code></td>
+      <td>Writes captured packets to a file</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">tcpdump -r FILE</code></td>
+      <td>Reads captured packets from a file</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">tcpdump -c COUNT</code></td>
+      <td>Captures a specific number of packets</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">tcpdump -n</code></td>
+      <td>Don’t resolve IP addresses</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">tcpdump -nn</code></td>
+      <td>Don’t resolve IP addresses and don’t resolve protocol numbers</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">tcpdump -v</code></td>
+      <td>Verbose display; verbosity can be increased with <code class="language-plaintext highlighter-rouge">-vv</code> and <code class="language-plaintext highlighter-rouge">-vvv</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Command</strong></th>
+      <th><strong>Explanation</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">tcpdump host IP</code> or <code class="language-plaintext highlighter-rouge">tcpdump host HOSTNAME</code></td>
+      <td>Filters packets by IP address or hostname</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">tcpdump src host IP</code> or</td>
+      <td>Filters packets by a specific source host</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">tcpdump dst host IP</code></td>
+      <td>Filters packets by a specific destination host</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">tcpdump port PORT_NUMBER</code></td>
+      <td>Filters packets by port number</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">tcpdump src port PORT_NUMBER</code></td>
+      <td>Filters packets by the specified source port number</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">tcpdump dst port PORT_NUMBER</code></td>
+      <td>Filters packets by the specified destination port number</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">tcpdump PROTOCOL</code></td>
+      <td>Filters packets by protocol; examples include <code class="language-plaintext highlighter-rouge">ip</code>, <code class="language-plaintext highlighter-rouge">ip6</code>, and <code class="language-plaintext highlighter-rouge">icmp</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>| <strong>Command</strong> | <strong>Explanation</strong> |
+| — | — |
+| <code class="language-plaintext highlighter-rouge">tcpdump -q</code> | Quick and quite: brief packet information |
+| <code class="language-plaintext highlighter-rouge">tcpdump -e</code> | Include MAC addresses |
+| <code class="language-plaintext highlighter-rouge">tcpdump -A</code> | Print packets as ASCII encoding |
+| <code class="language-plaintext highlighter-rouge">tcpdump -xx</code> | Display packets in hexadecimal format |
+| <code class="language-plaintext highlighter-rouge">tcpdump -X</code> | Show packets in both hexadecimal and ASCII formats |</p>
+<ul>
+  <li>Completed TCPdump The Basics</li>
+</ul>
+
+<p>| <strong>Option</strong> | <strong>Explanation</strong> |
+| — | — |
+| <code class="language-plaintext highlighter-rouge">-sL</code> | List scan – list targets without scanning |
+| <strong><em>Host Discovery</em></strong> |  |
+| <code class="language-plaintext highlighter-rouge">-sn</code> | Ping scan – host discovery only |
+| <strong><em>Port Scanning</em></strong> |  |
+| <code class="language-plaintext highlighter-rouge">-sT</code> | TCP connect scan – complete three-way handshake |
+| <code class="language-plaintext highlighter-rouge">-sS</code> | TCP SYN – only first step of the three-way handshake |
+| <code class="language-plaintext highlighter-rouge">-sU</code> | UDP Scan |
+| <code class="language-plaintext highlighter-rouge">-F</code> | Fast mode – scans the 100 most common ports |
+| <code class="language-plaintext highlighter-rouge">-p[range]</code> | Specifies a range of port numbers – <code class="language-plaintext highlighter-rouge">-p-</code> scans all the ports |
+| <code class="language-plaintext highlighter-rouge">-Pn</code> | Treat all hosts as online – scan hosts that appear to be down |
+| <strong><em>Service Detection</em></strong> |  |
+| <code class="language-plaintext highlighter-rouge">-O</code> | OS detection |
+| <code class="language-plaintext highlighter-rouge">-sV</code> | Service version detection |
+| <code class="language-plaintext highlighter-rouge">-A</code> | OS detection, version detection, and other additions |
+| <strong><em>Timing</em></strong> |  |
+| <code class="language-plaintext highlighter-rouge">-T&lt;0-5&gt;</code> | Timing template – paranoid (0), sneaky (1), polite (2), normal (3), aggressive (4), and insane (5) |
+| <code class="language-plaintext highlighter-rouge">--min-parallelism &lt;numprobes&gt;</code> and <code class="language-plaintext highlighter-rouge">--max-parallelism &lt;numprobes&gt;</code> | Minimum and maximum number of parallel probes |
+| <code class="language-plaintext highlighter-rouge">--min-rate &lt;number&gt;</code> and <code class="language-plaintext highlighter-rouge">--max-rate &lt;number&gt;</code> | Minimum and maximum rate (packets/second) |
+| <code class="language-plaintext highlighter-rouge">--host-timeout</code> | Maximum amount of time to wait for a target host |
+| <strong><em>Real-time output</em></strong> |  |
+| <code class="language-plaintext highlighter-rouge">-v</code> | Verbosity level – for example, <code class="language-plaintext highlighter-rouge">-vv</code> and <code class="language-plaintext highlighter-rouge">-v4</code> |
+| <code class="language-plaintext highlighter-rouge">-d</code> | Debugging level – for example <code class="language-plaintext highlighter-rouge">-d</code> and <code class="language-plaintext highlighter-rouge">-d9</code> |
+| <strong><em>Report</em></strong> |  |
+| <code class="language-plaintext highlighter-rouge">-oN &lt;filename&gt;</code> | Normal output |
+| <code class="language-plaintext highlighter-rouge">-oX &lt;filename&gt;</code> | XML output |
+| <code class="language-plaintext highlighter-rouge">-oG &lt;filename&gt;</code> | <code class="language-plaintext highlighter-rouge">grep</code>-able output |
+| <code class="language-plaintext highlighter-rouge">-oA &lt;basename&gt;</code> | Output in all major formats |</p>
+<ul>
+  <li>Completed Nmap The Basics</li>
+  <li>Completed Cryptography Basics</li>
+</ul>
+
+<h2 id="wrap-up-3">Wrap Up</h2>
+
+<p>Another day, another dollar.</p>
+
+<p>I really feel like these sessions and this framework, specifically sticking to a 15 min warmup and an ending recap are helping.</p>
+
+<p>From the materials today, even though this is all in my head already I decided to copy paste some of the commands for TCP dump and Nmap, I really enjoyed getting to grips with Wireshark again, I really need to get better at using it and being able to read things in it. perhaps I could spend a day on that or its associated rooms when I get a chance, for now I am sticking with the paths and going off that once I get them hammered out.</p>
+
+<p>I had to change back to my headset as the AirPods just wouldn’t sit comfortable for me,, could be the fact they are knock offs and the sound is way off…. probably is actually now I think about it, I’ll put them back in the box where I found them and figure out something I can do with them later.</p>
+
+<p>For now back to my regular post training and exercise life and that means back to house jobs.</p>
+
+<h2 id="06022026">06/02/2026</h2>
+
+<h2 id="notes">Notes</h2>
+
+<p>My Laptop took a shit today.. Cathrine tells me its ‘clearly user error’ so perhaps I am cursed or some shit but these issues with windows are really getting on my nerves.</p>
+
+<p>I am actually writing this on Saturday (07/02/2026) having got the laptop back into a working state, even windows updates are now correctly installing.</p>
+
+<p>I considered picking back up THM today and getting that missing 90 minutes focussed learning in but my head isn’t in the game today.. all the hell I went through yesterday (up till 11pm at night) just to get this machine working again really burned me out.</p>
+
+<p>I am also taking the weekend as rest days on exercise (yeh you try throwing around a kettlebell with an 11 year old in the room) so per my ChatGPT idea.. I rest today and tomorrow and come back strong on Monday.</p>
+
+<p>I may end up hitting machines on Hack The Box sooner then I think (considered for weeks 9-12) as the rust definitely comes off when you are in that flow state.</p>
+
+<p>Ill see you next week for the next update post.</p>
+
+<p>🤙</p>
+
+<hr />
+
+<p>I don’t have any sponsors or anything but if you enjoy my work, or feel sympathy for my wife, then I have set up a <a href="https://ko-fi.com/ha3ks">Ko-Fi account</a> as well as a <a href="https://www.buymeacoffee.com/ha3ks">BuyMeACoffee</a> people can donate to.</p>]]></content><author><name>ha3ks</name></author><category term="Blog" /><category term="blog" /><summary type="html"><![CDATA[I have decided to try doing a weekly update of my learning/experiences for previous days.]]></summary></entry><entry><title type="html">The New Year</title><link href="https://www.ha3ks.com/the-new-year/" rel="alternate" type="text/html" title="The New Year" /><published>2026-01-19T00:00:00+00:00</published><updated>2026-01-19T00:00:00+00:00</updated><id>https://www.ha3ks.com/the-new-year</id><content type="html" xml:base="https://www.ha3ks.com/the-new-year/"><![CDATA[<p>So with the last year now behind us, and no it was not an easy one (all things considered), I look forward to the new things that this year brings us… <em>checks news</em> something something Greenland something something World War 3 probably something something Rising Prices.</p>
 
 <p>Ok so maybe this year is also a bad starting point but, here we are now!</p>
 
