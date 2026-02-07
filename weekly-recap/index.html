@@ -309,16 +309,58 @@
   <li>Completed Networking Essentials</li>
 </ul>
 
-<p>| <strong>Protocol</strong> | <strong>Transport Protocol</strong> | <strong>Default Port Number</strong> |
-| — | — | — |
-| TELNET | TCP | 23 |
-| DNS | UDP or TCP | 53 |
-| HTTP | TCP | 80 |
-| HTTPS | TCP | 443 |
-| FTP | TCP | 21 |
-| SMTP | TCP | 25 |
-| POP3 | TCP | 110 |
-| IMAP | TCP | 143 |</p>
+<table>
+  <thead>
+    <tr>
+      <th><strong>Protocol</strong></th>
+      <th><strong>Transport Protocol</strong></th>
+      <th><strong>Default Port Number</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TELNET</td>
+      <td>TCP</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>DNS</td>
+      <td>UDP or TCP</td>
+      <td>53</td>
+    </tr>
+    <tr>
+      <td>HTTP</td>
+      <td>TCP</td>
+      <td>80</td>
+    </tr>
+    <tr>
+      <td>HTTPS</td>
+      <td>TCP</td>
+      <td>443</td>
+    </tr>
+    <tr>
+      <td>FTP</td>
+      <td>TCP</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>SMTP</td>
+      <td>TCP</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>POP3</td>
+      <td>TCP</td>
+      <td>110</td>
+    </tr>
+    <tr>
+      <td>IMAP</td>
+      <td>TCP</td>
+      <td>143</td>
+    </tr>
+  </tbody>
+</table>
+
 <ul>
   <li>Completed Networking Core Protocols</li>
   <li>Completed Networking Secure Protocols</li>
@@ -403,46 +445,160 @@
   </tbody>
 </table>
 
-<p>| <strong>Command</strong> | <strong>Explanation</strong> |
-| — | — |
-| <code class="language-plaintext highlighter-rouge">tcpdump -q</code> | Quick and quite: brief packet information |
-| <code class="language-plaintext highlighter-rouge">tcpdump -e</code> | Include MAC addresses |
-| <code class="language-plaintext highlighter-rouge">tcpdump -A</code> | Print packets as ASCII encoding |
-| <code class="language-plaintext highlighter-rouge">tcpdump -xx</code> | Display packets in hexadecimal format |
-| <code class="language-plaintext highlighter-rouge">tcpdump -X</code> | Show packets in both hexadecimal and ASCII formats |</p>
+<table>
+  <thead>
+    <tr>
+      <th><strong>Command</strong></th>
+      <th><strong>Explanation</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">tcpdump -q</code></td>
+      <td>Quick and quite: brief packet information</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">tcpdump -e</code></td>
+      <td>Include MAC addresses</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">tcpdump -A</code></td>
+      <td>Print packets as ASCII encoding</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">tcpdump -xx</code></td>
+      <td>Display packets in hexadecimal format</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">tcpdump -X</code></td>
+      <td>Show packets in both hexadecimal and ASCII formats</td>
+    </tr>
+  </tbody>
+</table>
+
 <ul>
   <li>Completed TCPdump The Basics</li>
 </ul>
 
-<p>| <strong>Option</strong> | <strong>Explanation</strong> |
-| — | — |
-| <code class="language-plaintext highlighter-rouge">-sL</code> | List scan – list targets without scanning |
-| <strong><em>Host Discovery</em></strong> |  |
-| <code class="language-plaintext highlighter-rouge">-sn</code> | Ping scan – host discovery only |
-| <strong><em>Port Scanning</em></strong> |  |
-| <code class="language-plaintext highlighter-rouge">-sT</code> | TCP connect scan – complete three-way handshake |
-| <code class="language-plaintext highlighter-rouge">-sS</code> | TCP SYN – only first step of the three-way handshake |
-| <code class="language-plaintext highlighter-rouge">-sU</code> | UDP Scan |
-| <code class="language-plaintext highlighter-rouge">-F</code> | Fast mode – scans the 100 most common ports |
-| <code class="language-plaintext highlighter-rouge">-p[range]</code> | Specifies a range of port numbers – <code class="language-plaintext highlighter-rouge">-p-</code> scans all the ports |
-| <code class="language-plaintext highlighter-rouge">-Pn</code> | Treat all hosts as online – scan hosts that appear to be down |
-| <strong><em>Service Detection</em></strong> |  |
-| <code class="language-plaintext highlighter-rouge">-O</code> | OS detection |
-| <code class="language-plaintext highlighter-rouge">-sV</code> | Service version detection |
-| <code class="language-plaintext highlighter-rouge">-A</code> | OS detection, version detection, and other additions |
-| <strong><em>Timing</em></strong> |  |
-| <code class="language-plaintext highlighter-rouge">-T&lt;0-5&gt;</code> | Timing template – paranoid (0), sneaky (1), polite (2), normal (3), aggressive (4), and insane (5) |
-| <code class="language-plaintext highlighter-rouge">--min-parallelism &lt;numprobes&gt;</code> and <code class="language-plaintext highlighter-rouge">--max-parallelism &lt;numprobes&gt;</code> | Minimum and maximum number of parallel probes |
-| <code class="language-plaintext highlighter-rouge">--min-rate &lt;number&gt;</code> and <code class="language-plaintext highlighter-rouge">--max-rate &lt;number&gt;</code> | Minimum and maximum rate (packets/second) |
-| <code class="language-plaintext highlighter-rouge">--host-timeout</code> | Maximum amount of time to wait for a target host |
-| <strong><em>Real-time output</em></strong> |  |
-| <code class="language-plaintext highlighter-rouge">-v</code> | Verbosity level – for example, <code class="language-plaintext highlighter-rouge">-vv</code> and <code class="language-plaintext highlighter-rouge">-v4</code> |
-| <code class="language-plaintext highlighter-rouge">-d</code> | Debugging level – for example <code class="language-plaintext highlighter-rouge">-d</code> and <code class="language-plaintext highlighter-rouge">-d9</code> |
-| <strong><em>Report</em></strong> |  |
-| <code class="language-plaintext highlighter-rouge">-oN &lt;filename&gt;</code> | Normal output |
-| <code class="language-plaintext highlighter-rouge">-oX &lt;filename&gt;</code> | XML output |
-| <code class="language-plaintext highlighter-rouge">-oG &lt;filename&gt;</code> | <code class="language-plaintext highlighter-rouge">grep</code>-able output |
-| <code class="language-plaintext highlighter-rouge">-oA &lt;basename&gt;</code> | Output in all major formats |</p>
+<table>
+  <thead>
+    <tr>
+      <th><strong>Option</strong></th>
+      <th><strong>Explanation</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">-sL</code></td>
+      <td>List scan – list targets without scanning</td>
+    </tr>
+    <tr>
+      <td><strong><em>Host Discovery</em></strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">-sn</code></td>
+      <td>Ping scan – host discovery only</td>
+    </tr>
+    <tr>
+      <td><strong><em>Port Scanning</em></strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">-sT</code></td>
+      <td>TCP connect scan – complete three-way handshake</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">-sS</code></td>
+      <td>TCP SYN – only first step of the three-way handshake</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">-sU</code></td>
+      <td>UDP Scan</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">-F</code></td>
+      <td>Fast mode – scans the 100 most common ports</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">-p[range]</code></td>
+      <td>Specifies a range of port numbers – <code class="language-plaintext highlighter-rouge">-p-</code> scans all the ports</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">-Pn</code></td>
+      <td>Treat all hosts as online – scan hosts that appear to be down</td>
+    </tr>
+    <tr>
+      <td><strong><em>Service Detection</em></strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">-O</code></td>
+      <td>OS detection</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">-sV</code></td>
+      <td>Service version detection</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">-A</code></td>
+      <td>OS detection, version detection, and other additions</td>
+    </tr>
+    <tr>
+      <td><strong><em>Timing</em></strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">-T&lt;0-5&gt;</code></td>
+      <td>Timing template – paranoid (0), sneaky (1), polite (2), normal (3), aggressive (4), and insane (5)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">--min-parallelism &lt;numprobes&gt;</code> and <code class="language-plaintext highlighter-rouge">--max-parallelism &lt;numprobes&gt;</code></td>
+      <td>Minimum and maximum number of parallel probes</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">--min-rate &lt;number&gt;</code> and <code class="language-plaintext highlighter-rouge">--max-rate &lt;number&gt;</code></td>
+      <td>Minimum and maximum rate (packets/second)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">--host-timeout</code></td>
+      <td>Maximum amount of time to wait for a target host</td>
+    </tr>
+    <tr>
+      <td><strong><em>Real-time output</em></strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">-v</code></td>
+      <td>Verbosity level – for example, <code class="language-plaintext highlighter-rouge">-vv</code> and <code class="language-plaintext highlighter-rouge">-v4</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">-d</code></td>
+      <td>Debugging level – for example <code class="language-plaintext highlighter-rouge">-d</code> and <code class="language-plaintext highlighter-rouge">-d9</code></td>
+    </tr>
+    <tr>
+      <td><strong><em>Report</em></strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">-oN &lt;filename&gt;</code></td>
+      <td>Normal output</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">-oX &lt;filename&gt;</code></td>
+      <td>XML output</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">-oG &lt;filename&gt;</code></td>
+      <td><code class="language-plaintext highlighter-rouge">grep</code>-able output</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">-oA &lt;basename&gt;</code></td>
+      <td>Output in all major formats</td>
+    </tr>
+  </tbody>
+</table>
+
 <ul>
   <li>Completed Nmap The Basics</li>
   <li>Completed Cryptography Basics</li>
