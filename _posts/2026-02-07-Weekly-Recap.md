@@ -221,6 +221,7 @@ I’ve been thinking about my friends in the field a lot lately.. literal wizard
 | SMTP | TCP | 25 |
 | POP3 | TCP | 110 |
 | IMAP | TCP | 143 |
+
 - Completed Networking Core Protocols
 - Completed Networking Secure Protocols
 - Completed Wireshark The Basics
@@ -252,6 +253,7 @@ I’ve been thinking about my friends in the field a lot lately.. literal wizard
 | `tcpdump -A` | Print packets as ASCII encoding |
 | `tcpdump -xx` | Display packets in hexadecimal format |
 | `tcpdump -X` | Show packets in both hexadecimal and ASCII formats |
+
 - Completed TCPdump The Basics
 
 | **Option** | **Explanation** |
@@ -283,6 +285,7 @@ I’ve been thinking about my friends in the field a lot lately.. literal wizard
 | `-oX <filename>` | XML output |
 | `-oG <filename>` | `grep`-able output |
 | `-oA <basename>` | Output in all major formats |
+
 - Completed Nmap The Basics
 - Completed Cryptography Basics
 
