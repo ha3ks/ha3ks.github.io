@@ -1,0 +1,321 @@
+---
+layout: post
+title: "Weekly Recap"
+author: ha3ks
+date: 2026-02-07
+slug: weekly-recap
+tags: blog
+category: Blog
+---
+
+I have decided to try doing a weekly update of my learning/experiences for previous days. 
+
+I have no idea if this will be popular or a good idea but at least it is something.
+
+And per my mumblings further down, least it shows I am actually doing somehting.
+
+# 02/02/2026
+
+## Warmup
+
+Starting February by relearning TryHackMe. I don’t know if I will stream this but Imposter Syndrome hits hard sometimes and my usual brain screams ‘I don’t know what I am doing’ so I tear down everything and start again… Today is no different, he says with a completely reset and rebuilt VIP account… Paid this time instead of bugged out and free for an entire year and a half (it seems), This time will be different. It has to be. I know where I want to be in life and there is one way to get there - HARD WORK.
+
+I asked ChatGPT recently for some advice on this and ended up making a fairly solid game plan - 2 hours a day on weekdays:
+
+15 mins warm up
+
+90 mins actual work
+
+15 mins cool down and review.. take notes and summarize where I got to.
+
+What I want to do:
+
+- Better hacker
+- Solid Fundamentals
+- Actually learn, no shortcuts and only refer to a walkthrough when stuck (stuck timer?)
+- Share the journey?
+- Actually show I know this stuff, I’m not as stupid as I think I am, I am better I just need to prove it to myself…. - Eliminate self doubt.
+
+It’s not an exhaustive list, but its one I want to work on, for all I know there could be changes made, or things added, lets see what happens with this first 5 days.
+
+## Deep Focus/Learning
+
+- Completed Offensive Security Intro
+- Completed Defensive Security Intro
+- Completed Careers in Cyber
+    
+![1](/assets/blog/07-02-2026/1.png)
+    
+- Completed What is Networking?
+- Completed Intro to Lan
+
+![2](/assets/blog/07-02-2026/2.png)
+
+- Completed OSI Model
+
+## Wrap Up
+
+Did the quiz in Careers in Cyber and lo and behold,,, Red Teamer
+    
+![3](/assets/blog/07-02-2026/3.png)
+    
+![4](/assets/blog/07-02-2026/4.png)
+    
+I want to be a red teamer and this thinks I should be one so….
+    
+Fair amount of ‘intro’ machines done today. Felt good to be getting back into it. I know, quite obviously, that future hacking will not be ‘hey read this and the answer is revealed’ most of the machines will be ‘deposit user and root flags’ type scenarios and also along that path of Red Teamer a lot more complex and fun things will be hiding… I look forward to it.
+    
+I need to make myself aware that not everything will be easy mode, some things will be complex and require a lot of testing and thinking, same with re-sitting (eventually) the OSCP, IT IS GOING TO TAKE TIME! so spend it correctly and get that win!
+
+## 03/02/2026
+
+## Warmup
+
+Ok kicking things off today, I want to recap yesterday, from what I recall I completed a lot of the ‘info’/’intro’ rooms, this is to be expected given that I am on the first path on the platform - Pre Security, after that they next path will be Cyber Security 101 which will be a little more interesting then after that and as per my quiz results I am going straight down the Penetration tester path.
+
+It is unlikely I will get any of the certifications along this path as, money, but least I can hammer out the learning and then start to focus on machines.
+
+I figure doing the same thing I did with Hack The Box back in the day, hit every ‘easy’ machine then move onto the mediums, hards and insanes.
+
+At that point I want to swap out my TryHackMe VIP for a Hack The Box subscription as by that time the rust should be cleared off and I should be able to perform as well as I used to with things flowing back into my mindset.
+
+The time to get dangerous again, is now.
+
+I am also trying to use just one screen, just the laptop. While it is nice to have my monitor as well for all the extra 1080p screen real estate I can get, I kinda want to downsize a little and go a little more minimal.. Will it work? Maybe…
+
+Deep down I cant wait to get the sensory room/office sorted so my gear has a permanent home again, then I can splurge out a little… If I get a job I can finally sort out my dream setup of having a decent Mac and glorious big screen, maybe even curved(?) but I digress, trying new things.
+
+## Deep Focus/Learning
+
+- Completed Extending your Network
+- Completed DNS in Detail
+- Completed HTTP in Detail
+- Completed How Websites Work
+- Completed Putting it all together
+- Completed Linux Fundamentals Part 1
+- Completed Linux Fundamentals Part 2
+
+Check CronJobs with 
+
+```bash
+crontab -e
+```
+
+- Completed Linux Fundamentals Part 3
+
+## Wrap Up
+
+Managed to get a lot done today, jumped to the top of the bronze league leader board… Not that I care about that, I know there are badges and stuff for it but I literally don’t give a shit, I am here for the learning not for the league.
+
+Googled an interesting reminder for checking cronjobs running on Linux, strangely enough I was able to read and answer questions quite well and quite quickly though this is because I already know all this and the rust is starting to get work off, I become a machine once more… eventually.
+
+I didn’t get distracted today or need any external reminders (aside from Binaural Beats playing in my headphones).
+
+Even being able to get the Windows Timer to hover in the corner helped.. One Screen and all that…
+
+My experiment worked pretty will using just the laptop and mouse.
+
+I did use the keyboard but that was only because my laptop couldn’t be brought forwards to the pull out drawer and as such more comfortable on the sofa. 
+
+Perhaps after this period today I can remove the keyboard, rewire some stuff and test the headphones directly into the laptop again, if all is well I can take the monitor back upstairs for now and settle into a minimalism desk again… I want to empty out my backpack and really clear things down.. I don’t need all the faff just the things that work.
+
+I still dream of a nice MacBook and maybe one day that will happen but for now Windows will have to do…
+
+I feel like, so far, this system is working.. In my head I know I can do more and add an extra hour in and what not but I really want to give this thing a proper try, avoid burnout and really grow and develop.
+
+Part of my mind debates if I should copy paste all this and dump it as a weekly blog post update, mainly because content but also to show people that I am not just sat around with my thumb in my arse.
+
+I potentially may end up working in a NOC/SOC but being a Red Teamer in a Blue Team field means I have a pretty good idea how a Threat Actor would come in, or better still how to stop it from every becoming a thing…. I digress.
+
+So far I am loving this newer, kinda more ‘relaxed’ way of doing things, I wonder how for I can go in ‘just’ 4 weeks…
+
+I feel like when I get through all this ‘info’ stuff and actually start going after machines, my notes will be getting a lot more filled up. May have to use pages with bullet points to make things neater then each machine with its own dedicated page can just have an ass load of content, scripts, results, notes, screenshots etc so its all correlated in one specific place, more on that later though.
+
+## 04/02/2026
+
+## Warmup
+
+Did a fair amount of exercise this morning, ended up doing 44 mins strength and a 25 minute walk at ~3mph, not bad when your legs are in agony from lifting and an inconveniently placed newly developed skin tag…
+
+From what I recall from yesterday I really felt myself getting into some kind of flow state, relaxing and just cracking on with the objective, I am hopeful today I can finish off this Pre Security path and move onto the Cyber Security 101 path, strangely because of the pre path (at present) 10% of the 101 is done.
+
+This is one of the downsides to TryHackMe. I really wish the training was ‘siloed’ into the specific sections, so there is no chance of completing something before you get there and letting you get on with the flow.
+
+Tiny problem I know but perhaps they could, instead of recycling the content for some sections, approach it in a new way or do a recap and then some more ‘in depth’ that would be awesome.
+
+I find it funny that, for the most part people who were ‘influencers’ during the Advent of Cyber only did it for that and since then have had little to no new activity… yeah people have jobs and lives etc. but I thought there was supposed to be some engagement with the community(?)… I could be wrong and what the hell do I know about being an ‘influencer’.
+
+I think it’s interesting that I am, so far anyway, sticking to the plan of doing work on certain days, I know places like THM have a focus on streaks etc but I really don’t care about them. It’s easy to get the 365 days badge and whatnot just by doing 1 action per day, its dumb.
+
+I removed the monitor and the keyboard from my setup now so its just me, this desk from the school for the blind and my laptop. I can sit back on the sofa and get cracking.
+
+## Deep Focus/Learning
+
+- Completed Windows Fundamentals 1
+- Completed Windows Fundamentals 2
+- Completed Windows Fundamentals 3
+    
+    Finished Pre Security path and awarded certificate (took roughly 3 and a half hours in total)
+    
+    ![5](/assets/blog/07-02-2026/5.png)
+    
+- Cyber Security 101 is at present 15% complete after doing Pre Security, Noted Web Fundamentals in the Penetration Tester Path is also 16% completed, this annoys me but I get whey they have spill over given what is actually available on the platform.
+- Started Cyber Security 101 path 54 mins remaining on clock for this session.
+- Completed Search Skills
+- Completed Active Directory Basics
+    
+    ```bash
+    tasklist /FI "imagename eq notepad.exe” ## Kills notepad from the command line can change to other exe's
+    ```
+    
+- Completed Windows Command Line
+- Completed Windows PowerShell
+- Completed Linux Scripts
+- Completed Networking Concepts
+
+## Wrap Up
+
+Managed to smash out quite a good few rooms today, I feel like I am starting to become the analyst I was before… focused, disciplined.. sharp.
+
+Completed the Pre Security Path and started chopping my way through Cyber Security 101.
+
+I have to admit a few times I caught myself reading something and accidently picking up on the next answer to a question, annoying but what do you expect when everyone has already done all these rooms and paths and all the information is freely available on the internet for all to see.
+
+When I get around to machines things might be a little easier for googling and checking my math with avoiding the walkthroughs, can only hope mind.
+
+AI summarization on the internet is an absolute bastard, it killed StackOverflow and it is going to kill more things, yes its easier but it leaves corpses in its path.
+
+It was a little harder to concentrate today, not because I’m sore, it’s because of musical earworms getting in and interrupting my flow, need to deal with that better, FWIW the Binaural Beats seems to be helping, keeping interesting tones and whatnot constantly feeding my brain while I work has helped before and it will continue to do so now.
+
+I wonder about not only using TryHackMe for my ‘education’ side of things, I think about cracking on with HTB academy too, though their cubes system can be an arse as you only have a limited amount and after that you run out of training, I do enjoy their training material but its difficult to split between the two when you are ‘out of work’ so to speak so have to find some way of footing the bill…
+
+So far this week, this year, I have dedicated 270 minutes (4.5 hours) to focused learning, seems to be working but I really need to push this number up higher.
+
+Now I build my body and my brain.
+
+## 05/02/2026
+
+## Warmup
+
+Ok so did my exercises, did the pots, fed the animals, quick walk to the shop and met 2 Great Pyrenees. This day is awesome.
+
+From what I recall yesterday I am now progressing through the Cyber Security 101 Path, the basics of Cyber Security so should be relatively straightforward and let me focus and crack on.
+
+Trying my knock off AirPods Pros today, mainly because I found them again while sorting through some stuff and majorly because I can’t keep wearing the massive Corsair Headset I have.
+
+I also don’t want to faff around pairing my actual Airpods (Gen 4s not pros and I do regret it) from my phone to my laptop and back again… it’s annoying switching Bluetooth off and on for each device etc. so as I have 2 I can use 2… very minimalist…
+
+I’ve been thinking about my friends in the field a lot lately.. literal wizards of Cyber Security, Analysis, Malware, Defence its all so cool and I really want to be there with them and operating on the same level.. there’s nothing to it but to do it, same as my health and that I definitely need to keep an eye on.
+
+## Deep Focus/Learning
+
+- Completed Networking Essentials
+
+| **Protocol** | **Transport Protocol** | **Default Port Number** |
+| --- | --- | --- |
+| TELNET | TCP | 23 |
+| DNS | UDP or TCP | 53 |
+| HTTP | TCP | 80 |
+| HTTPS | TCP | 443 |
+| FTP | TCP | 21 |
+| SMTP | TCP | 25 |
+| POP3 | TCP | 110 |
+| IMAP | TCP | 143 |
+- Completed Networking Core Protocols
+- Completed Networking Secure Protocols
+- Completed Wireshark The Basics
+
+| **Command** | **Explanation** |
+| --- | --- |
+| `tcpdump -i INTERFACE` | Captures packets on a specific network interface |
+| `tcpdump -w FILE` | Writes captured packets to a file |
+| `tcpdump -r FILE` | Reads captured packets from a file |
+| `tcpdump -c COUNT` | Captures a specific number of packets |
+| `tcpdump -n` | Don’t resolve IP addresses |
+| `tcpdump -nn` | Don’t resolve IP addresses and don’t resolve protocol numbers |
+| `tcpdump -v` | Verbose display; verbosity can be increased with `-vv` and `-vvv` |
+
+| **Command** | **Explanation** |
+| --- | --- |
+| `tcpdump host IP` or `tcpdump host HOSTNAME` | Filters packets by IP address or hostname |
+| `tcpdump src host IP` or | Filters packets by a specific source host |
+| `tcpdump dst host IP` | Filters packets by a specific destination host |
+| `tcpdump port PORT_NUMBER` | Filters packets by port number |
+| `tcpdump src port PORT_NUMBER` | Filters packets by the specified source port number |
+| `tcpdump dst port PORT_NUMBER` | Filters packets by the specified destination port number |
+| `tcpdump PROTOCOL` | Filters packets by protocol; examples include `ip`, `ip6`, and `icmp` |
+
+| **Command** | **Explanation** |
+| --- | --- |
+| `tcpdump -q` | Quick and quite: brief packet information |
+| `tcpdump -e` | Include MAC addresses |
+| `tcpdump -A` | Print packets as ASCII encoding |
+| `tcpdump -xx` | Display packets in hexadecimal format |
+| `tcpdump -X` | Show packets in both hexadecimal and ASCII formats |
+- Completed TCPdump The Basics
+
+| **Option** | **Explanation** |
+| --- | --- |
+| `-sL` | List scan – list targets without scanning |
+| ***Host Discovery*** |  |
+| `-sn` | Ping scan – host discovery only |
+| ***Port Scanning*** |  |
+| `-sT` | TCP connect scan – complete three-way handshake |
+| `-sS` | TCP SYN – only first step of the three-way handshake |
+| `-sU` | UDP Scan |
+| `-F` | Fast mode – scans the 100 most common ports |
+| `-p[range]` | Specifies a range of port numbers – `-p-` scans all the ports |
+| `-Pn` | Treat all hosts as online – scan hosts that appear to be down |
+| ***Service Detection*** |  |
+| `-O` | OS detection |
+| `-sV` | Service version detection |
+| `-A` | OS detection, version detection, and other additions |
+| ***Timing*** |  |
+| `-T<0-5>` | Timing template – paranoid (0), sneaky (1), polite (2), normal (3), aggressive (4), and insane (5) |
+| `--min-parallelism <numprobes>` and `--max-parallelism <numprobes>` | Minimum and maximum number of parallel probes |
+| `--min-rate <number>` and `--max-rate <number>` | Minimum and maximum rate (packets/second) |
+| `--host-timeout` | Maximum amount of time to wait for a target host |
+| ***Real-time output*** |  |
+| `-v` | Verbosity level – for example, `-vv` and `-v4` |
+| `-d` | Debugging level – for example `-d` and `-d9` |
+| ***Report*** |  |
+| `-oN <filename>` | Normal output |
+| `-oX <filename>` | XML output |
+| `-oG <filename>` | `grep`-able output |
+| `-oA <basename>` | Output in all major formats |
+- Completed Nmap The Basics
+- Completed Cryptography Basics
+
+## Wrap Up
+
+Another day, another dollar.
+
+I really feel like these sessions and this framework, specifically sticking to a 15 min warmup and an ending recap are helping.
+
+From the materials today, even though this is all in my head already I decided to copy paste some of the commands for TCP dump and Nmap, I really enjoyed getting to grips with Wireshark again, I really need to get better at using it and being able to read things in it. perhaps I could spend a day on that or its associated rooms when I get a chance, for now I am sticking with the paths and going off that once I get them hammered out.
+
+I had to change back to my headset as the AirPods just wouldn’t sit comfortable for me,, could be the fact they are knock offs and the sound is way off…. probably is actually now I think about it, I’ll put them back in the box where I found them and figure out something I can do with them later.
+
+For now back to my regular post training and exercise life and that means back to house jobs.
+
+## 06/02/2026
+
+## Notes
+
+My Laptop took a shit today.. Cathrine tells me its ‘clearly user error’ so perhaps I am cursed or some shit but these issues with windows are really getting on my nerves.
+
+I am actually writing this on Saturday (07/02/2026) having got the laptop back into a working state, even windows updates are now correctly installing.
+
+I considered picking back up THM today and getting that missing 90 minutes focussed learning in but my head isn’t in the game today.. all the hell I went through yesterday (up till 11pm at night) just to get this machine working again really burned me out.
+
+I am also taking the weekend as rest days on exercise (yeh you try throwing around a kettlebell with an 11 year old in the room) so per my ChatGPT idea.. I rest today and tomorrow and come back strong on Monday.
+
+I may end up hitting machines on Hack The Box sooner then I think (considered for weeks 9-12) as the rust definitely comes off when you are in that flow state.
+
+Ill see you next week for the next update post.
+
+🤙
+
+-------
+
+I don't have any sponsors or anything but if you enjoy my work, or feel sympathy for my wife, then I have set up a [Ko-Fi account](https://ko-fi.com/ha3ks) as well as a [BuyMeACoffee](https://www.buymeacoffee.com/ha3ks) people can donate to.
