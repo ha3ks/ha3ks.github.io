@@ -1,4 +1,272 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://www.ha3ks.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ha3ks.com/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2026-02-14T06:32:29+00:00</updated><id>https://www.ha3ks.com/feed.xml</id><title type="html">Ha3ks.com - for nerds</title><subtitle>Ha3ks.com - for nerds</subtitle><author><name>Dan Murray</name><email>hello@ha3ks.com</email></author><entry><title type="html">Weekly Recap</title><link href="https://www.ha3ks.com/weekly-recap/" rel="alternate" type="text/html" title="Weekly Recap" /><published>2026-02-07T00:00:00+00:00</published><updated>2026-02-07T00:00:00+00:00</updated><id>https://www.ha3ks.com/weekly-recap</id><content type="html" xml:base="https://www.ha3ks.com/weekly-recap/"><![CDATA[<p>I have decided to try doing a weekly update of my learning/experiences for previous days.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://www.ha3ks.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ha3ks.com/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2026-02-14T09:03:57+00:00</updated><id>https://www.ha3ks.com/feed.xml</id><title type="html">Ha3ks.com - for nerds</title><subtitle>Ha3ks.com - for nerds</subtitle><author><name>Dan Murray</name><email>hello@ha3ks.com</email></author><entry><title type="html">Weekly Recap 14/02/26</title><link href="https://www.ha3ks.com/weekly-recap/" rel="alternate" type="text/html" title="Weekly Recap 14/02/26" /><published>2026-02-14T00:00:00+00:00</published><updated>2026-02-14T00:00:00+00:00</updated><id>https://www.ha3ks.com/weekly-recap</id><content type="html" xml:base="https://www.ha3ks.com/weekly-recap/"><![CDATA[<p>Next update incoming:</p>
+
+<h1 id="09022026">09/02/2026</h1>
+
+<h2 id="warmup">Warmup</h2>
+
+<p>After Fridays annoyances I am now back up and running again (though waiting for spotify to re-install)</p>
+
+<p>I really like that I am getting back into this headspace, learning, trying things, remembering things. I both love and hate how my identic memory works, it’s brilliant and useless all at the same time and because of that it can confuse people.</p>
+
+<p>Like that time I guesses SwiftOnSecuritys Laptop from an image of the corner of it displaying a sticker.</p>
+
+<p>Lines from TV shows.</p>
+
+<p>Its like roulette genaral knowledge on a mass scale.</p>
+
+<p>Least in this manner and while focussing on learning I can kinda force it to remember things and recall them when I need it and not when it feels like it.</p>
+
+<p>Brains are a muscle, muscles need exercise.</p>
+
+<p>Ok I take it back MS store is just sat on installing for the last 10 mins.</p>
+
+<p>SO - I’ll use my phone for Binaural beats and when this is done flatten this laptop for the final time and stick Linux on it.</p>
+
+<p>I am DONE with windows (outside of Labs material).</p>
+
+<h2 id="deep-focuslearning">Deep Focus/Learning</h2>
+
+<ul>
+  <li>Completed Public Key Cryptography Basics</li>
+  <li>Completed Hashing Basics</li>
+  <li>Completed John The Ripper: The Basics</li>
+  <li>Completed Moniker Link (CVE-2024-21413)</li>
+  <li>Completed Metasploit: Introduction</li>
+  <li>Completed Metasploit: Exploitation</li>
+  <li>Completed Metasploit: Meterpreter</li>
+  <li>Completed Blue</li>
+</ul>
+
+<h2 id="wrap-up">Wrap Up</h2>
+
+<p><a href="https://darkstar7471.com/resources.html">DarkStar7471 - Resources</a></p>
+
+<p>Can download Copies of Vulnerable machines from here like Blue</p>
+
+<p>Managed to smash out a few more rooms today, honestly I really enjoyed it bar having to use my phone for music because the Spotify App wouldn’t install.</p>
+
+<p>I could really feel the flow of the rooms today, I mean yeah it is all easy stuff that I have gone over before time and time again but something ‘feels’ different this time around, maybe it’s because instead of shotgunning myself at it I am taking my time and learning properly…</p>
+
+<p>I have some work to do still mind like fixing this damn computer (again) but I look forwards to future me being able to do the things I used to be able to do so easily</p>
+
+<p>Also decided to do my first recap on THM today, got confused when it said I gave it an incorrect answer but then gave me the same answer and marked it as correct????</p>
+
+<p>Also did a second recap and breezed through that also, neat extra 96 points on the league or whatever.</p>
+
+<h2 id="10022026">10/02/2026</h2>
+
+<h2 id="warmup-1">Warmup</h2>
+
+<p>Rooms are starting to get a bit more complex now, the drawback here being waiting for machines to spawn and the pwnbox, may have to warm up my Kali VM after all though if this laptop isnt destined to stay with me much longer maybe I can wait it out?</p>
+
+<p>Finally got around to updating my socials and moving forwards I want to be a little more active, through everywhere is making you ID verify lately so that is becoming a concern as places like Discord can’t even protect their data so I wont be bothering on that one…</p>
+
+<p>I’m starting a little later then normal today, truth be told I didn’t even want to do a warm up and review I just wanted the 90 minutes of pure learning but I have to stick with this program, I have to make it work and adjust myself to it, same as exercise, my timing for moves is so incredibly off.. I didn’t do weights today just callsthenics and bodyweight exercise and that kicked my arse, also nearly broke my big toes on Burpee’s so next time ill be wearing trainers.</p>
+
+<p>Now to get into it, let;s do this.</p>
+
+<h2 id="deep-focuslearning-1">Deep Focus/Learning</h2>
+
+<ul>
+  <li>Completed Web Application Basics</li>
+  <li>Completed Javascript Essentials</li>
+</ul>
+
+<p><img src="/assets/blog/14-02-2026/1.png" alt="1" /></p>
+
+<ul>
+  <li>Completed SQL Fundamentals</li>
+  <li>Completed Burp Suite: The Basics</li>
+  <li>Completed Hydra - Kinda</li>
+  <li>Completed Gobuster: The Basics</li>
+</ul>
+
+<h2 id="wrap-up-1">Wrap Up</h2>
+
+<p>I feel like I’ve never been great at webapps <em>cough OSCP cough</em> so I wanted to really focus and drill drill drill this room so took it slowly not just shotgunning it.</p>
+
+<p>SQL was straightforward after I remembered how to write statements and end them in the damn semi colon!</p>
+
+<p>I managed to get caught up with everything (I feel anyway) through I did give thought to throwing it all in the bin and becoming a Rust Developer.. again! No I don’t know why it’s Rust and I have no idea why I feel like this some days.. it just is what it is…</p>
+
+<p>Hydra was completely fucked for me, I have no idea why but the ‘Start Machine’ Button never appeared, I tried a new browser and all I could get working was the Attack Box, not to worry as I can download things offline and crack them anyway. I feel ‘bad’ about not being able to do it, but then I see it adds 0 points to me so it doesn’t matter anyway.</p>
+
+<h2 id="11022026">11/02/2026</h2>
+
+<h2 id="warmup-2">Warmup</h2>
+
+<p>Starting today a little later then normal, we had some stuff coming to the house today so after my workout and general duties I had to wait to get into my zone till later on in the day, after that I had no time till everyone was back home to get cracking… its 4:15pm now so lets kick the tires and light the fires.</p>
+
+<p>From yesterday I remember getting to do Hydra, which broke and annoyed me, GoBuster and SQL stuffs. I enjoy these random things that cobble together to make an assortment of skills that we use in cybersecurity.</p>
+
+<p>Hopefully I can hammer out a ton of the remaining sections in 101 and move onto other stuff but I am getting excited and ahead of myself… Nail the basics, take your time.</p>
+
+<h2 id="deep-focuslearning-2">Deep Focus/Learning</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rlwrap nc <span class="nt">-lvnp</span> 443
+</code></pre></div></div>
+
+<p>This wraps <code class="language-plaintext highlighter-rouge">nc</code> with <code class="language-plaintext highlighter-rouge">rlwrap</code>, allowing the use of features like arrow keys and history for better interaction.</p>
+
+<ul>
+  <li>Completed Shells</li>
+  <li>Completed SQLMap: The Basics</li>
+  <li>Defensive Security Intro was already completed.</li>
+  <li>Completed SOC Fundamentals</li>
+  <li>Completed Digital Forensics Fundamentals</li>
+  <li>Completed Incident Response Fundamentals</li>
+  <li>Completed Logs Fundamentals</li>
+  <li>Completed Introduction to SIEM</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Firewalls</strong></th>
+      <th><strong>Characteristics</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Stateless firewalls</td>
+      <td>- Basic filtering- No track of previous connections- Efficient for high-speed networks</td>
+    </tr>
+    <tr>
+      <td>Stateful firewalls</td>
+      <td>- Recognize traffic by patterns- Complex rules can be applicable- Monitor the network connections</td>
+    </tr>
+    <tr>
+      <td>Proxy firewalls</td>
+      <td>- Inspect the data inside the packets as well- Provides content filtering options- Provides application control- Decrypts and inspects SSL/TLS data packets</td>
+    </tr>
+    <tr>
+      <td>Next-generation firewalls</td>
+      <td>- Provides advanced threat protection- Comes with an intrusion prevention system- Identify anomalies based on heuristic analysis- Decrypts and inspects SSL/TLS data packets</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>Completed Firewall Fundamentals</li>
+  <li>Completed IDS Fundamentals</li>
+</ul>
+
+<h2 id="wrap-up-2">Wrap Up</h2>
+
+<p>I forgot how much I like DFIR, trying to be a Sherlock Holmes and investigating a crime.</p>
+
+<p>Was a good day today, even through its now nearly 6pm at night and its getting dark out.</p>
+
+<p>It is refreshing to nail sections and answer questions without much mental drain, what used to confuse and befuddle is getting a lot more clear now, not to sound overconfident but I think I am getting my swing back.</p>
+
+<p>Once I knock out some of the red team paths I am probably going to look at tool specific rooms (or revisit some) and make sure that my tooling is up to scratch and attempt some of the machines on THM.</p>
+
+<p>I am still aways off getting my grind on HTB back but for that I also want to dig into the Academy offerings as well, can never have too much reading or practicing, actually I should probably think how to structure my timed learning for that, perhaps an hour learn and an hour hack(?) though that would cut into my warmup and review time and I feel like these are useful.. will come back to this.</p>
+
+<p>I think I’ll start weaning myself off the Attackbox and get my lab up and running again, probably this weekend but will see what happens… I wonder if I can get ‘weaponize kali’ working again so all the tooling you could ever need is installed.</p>
+
+<p>I also realise while doing them tool specific rooms I want to also start building a cheat sheet for them so I have much easier access to all the scripts I’ll need going forwards.. I lost bloody everything in that Documents folder mishap, might open a notion page for all my code/scripts/tooling,, a ‘Hacking Grimoire’ if you will.</p>
+
+<p>Least If I have it in Notion and a few other places and constantly updated I can never loose it ever again.</p>
+
+<p>Least I can copy my notes and little reminders (like the firewalls table above) to somewhere that is highly searchable.</p>
+
+<h2 id="12022026">12/02/2026</h2>
+
+<h2 id="warmup-3">Warmup</h2>
+
+<p>Starting later in the evening again today, It was necessary however, at least I am sticking to the plan and doing my training, consistency = results</p>
+
+<p>I realise as time goes on I haven’t checked my profile on THM, I have just been chipping away at boxes so today I had a peek.</p>
+
+<p>I am currently ranked 190410 as of 12/02/26 at 6:11pm GMT.</p>
+
+<p>Damn it I am 100200 from a funny joke.</p>
+
+<p>I’ve completed 53 rooms and various percentages of the latter paths on THM, 82% of which is the way through Cyber Security 101, so today I am going to smash that out.</p>
+
+<p>I had considered focussing a little more on the webapps related things, I know the Pentesting Path contains a Web Application Fundamentals (23% done already), Pentesting and Red Teaming so that does tickle my fancy as I know I need to get better at Web Apps, I feel like (at present anyway) I have a good understanding of AD labs like Wreath(?) and Holo(?) unless they have changed since I was last here.. Though I will be doing them and maybe even looking at doing writeups for them as a way to get me back into the swing of doing them again,</p>
+
+<p>I have also been thinking about PortSwigger Labs (as they are free) which would also help me with Web Apps more.</p>
+
+<p>Its something to know things, it’s something else entirely to recognise your weaknesses and take action to correct them.</p>
+
+<p>I ‘like’ what I am doing and how I am learning, just need to keep that discipline going.</p>
+
+<h2 id="deep-focuslearning-3">Deep Focus/Learning</h2>
+
+<ul>
+  <li>Completed Vulnerability Scanner Overview</li>
+  <li>Completed CyberChef: The Basics</li>
+  <li>Completed CAPA: The Basics</li>
+  <li>Completed REMnux: Getting Started</li>
+  <li>Completed FlareVM: Arsenal of Tools</li>
+  <li>Completed Security Principles</li>
+  <li>Completed Training Impact on Teams</li>
+  <li>Completed OWASP Top 10 2025: IAAA Failures</li>
+  <li>Completed OWASP Top 10 2025: Application Design Flaws</li>
+  <li>Completed OWASP Top 10 2025: Insecure Data Handling</li>
+</ul>
+
+<h2 id="wrap-up-3">Wrap Up</h2>
+
+<p>Man that Insecure Data Handling room had me going for a moment having to build things out, difficult to google without getting handed the answer but managed to nail it down, and with that, the end of Cyber Security 101.</p>
+
+<p>Now we are in the big boy leagues! <em>laughs.</em></p>
+
+<p><img src="/assets/blog/14-02-2026/2.png" alt="2" /></p>
+
+<p>With 101 out the way it’s time to REALLY get my learn on, progress will likely slow down and that’s fine.</p>
+
+<p>Gonna get the lab up and running over the weekend that way I have my own machines again.</p>
+
+<p>I do want to poke around in the Pentesting Path again so that is where I will be going.</p>
+
+<p>I’ve also been looking at some of the other rooms via the ‘new rooms’ at the bottom of the dashboard. very quick recaps or machines which is always fun.</p>
+
+<p>I do need to look at PortSwigger after doing all the Web App paths so I have a really really good understanding of them, I know and want to excel in this, it cost me last time and since money is tight I want to make sure next time I sit the OSCP I kill it!</p>
+
+<p>Before dropping off today I ‘started’ the Web Fundamentals path (currently 29% complete)</p>
+
+<p>Tomorrow and rolling into next week will be fun.</p>
+
+<h2 id="13022026">13/02/2026</h2>
+
+<h2 id="warm-up">Warm Up</h2>
+
+<p>Man, I woke up at 5:15 this morning, Couldn’t breathe nose blocked voice sounds like Vin Diesel smoking 500 fags, I was not in a good place however after a little bit of back and forth I did manage to do my workout.</p>
+
+<p>I managed to control my breathing a bit more which got more oxygen into my system which helped me feel a bit better…. don’t get me wrong I still feel like hammered shit, but I’m getting there.</p>
+
+<p>Today marks a new beginning and the beginning, well the 29% already complete, Web Fundamentals.</p>
+
+<p>I really want to hammer this out and take it to heart, Like I said yesterday it’s one thing knowing where your weaknesses are but it’s another thing entirely taking action to correct those weaknesses and get stronger.</p>
+
+<h2 id="deep-learning">Deep Learning</h2>
+
+<ul>
+  <li>Completed some basic rooms</li>
+</ul>
+
+<h2 id="wrap-up-4">Wrap Up</h2>
+
+<p>Ok so this was a failure, after writing my warm up and ‘starting’ my body hit the shutdown switch and I passed out, at my keyboard sat on the sofa.. I woke up with a running nose and a bad back.</p>
+
+<p>I couldn’t focus properly after that so decided to do some of the lower spec ‘new rooms’ to get my brain juices flowing, I did actually knock out quite a few answering 25 questions, not much but enough to make sure I am sticking to some kind of doing things 5 days a week.</p>
+
+<p>Atleast tomorrow I can rest and recover properly and get my VM Lab built ready to hit the ground running, I had been considering looking over the DevSecOps route also… my head is willing to learn but my body is shot to hell…</p>
+
+<p>I’ll recover, I have to.</p>
+
+<hr />
+
+<p>See you next week all!</p>
+
+<p>🤙</p>
+
+<hr />
+
+<p>I don’t have any sponsors or anything but if you enjoy my work, or feel sympathy for my wife, then I have set up a <a href="https://ko-fi.com/ha3ks">Ko-Fi account</a> as well as a <a href="https://www.buymeacoffee.com/ha3ks">BuyMeACoffee</a> people can donate to.</p>]]></content><author><name>ha3ks</name></author><category term="Blog" /><category term="blog" /><summary type="html"><![CDATA[Next update incoming:]]></summary></entry><entry><title type="html">Weekly Recap 07/02/26</title><link href="https://www.ha3ks.com/weekly-recap/" rel="alternate" type="text/html" title="Weekly Recap 07/02/26" /><published>2026-02-07T00:00:00+00:00</published><updated>2026-02-07T00:00:00+00:00</updated><id>https://www.ha3ks.com/weekly-recap</id><content type="html" xml:base="https://www.ha3ks.com/weekly-recap/"><![CDATA[<p>I have decided to try doing a weekly update of my learning/experiences for previous days.</p>
 
 <p>I have no idea if this will be popular or a good idea but at least it is something.</p>
 
@@ -155,22 +423,24 @@
 <ul>
   <li>Completed Windows Fundamentals 1</li>
   <li>Completed Windows Fundamentals 2</li>
-  <li>
-    <p>Completed Windows Fundamentals 3</p>
+  <li>Completed Windows Fundamentals 3</li>
+</ul>
 
-    <p>Finished Pre Security path and awarded certificate (took roughly 3 and a half hours in total)</p>
+<p>Finished Pre Security path and awarded certificate (took roughly 3 and a half hours in total)</p>
 
-    <p><img src="/assets/blog/07-02-2026/5.png" alt="5" /></p>
-  </li>
+<p><img src="/assets/blog/07-02-2026/5.png" alt="5" /></p>
+
+<ul>
   <li>Cyber Security 101 is at present 15% complete after doing Pre Security, Noted Web Fundamentals in the Penetration Tester Path is also 16% completed, this annoys me but I get whey they have spill over given what is actually available on the platform.</li>
   <li>Started Cyber Security 101 path 54 mins remaining on clock for this session.</li>
   <li>Completed Search Skills</li>
-  <li>
-    <p>Completed Active Directory Basics</p>
+  <li>Completed Active Directory Basics</li>
+</ul>
 
-    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  tasklist /FI <span class="s2">"imagename eq notepad.exe” ## Kills notepad from the command line can change to other exe's
-</span></code></pre></div>    </div>
-  </li>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>tasklist /FI <span class="s2">"imagename eq notepad.exe” ## Kills notepad from the command line can change to other exe's
+</span></code></pre></div></div>
+
+<ul>
   <li>Completed Windows Command Line</li>
   <li>Completed Windows PowerShell</li>
   <li>Completed Linux Scripts</li>
