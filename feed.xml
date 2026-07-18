@@ -1,4 +1,154 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://www.ha3ks.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ha3ks.com/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2026-07-18T07:25:50+00:00</updated><id>https://www.ha3ks.com/feed.xml</id><title type="html">Ha3ks.com - for nerds</title><subtitle>Ha3ks.com - for nerds</subtitle><author><name>Dan Murray</name><email>hello@ha3ks.com</email></author><entry><title type="html">What it takes.</title><link href="https://www.ha3ks.com/new-job/" rel="alternate" type="text/html" title="What it takes." /><published>2026-02-21T00:00:00+00:00</published><updated>2026-02-21T00:00:00+00:00</updated><id>https://www.ha3ks.com/new-job</id><content type="html" xml:base="https://www.ha3ks.com/new-job/"><![CDATA[<p>Something has happened, my entire week planned to be on TryHackMe and log progress has been derailed.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://www.ha3ks.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ha3ks.com/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2026-07-18T20:44:28+00:00</updated><id>https://www.ha3ks.com/feed.xml</id><title type="html">Ha3ks.com - for nerds</title><subtitle>Ha3ks.com - for nerds</subtitle><author><name>Dan Murray</name><email>hello@ha3ks.com</email></author><entry><title type="html">Popping your ‘Red Team’ Cherry</title><link href="https://www.ha3ks.com/red-teaming/" rel="alternate" type="text/html" title="Popping your ‘Red Team’ Cherry" /><published>2026-07-18T00:00:00+00:00</published><updated>2026-07-18T00:00:00+00:00</updated><id>https://www.ha3ks.com/red-teaming</id><content type="html" xml:base="https://www.ha3ks.com/red-teaming/"><![CDATA[<p>So it’s been a long time since I sat down and put fingers to a keyboard, well in a blog post-y way.</p>
+
+<p>Things at my new job have been going very well;</p>
+
+<ul>
+  <li>I passed my probation with flying colours.</li>
+  <li>Learning a ton about Fortinet/Palo Alto Firewalls.</li>
+  <li>Sat the NSE4 exam but didn’t pass it - every fail is a learning step so never let it get you down!</li>
+  <li>Configured an IPSec VPN for a Palo Alto from scratch (IKE, crypto and everything) and it bloody worked first try… Not bad for someone who mainly works with Fortinet gear.</li>
+</ul>
+
+<p>And recently I was asked something I have been dreaming for 6 years getting ‘serious’ into Cybersecurity…</p>
+
+<ul>
+  <li>Take part in a Red Team Engagment</li>
+</ul>
+
+<h1 id="holy-shit">Holy Shit!!</h1>
+
+<p>I know right?</p>
+
+<p>One day at work I had a message from our Lead Pentester asking if I would be interested in taking part in a Red Team Engagement.</p>
+
+<p>Natrually, like most people offered a ticket to something they have always wanted to do, I absolutely snapped that motherf<em>**</em>r off!</p>
+
+<p>Work knows I have a history in pentesting as well as a keen interest in pushing back that way from the networking pivot I am currently on (pentesting will always have my heart).</p>
+
+<p>So because of that I was given the green light - to go red.</p>
+
+<h1 id="the-engagement">The Engagement</h1>
+
+<p>While I can’t go into the specifics (for obvious reasons) I can say that this was a fun little exercise.</p>
+
+<p>The objective was to land a pentest drop box (A Raspberry Pi usually with full Kali on it) on the clients network.</p>
+
+<p>Profiling of the target had been completed and various other OSINT bits too (again can’t say much).</p>
+
+<p>Like all things in life, while the planning was straightforward, the execution hit a snag…</p>
+
+<p>Instead of the intended target and origional plan, there were other people and some unexpected changes.</p>
+
+<p>This was where my undiagnosed autism was made to shine.. Also I guess another way of putting it is: ‘the military values a thinking shooter’.</p>
+
+<p>My mind is suprisingly adaptable, it picks up on EVERYTHING but the recall feature still needs an upgrade.</p>
+
+<p>I was listening to conversations behind glass and 15 feet away, calculating opportunities and texting updates to the lead.</p>
+
+<p>After some time, I had an opening…</p>
+
+<p>It was ‘go’ time.</p>
+
+<p>I had everything I need on me;</p>
+
+<ul>
+  <li>The Drop Box</li>
+  <li>The Plug</li>
+  <li>Ethernet Cable</li>
+  <li>A ‘get out of jail’ letter in my back pocket (should the shit hit the fan).</li>
+</ul>
+
+<p>It was everything I have dreamed of after years of hearing stories of physical entry pentesters getting into hotels, military buildings, banks &amp; heliports..</p>
+
+<p>It was on me.</p>
+
+<p>…</p>
+
+<p>Within seconds I had done it.</p>
+
+<p>The drop box was in, turned on, hidden.</p>
+
+<p>I didn’t snap a picture as my brain was stressed out to hell and shocked I had actually done it.</p>
+
+<p>Satisfied it would not be found in 2 minutes I turned around and got the hell out of there.</p>
+
+<p>Our Lead Pentester waved at me from a distance away, I waved back and we headed back to his car where he opened his laptop and checked his Bastion Host.</p>
+
+<p>The only thing that mattered.</p>
+
+<p>In a see of red ‘down’ connections.</p>
+
+<p>A single green ‘up’.</p>
+
+<p>It was me.</p>
+
+<p>I did it!!</p>
+
+<p>He’s in and he’s scanning.</p>
+
+<p>My heart rate didn’t even go over 99.. shoutout to Garmin for that.</p>
+
+<h1 id="the-art-of-the-deal">The art of the deal</h1>
+
+<p>I had this conversation with the Lead Pentester on the way back to the office after the deed was done.</p>
+
+<p>For my readers that are both awesome and have seen it, I said the experience was similar to Nicholas Cage as ‘Yuri’ selling his first gun in Lord or War:</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5EOg5FIN2AE?si=eA1rs3zt7UcxW6sF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<p>Or to quote in text:</p>
+
+<blockquote>
+  <p>Selling a gun for the first time is a lot like having sex for the first time. You’re excited but you don’t really know what the hell you’re doing. And some way, one way or another, it’s over too fast.</p>
+</blockquote>
+
+<p>Only replace ‘gun’ with ‘Red Team Engagement’ in this case.</p>
+
+<p>Also you read that in the Nic Cage voice didn’t you?</p>
+
+<p>In all honesty this entire process took less than 15 seconds… probably 10 but when I first plugged in the Pi it wasn’t powering on so had to click the inline power button on the plug.</p>
+
+<h3 id="15-seconds">~15 seconds.</h3>
+
+<p>And as he said, Imagine if you were a ransomware group, you landed a box on the target network, it’s not been detected (like at all), you could use that to ransom every PC in the network and demand <em>*thinks about targets size</em>, £15-£20 Million to get their computers back.</p>
+
+<p>It’s just like that, an example of what can really happen.</p>
+
+<h1 id="the-after-party">The After Party</h1>
+
+<p>Well that was my first experience on a live Red Team Engagement and it was the most fun I have had as a work day in years.</p>
+
+<p>It really opened my eyes as to just how serious an ‘attack’ could be from an actual threat actor.</p>
+
+<p>It has rejuvinated my love for the ‘hacky’ side of things and because having a job does absolutely wonderful things for your bank balance and credit… I am looking back into Hack The Box (not TryHackMe after all that AI training on your CTF data, even when they say it wasn’t) as well as an Silver Annual Membership to the academy as it would technically be cheaper than a silver monthly and buying extra cubes as I devour content.</p>
+
+<p>Do I have the bug to do more Red Team realted activities?</p>
+
+<p>You bet your sweet ass I do!</p>
+
+<p>I need to get back to what ‘I’ was before.</p>
+
+<p>To quote what a good internet friend has said many many times…</p>
+
+<blockquote>
+  <p>“Nothing to it but to do it”.</p>
+</blockquote>
+
+<p>He also dropped another pearl of wisdom like the one above but I’ll share that one on a later update.</p>
+
+<p>For now though? I am resting my body and spine after spending 4 hours doing the gardening.</p>
+
+<p>I’m at that age where I know if I have put on weight because my back start hurting from the slightest thing (even walking 200 feet feels like I’m folding backwards in half)</p>
+
+<p>So tl;dr on that, I have Paracetamol, water, moisturized, in my lane and I am happy.</p>
+
+<p>Stay Dangerous, Friends.</p>
+
+<p>🤙 shoots.</p>
+
+<hr />
+
+<p>I don’t have any sponsors or anything but if you enjoy my work, or feel sympathy for my wife, then I have set up a <a href="https://ko-fi.com/ha3ks">Ko-Fi account</a> as well as a <a href="https://www.buymeacoffee.com/ha3ks">BuyMeACoffee</a> people can donate to.</p>]]></content><author><name>ha3ks</name></author><category term="Blog" /><category term="blog" /><summary type="html"><![CDATA[So it’s been a long time since I sat down and put fingers to a keyboard, well in a blog post-y way.]]></summary></entry><entry><title type="html">What it takes.</title><link href="https://www.ha3ks.com/new-job/" rel="alternate" type="text/html" title="What it takes." /><published>2026-02-21T00:00:00+00:00</published><updated>2026-02-21T00:00:00+00:00</updated><id>https://www.ha3ks.com/new-job</id><content type="html" xml:base="https://www.ha3ks.com/new-job/"><![CDATA[<p>Something has happened, my entire week planned to be on TryHackMe and log progress has been derailed.</p>
 
 <p>In a good way.</p>
 
