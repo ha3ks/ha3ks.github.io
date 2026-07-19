@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://www.ha3ks.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ha3ks.com/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2026-07-18T20:44:28+00:00</updated><id>https://www.ha3ks.com/feed.xml</id><title type="html">Ha3ks.com - for nerds</title><subtitle>Ha3ks.com - for nerds</subtitle><author><name>Dan Murray</name><email>hello@ha3ks.com</email></author><entry><title type="html">Popping your ‘Red Team’ Cherry</title><link href="https://www.ha3ks.com/red-teaming/" rel="alternate" type="text/html" title="Popping your ‘Red Team’ Cherry" /><published>2026-07-18T00:00:00+00:00</published><updated>2026-07-18T00:00:00+00:00</updated><id>https://www.ha3ks.com/red-teaming</id><content type="html" xml:base="https://www.ha3ks.com/red-teaming/"><![CDATA[<p>So it’s been a long time since I sat down and put fingers to a keyboard, well in a blog post-y way.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://www.ha3ks.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.ha3ks.com/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2026-07-19T06:27:11+00:00</updated><id>https://www.ha3ks.com/feed.xml</id><title type="html">Ha3ks.com - for nerds</title><subtitle>Ha3ks.com - for nerds</subtitle><author><name>Dan Murray</name><email>hello@ha3ks.com</email></author><entry><title type="html">Popping your ‘Red Team’ Cherry</title><link href="https://www.ha3ks.com/red-teaming/" rel="alternate" type="text/html" title="Popping your ‘Red Team’ Cherry" /><published>2026-07-18T00:00:00+00:00</published><updated>2026-07-18T00:00:00+00:00</updated><id>https://www.ha3ks.com/red-teaming</id><content type="html" xml:base="https://www.ha3ks.com/red-teaming/"><![CDATA[<p>So it’s been a long time since I sat down and put fingers to a keyboard, well in a blog post-y way.</p>
 
 <p>Things at my new job have been going very well;</p>
 
@@ -12,7 +12,7 @@
 <p>And recently I was asked something I have been dreaming for 6 years getting ‘serious’ into Cybersecurity…</p>
 
 <ul>
-  <li>Take part in a Red Team Engagment</li>
+  <li>Take part in a Red Team Engagement</li>
 </ul>
 
 <h1 id="holy-shit">Holy Shit!!</h1>
@@ -21,7 +21,7 @@
 
 <p>One day at work I had a message from our Lead Pentester asking if I would be interested in taking part in a Red Team Engagement.</p>
 
-<p>Natrually, like most people offered a ticket to something they have always wanted to do, I absolutely snapped that motherf<em>**</em>r off!</p>
+<p>Naturally, like most people offered a ticket to something they have always wanted to do, I absolutely snapped that motherf**r off!</p>
 
 <p>Work knows I have a history in pentesting as well as a keen interest in pushing back that way from the networking pivot I am currently on (pentesting will always have my heart).</p>
 
@@ -31,7 +31,7 @@
 
 <p>While I can’t go into the specifics (for obvious reasons) I can say that this was a fun little exercise.</p>
 
-<p>The objective was to land a pentest drop box (A Raspberry Pi usually with full Kali on it) on the clients network.</p>
+<p>The objective was to land a pentest drop box (A Raspberry Pi usually with full Kali on it if you are unaware) on the targets network.</p>
 
 <p>Profiling of the target had been completed and various other OSINT bits too (again can’t say much).</p>
 
@@ -41,7 +41,7 @@
 
 <p>This was where my undiagnosed autism was made to shine.. Also I guess another way of putting it is: ‘the military values a thinking shooter’.</p>
 
-<p>My mind is suprisingly adaptable, it picks up on EVERYTHING but the recall feature still needs an upgrade.</p>
+<p>My mind is surprisingly adaptable, it picks up on EVERYTHING but the recall feature still needs an upgrade.</p>
 
 <p>I was listening to conversations behind glass and 15 feet away, calculating opportunities and texting updates to the lead.</p>
 
@@ -76,7 +76,7 @@
 
 <p>The only thing that mattered.</p>
 
-<p>In a see of red ‘down’ connections.</p>
+<p>In a sea of red ‘down’ connections.</p>
 
 <p>A single green ‘up’.</p>
 
@@ -110,7 +110,7 @@
 
 <h3 id="15-seconds">~15 seconds.</h3>
 
-<p>And as he said, Imagine if you were a ransomware group, you landed a box on the target network, it’s not been detected (like at all), you could use that to ransom every PC in the network and demand <em>*thinks about targets size</em>, £15-£20 Million to get their computers back.</p>
+<p>And as he said, Imagine if you were a ransomware group, you landed a box on the target network, it’s not been detected (like at all), you could use that to ransom every PC in the network and demand *thinks about targets size, £15-£20 Million to get their computers back.</p>
 
 <p>It’s just like that, an example of what can really happen.</p>
 
@@ -120,9 +120,9 @@
 
 <p>It really opened my eyes as to just how serious an ‘attack’ could be from an actual threat actor.</p>
 
-<p>It has rejuvinated my love for the ‘hacky’ side of things and because having a job does absolutely wonderful things for your bank balance and credit… I am looking back into Hack The Box (not TryHackMe after all that AI training on your CTF data, even when they say it wasn’t) as well as an Silver Annual Membership to the academy as it would technically be cheaper than a silver monthly and buying extra cubes as I devour content.</p>
+<p>It has rejuvenated my love for the ‘hacky’ side of things and because having a job does absolutely wonderful things for your bank balance and credit… I am looking back into Hack The Box (not TryHackMe after all that AI training on your CTF data, even when they say it wasn’t) as well as an Silver Annual Membership to the academy as it would technically be cheaper than a silver monthly and buying extra cubes as I devour content.. still a lot of money mind… maybe free for now and get there once a bill is paid off.</p>
 
-<p>Do I have the bug to do more Red Team realted activities?</p>
+<p>Do I have the bug to do more Red Team related activities?</p>
 
 <p>You bet your sweet ass I do!</p>
 
@@ -138,9 +138,9 @@
 
 <p>For now though? I am resting my body and spine after spending 4 hours doing the gardening.</p>
 
-<p>I’m at that age where I know if I have put on weight because my back start hurting from the slightest thing (even walking 200 feet feels like I’m folding backwards in half)</p>
+<p>I’m at that age where I know if I have put on weight because my back start hurting from the slightest thing (even walking 200 feet feels like I’m folding backwards in half), sooooo back on that diet amirite?</p>
 
-<p>So tl;dr on that, I have Paracetamol, water, moisturized, in my lane and I am happy.</p>
+<p>So tl;dr on that, I have Paracetamol, water, moisturised, in my lane and I am happy.</p>
 
 <p>Stay Dangerous, Friends.</p>
 
