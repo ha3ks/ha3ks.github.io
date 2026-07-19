@@ -3,8 +3,8 @@ layout: post
 title: "Popping your 'Red Team' Cherry"
 author: ha3ks
 date: 2026-07-18
-slug: red-teaming
-tags: blog
+slug: popping-your-red-team-cherry
+tags: red-teaming
 category: Blog
 ---
 
