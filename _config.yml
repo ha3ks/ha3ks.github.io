@@ -14,9 +14,9 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: ha3ks.com # the main title
+title: Ha3ks # the main title
 
-tagline: Cyner Security Engineer | Hacker | Gamer | Father | Friend # it will display as the subtitle
+tagline: Cyber Security Engineer | Hacker | Gamer | Father | Friend # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A Cyber Security Engineers take on things...
